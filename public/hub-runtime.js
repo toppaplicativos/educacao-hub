@@ -1,5 +1,6 @@
-    const CATEGORY = {"key":"educacao","short":"EDUCAÇÃO","label":"Estudos, concursos, ENEM e faculdade","host":"edu.toppapps.online","title":"Soluções para estudar com mais direção e menos improviso.","description":"Guias e ferramentas para organizar a semana, começar o estudo e revisar com critérios que cabem na rotina.","accent":"#5b4b8a","accent_soft":"#f2eff4","deep":"#1a1a22","hero_asset":"https://raw.githubusercontent.com/toppaplicativos/educacao-hub/main/public/product/hero-study.webp","hero_alt":"Ilustração editorial de educação com caderno, relógio e cartões de revisão","slides":[{"title":"Um plano possível vence a semana perfeita.","copy":"Escolha uma solução que respeite seu tempo, suas prioridades e os imprevistos.","image":"https://raw.githubusercontent.com/toppaplicativos/educacao-hub/main/public/product/hero-study.webp","alt":"Destaque editorial 1 de EDUCAÇÃO"},{"title":"Começar também é uma habilidade.","copy":"Reduza a fricção do primeiro bloco e transforme intenção em uma sessão real.","image":"https://raw.githubusercontent.com/toppaplicativos/educacao-hub/main/public/product/session-ready.webp","alt":"Destaque editorial 2 de EDUCAÇÃO"},{"title":"Revisar é voltar com critério.","copy":"Organize o retorno ao conteúdo para não depender de releituras aleatórias.","image":"https://raw.githubusercontent.com/toppaplicativos/educacao-hub/main/public/product/pain-desk.webp","alt":"Destaque editorial 3 de EDUCAÇÃO"}],"collections":[["planejamento","Planejar a semana","Para transformar matérias, prazos e tempo em um plano executável."],["inicio","Começar a estudar","Para reduzir a fricção e construir o primeiro bloco de estudo."],["revisao","Revisar melhor","Para voltar ao conteúdo com intervalos e perguntas mais claras."]],"products":[{"slug":"nunca-mais-esqueca-tudo","title":"Nunca Mais Esqueça Tudo","subtitle":"Fila do que vence hoje","description":"Em 5 minutos, só o que vence hoje está na mesa. O semestre fica fora. Guia em PDF + app Fila de Hoje.","objective":"Revisar melhor","theme":"Fila de revisão","audience":"Quem acumula matéria e não sabe o que revisar","format":"Guia digital + app","delivery":"Entrega digital","price":27.9,"status":"live","priority":0,"collection":"revisao","tags":["esquecer","fila","revisão","cartão","manhã"],"featured":true,"cover":"https://cdn.jsdelivr.net/gh/toppaplicativos/educacao-hub@2862ff7b082e60218f94b15dde795712053537fd/public/product/esqueca/cover.webp","checkout":"https://pay.kiwify.com.br/csMSLPJ"},{"slug":"estude-uma-vez-revise-certo","title":"Estude Uma Vez, Revise Certo","subtitle":"Revisão que cobra, não que relê","description":"Feche o caderno — e a matéria volta sem reler o capítulo. Guia em PDF + app Próxima Revisão.","objective":"Revisar melhor","theme":"Revisão espaçada","audience":"Quem estuda e esquece na semana seguinte","format":"Guia digital + app","delivery":"Entrega digital","price":37.9,"status":"live","priority":0,"collection":"revisao","tags":["revisão","esquecer","pergunta","intervalo","1-3-7"],"featured":true,"cover":"https://cdn.jsdelivr.net/gh/toppaplicativos/educacao-hub@04de7fcc0793cd91af062c0a13ae811ccd818973/public/product/revisao/cover.webp","checkout":"https://pay.kiwify.com.br/jY4maqm"},{"slug":"cronograma-que-funciona","title":"Cronograma que Funciona","subtitle":"Plano de estudos possível","description":"Monte uma semana de estudos que respeita sua rotina, suas prioridades e os imprevistos do caminho.","objective":"Planejamento","theme":"Organização e produtividade","audience":"Estudantes, concurseiros e universitários","format":"Guia digital + aplicação","delivery":"Entrega digital","price":27.9,"status":"live","priority":1,"collection":"planejamento","tags":["cronograma","semana","estudos","planejamento","rotina"],"featured":true,"cover":"https://raw.githubusercontent.com/toppaplicativos/educacao-hub/main/public/assets/covers/cronograma-que-funciona.webp","checkout":"https://pay.kiwify.com.br/aMALUaX"},{"slug":"senta-e-estuda","title":"Senta e Estuda","subtitle":"Primeira sessão em 10 minutos","description":"Em 10 minutos você senta e começa — sem esperar vontade. Guia em PDF + app Primeira Sessão.","objective":"Começar a estudar","theme":"Início e foco","audience":"Quem adia o começo do estudo","format":"Guia digital + app","delivery":"Entrega digital","price":27.9,"status":"live","priority":2,"collection":"inicio","tags":["começar","foco","primeira sessão","estudar"],"featured":true,"cover":"https://raw.githubusercontent.com/toppaplicativos/educacao-hub/main/public/product/cover-navy.webp","checkout":"https://pay.kiwify.com.br/EDp7t2z"}],"faqs":[["A solução substitui uma escola ou professor?","Não. São materiais de organização e aplicação para apoiar sua rotina de estudos."],["O cronograma funciona para qualquer pessoa?","O material oferece critérios para adaptar a semana. A execução depende do tempo, objetivo e contexto de cada pessoa."],["Como uma oferta planejada aparece?","Ela fica no catálogo com estado de preparação e sem preço ou CTA de compra até que publicação, suporte e QA estejam confirmados."]]};
+    const CATEGORY = {"key":"educacao","short":"EDUCAÇÃO","label":"Estudos, concursos, ENEM e faculdade","host":"edu.toppapps.online","title":"Soluções para estudar com mais direção e menos improviso.","description":"Guias e ferramentas para organizar a semana, começar o estudo e revisar com critérios que cabem na rotina.","accent":"#5b4b8a","accent_soft":"#f2eff4","deep":"#1a1a22","hero_asset":"https://raw.githubusercontent.com/toppaplicativos/educacao-hub/main/public/product/hero-study.webp","hero_alt":"Ilustração editorial de educação com caderno, relógio e cartões de revisão","slides":[{"title":"Um plano possível vence a semana perfeita.","copy":"Escolha uma solução que respeite seu tempo, suas prioridades e os imprevistos.","image":"https://raw.githubusercontent.com/toppaplicativos/educacao-hub/main/public/product/hero-study.webp","alt":"Destaque editorial 1 de EDUCAÇÃO"},{"title":"Começar também é uma habilidade.","copy":"Reduza a fricção do primeiro bloco e transforme intenção em uma sessão real.","image":"https://raw.githubusercontent.com/toppaplicativos/educacao-hub/main/public/product/session-ready.webp","alt":"Destaque editorial 2 de EDUCAÇÃO"},{"title":"Revisar é voltar com critério.","copy":"Organize o retorno ao conteúdo para não depender de releituras aleatórias.","image":"https://raw.githubusercontent.com/toppaplicativos/educacao-hub/main/public/product/pain-desk.webp","alt":"Destaque editorial 3 de EDUCAÇÃO"}],"collections":[["planejamento","Planejar a semana","Para transformar matérias, prazos e tempo em um plano executável."],["inicio","Começar a estudar","Para reduzir a fricção e construir o primeiro bloco de estudo."],["revisao","Revisar melhor","Para voltar ao conteúdo com intervalos e perguntas mais claras."]],"products":[{"slug": "aprenda-fazendo-questoes", "title": "Aprenda Fazendo Questões", "subtitle": "Uma questão. O motivo. Outra do mesmo tipo.", "description": "Em 8 minutos você marca por que errou. A próxima questão é desse tipo. Guia em PDF + app Próxima Questão.", "objective": "Fazer questões", "theme": "Questões com método", "audience": "Quem faz muita questão e continua errando a mesma coisa", "format": "Guia digital + app", "delivery": "Entrega digital", "price": 27.9, "status": "live", "priority": 0, "collection": "inicio", "tags": ["questões", "erro", "gabarito", "concurso", "ENEM"], "featured": true, "cover": "QUESTOES_COVER", "checkout": "https://pay.kiwify.com.br/VZpz5C9"},{"slug":"nunca-mais-esqueca-tudo","title":"Nunca Mais Esqueça Tudo","subtitle":"Fila do que vence hoje","description":"Em 5 minutos, só o que vence hoje está na mesa. O semestre fica fora. Guia em PDF + app Fila de Hoje.","objective":"Revisar melhor","theme":"Fila de revisão","audience":"Quem acumula matéria e não sabe o que revisar","format":"Guia digital + app","delivery":"Entrega digital","price":27.9,"status":"live","priority":0,"collection":"revisao","tags":["esquecer","fila","revisão","cartão","manhã"],"featured":true,"cover":"https://cdn.jsdelivr.net/gh/toppaplicativos/educacao-hub@2862ff7b082e60218f94b15dde795712053537fd/public/product/esqueca/cover.webp","checkout":"https://pay.kiwify.com.br/csMSLPJ"},{"slug":"estude-uma-vez-revise-certo","title":"Estude Uma Vez, Revise Certo","subtitle":"Revisão que cobra, não que relê","description":"Feche o caderno — e a matéria volta sem reler o capítulo. Guia em PDF + app Próxima Revisão.","objective":"Revisar melhor","theme":"Revisão espaçada","audience":"Quem estuda e esquece na semana seguinte","format":"Guia digital + app","delivery":"Entrega digital","price":37.9,"status":"live","priority":0,"collection":"revisao","tags":["revisão","esquecer","pergunta","intervalo","1-3-7"],"featured":true,"cover":"https://cdn.jsdelivr.net/gh/toppaplicativos/educacao-hub@04de7fcc0793cd91af062c0a13ae811ccd818973/public/product/revisao/cover.webp","checkout":"https://pay.kiwify.com.br/jY4maqm"},{"slug":"cronograma-que-funciona","title":"Cronograma que Funciona","subtitle":"Plano de estudos possível","description":"Monte uma semana de estudos que respeita sua rotina, suas prioridades e os imprevistos do caminho.","objective":"Planejamento","theme":"Organização e produtividade","audience":"Estudantes, concurseiros e universitários","format":"Guia digital + aplicação","delivery":"Entrega digital","price":27.9,"status":"live","priority":1,"collection":"planejamento","tags":["cronograma","semana","estudos","planejamento","rotina"],"featured":true,"cover":"https://raw.githubusercontent.com/toppaplicativos/educacao-hub/main/public/assets/covers/cronograma-que-funciona.webp","checkout":"https://pay.kiwify.com.br/aMALUaX"},{"slug":"senta-e-estuda","title":"Senta e Estuda","subtitle":"Primeira sessão em 10 minutos","description":"Em 10 minutos você senta e começa — sem esperar vontade. Guia em PDF + app Primeira Sessão.","objective":"Começar a estudar","theme":"Início e foco","audience":"Quem adia o começo do estudo","format":"Guia digital + app","delivery":"Entrega digital","price":27.9,"status":"live","priority":2,"collection":"inicio","tags":["começar","foco","primeira sessão","estudar"],"featured":true,"cover":"https://raw.githubusercontent.com/toppaplicativos/educacao-hub/main/public/product/cover-navy.webp","checkout":"https://pay.kiwify.com.br/EDp7t2z"}],"faqs":[["A solução substitui uma escola ou professor?","Não. São materiais de organização e aplicação para apoiar sua rotina de estudos."],["O cronograma funciona para qualquer pessoa?","O material oferece critérios para adaptar a semana. A execução depende do tempo, objetivo e contexto de cada pessoa."],["Como uma oferta planejada aparece?","Ela fica no catálogo com estado de preparação e sem preço ou CTA de compra até que publicação, suporte e QA estejam confirmados."]]};
     const SUPPORT_EMAIL = 'suporte@toppapps.online';
+    const QUESTOES_ASSETS = 'https://cdn.jsdelivr.net/gh/toppaplicativos/educacao-hub@c4d8f7599aeec363a22cb71acd987a7e0b396e07/public/product/questoes';
     const HUB_ASSETS = 'https://cdn.jsdelivr.net/gh/toppaplicativos/educacao-hub@2fe1b01479d48d4ebc805822d4c857780aa8d64b/public/product';
     let pathParts = [];
     let params = new URLSearchParams();
@@ -143,6 +144,11 @@
           kicker: 'JUNTO COM A FILA',
           title: 'Lembrar pede um começo hoje e uma semana que não recomeça.',
           body: 'A matéria antiga só volta se houver sessão e plano. Em 10 minutos a questão 1 está no papel. Em 15 a semana cabe nas horas reais.',
+        },
+        'aprenda-fazendo-questoes': {
+          kicker: 'JUNTO COM A QUESTÃO',
+          title: 'Primeiro você senta. Depois a semana cabe nas horas que você tem.',
+          body: 'A questão só rende se você sentar hoje e tiver um plano real. Em 10 minutos você começa. Em 15 a semana está montada.',
         },
         'estude-uma-vez-revise-certo': {
           kicker: 'JUNTO COM A REVISÃO',
@@ -929,6 +935,175 @@
     function esquecaThanksPage() {
       return deliveryThanks({ title:'Acesso | Nunca Mais Esqueça Tudo', h1:'Abra o app. Baixe o PDF. A fila já pode começar.', lead:'Você não precisa esperar e-mail para usar. O app Fila de Hoje abre agora. O PDF de 14 páginas baixa neste botão — e também chega no e-mail da compra, na área de membros da Kiwify.', step3:'Separe o vencido. Lembrei ou esqueci. Recoloque. Saia em 5 minutos.', appHref:'/app/fila-de-hoje', appLabel:'Abrir o app Fila de Hoje', pdfHref: PDF_BASE + '/nunca-mais-esqueca-tudo-ebook-v1.0.pdf', pdfLabel:'Baixar o PDF (14 páginas)' });
     }
+    function questoesSalesPage(product) {
+      document.title = 'Aprenda Fazendo Questões | Educação Toppapps';
+      const pay = 'https://pay.kiwify.com.br/VZpz5C9';
+      const cta = (label) => `<a class="button senta-cta" href="${pay}" rel="noopener">${label}</a>`;
+      const A = QUESTOES_ASSETS;
+      return `<style>${salesCss()}</style>
+      <div class="offer-bar" data-offer-timer data-offer-slug="aprenda-fazendo-questoes"><span class="offer-bar-kicker">OFERTA IMPERDÍVEL</span><span>Por tempo limitado</span><span>De R$ 97 por R$ 27,90</span><span>Termina em <span class="offer-bar-clock" data-clock>20:00</span></span>${cta('Quero parar de repetir o erro')}</div>
+      ${header()}
+      <main id="main-content">
+        <section class="hero"><div class="wrap senta-grid senta-hero">
+          <div class="hero-copy">
+            <p class="eyebrow">VOCÊ FAZ QUESTÃO. A PROVA COBRA O MESMO ERRO.</p>
+            <h1>Em 8 minutos você marca por que errou. A próxima questão é desse tipo.</h1>
+            <div class="hero-actions">${cta('Quero parar de repetir o erro')}<a class="button secondary" href="${pay}" rel="noopener">Ver o app em 3 funções</a></div>
+            <p class="hero-note">Acesso na hora. 7 dias para desistir.</p>
+            <p class="hero-lede">Você passa o sábado fazendo 80 questões. Olha o gabarito. Segue. Na prova, cai o mesmo tipo. E você erra de novo. Para. Faz uma. Marca se não sabia, se leu errado ou se teve pressa. Aí faz outra desse erro. Isso cabe em 8 minutos.</p>
+            <div class="senta-proof"><span>Uma questão em 8 min</span><span>R$ 27,90</span><span>PDF 14 páginas + app</span><span>Garantia 7 dias</span></div>
+            <blockquote class="senta-quote" style="margin-top:1.2rem;overflow:auto">
+              <img src="${A}/faces/carla.jpg" alt="Carla F." width="88" height="88">
+              <p>“Eu fazia 70 questões no sábado. Na segunda errava interpretação de novo. Parei em uma. Marquei que li errado. Fiz outra do enunciado. Em 8 minutos eu vi o padrão.”</p>
+              <footer>Carla F. · Concurso · Vitória</footer>
+            </blockquote>
+          </div>
+          <div class="hero-visual"><img src="${A}/hero.webp" alt="Uma questão na mesa, caneta e uma nota do erro" width="1600" height="900"></div>
+        </div></section>
+
+        <section class="senta-dark" id="dor"><div class="wrap senta-grid" style="padding:4rem 0">
+          <img src="${A}/pain.webp" alt="Pilha de questões marcadas sem método" width="1600" height="900" style="width:100%;border-radius:16px;object-fit:cover;height:320px">
+          <div>
+            <p class="eyebrow" style="color:#E2571C">OLHA SE ISSO É VOCÊ</p>
+            <h2>Sábado: 80 questões. Prova: o mesmo erro.</h2>
+            <p class="copy">Você olha o gabarito. Marca a letra certa. Vai para a próxima. Não pergunta por que errou. A quantidade sobe. O erro não muda. A prova cobra o tipo. Ela não conta quantas você fez.</p>
+            <div style="margin-top:1.2rem;display:grid;gap:.9rem">
+              <article><h3>Fazer 80 não ensina</h3><p class="copy">Se você não sabe por que errou, só treinou velocidade.</p></article>
+              <article><h3>O gabarito some</h3><p class="copy">Você vê a letra C, anota e segue. O motivo não fica escrito.</p></article>
+              <article><h3>A próxima é outro assunto</h3><p class="copy">Errou interpretação e vai para matemática. O erro da prova ficou sem treino.</p></article>
+            </div>
+          </div>
+        </div></section>
+
+        <section class="section" id="virada"><div class="wrap">
+          <p class="eyebrow">A VIRADA</p>
+          <h2>Uma questão certa ensina mais do que 80 gabaritos.</h2>
+          <p class="copy">Não é falta de quantidade. É seguir sem saber o motivo. Escreva por que errou. Faça outra desse tipo. Aí o padrão aparece.</p>
+          <p class="senta-effect">Responda. Marque o motivo. Faça outra desse tipo.</p>
+          <div class="senta-steps" style="margin-top:1.4rem">
+            <article class="senta-step"><h3>Faça uma</h3><p>Não a lista de 80. A da frente. 8 minutos.</p></article>
+            <article class="senta-step"><h3>Diga por que errou</h3><p>Não sabia. Leu errado. Teve pressa.</p></article>
+            <article class="senta-step"><h3>Faça outra desse tipo</h3><p>Não mude de matéria. Repita o erro até ele ficar claro.</p></article>
+          </div>
+        </div></section>
+
+        <section class="section"><div class="wrap">
+          <p class="eyebrow">MÉTODO</p>
+          <h2>Três passos. Oito minutos. O tipo do erro fica visível.</h2>
+          <p class="copy">O PDF mostra o método. O app Próxima Questão aplica. Você faz uma. Marca o motivo. Só então aparece outra do mesmo tipo.</p>
+        </div></section>
+
+        <section class="section light" id="app"><div class="wrap">
+          <p class="eyebrow">O APP · PRÓXIMA QUESTÃO</p>
+          <h2>Uma. O motivo. Outra do mesmo tipo.</h2>
+          <div class="senta-app" style="margin-top:2rem">
+            <div class="senta-copy"><p class="eyebrow">NO APP · PASSO 1</p><h3>A lista some. Fica uma questão.</h3><p>Você abre o app. Aparece uma. Sem PDF de 200 itens.</p><p class="senta-effect">A pilha de 80 vira uma.</p>
+              <div class="senta-box"><p><b>Situação.</b> Sábado. Você ia baixar mais um caderno de questões.</p><p><b>Faça.</b> Abra o app. Responda a da frente.</p><p><b>Resultado.</b> Uma tentativa. Você ainda não olhou o gabarito.</p></div>
+              <div class="hero-actions">${cta('Quero o app agora')}</div></div>
+            <div class="senta-mock"><img src="${A}/miniapp/montar.webp" alt="Celular com uma questão na tela"></div>
+          </div>
+          <div class="senta-app reverse" style="margin-top:2.4rem">
+            <div class="senta-copy"><p class="eyebrow">NO APP · PASSO 2</p><h3>Erro sem nome volta na prova.</h3><p>Não sabia, leu errado ou teve pressa. Sem marcar, a próxima não abre.</p><p class="senta-effect">Três botões. Você escolhe o motivo.</p>
+              <div class="senta-box"><p><b>Situação.</b> Você errou. O reflexo é olhar o gabarito e seguir.</p><p><b>Faça.</b> Marque o motivo. Escreva uma linha.</p><p><b>Resultado.</b> O erro tem nome. O mesmo tipo não chega de surpresa.</p></div>
+              <div class="hero-actions">${cta('Quero o app agora')}</div></div>
+            <div class="senta-mock"><img src="${A}/miniapp/sessao.webp" alt="Celular com três botões: não sabia, leu errado, pressa"></div>
+          </div>
+          <div class="senta-app" style="margin-top:2.4rem">
+            <div class="senta-copy"><p class="eyebrow">NO APP · PASSO 3</p><h3>A próxima é do mesmo tipo.</h3><p>Números diferentes. Mesmo erro. Você não muda de matéria agora.</p><p class="senta-effect">A tela pede outra deste tipo.</p>
+              <div class="senta-box"><p><b>Situação.</b> Você quer mudar de matéria para render mais.</p><p><b>Faça.</b> Faça a próxima do mesmo erro.</p><p><b>Resultado.</b> A segunda ensina o tipo. Se o caderno abrir, abre numa página.</p></div>
+              <div class="hero-actions">${cta('Quero o app agora')}</div></div>
+            <div class="senta-mock"><img src="${A}/miniapp/retomada.webp" alt="Celular com a próxima questão do mesmo tipo"></div>
+          </div>
+        </div></section>
+
+        <section class="section light" id="conteudo"><div class="wrap">
+          <p class="eyebrow">POR DENTRO DO PDF</p>
+          <h2>O que tem no guia</h2>
+          <div class="senta-pdfs" style="margin-top:1.3rem">
+            <article class="senta-pdf"><small>1</small><h3>Por que 80 questões não ensinam</h3><p class="copy">Acertar 70% sem saber o porquê dos 30% não muda a próxima prova.</p></article>
+            <article class="senta-pdf"><small>2</small><h3>Os 3 motivos de erro</h3><p class="copy">Não sabia. Leu errado. Teve pressa. Uma marca por questão errada.</p></article>
+            <article class="senta-pdf"><small>3</small><h3>A próxima do mesmo tipo</h3><p class="copy">Depois do erro, outra questão igual. Números diferentes. Mesmo erro.</p></article>
+            <article class="senta-pdf"><small>4</small><h3>8 minutos. No máximo 6 no dia.</h3><p class="copy">Uma com método cabe no intervalo. A lista de 80 não cabe.</p></article>
+          </div>
+        </div></section>
+        <section class="section"><div class="wrap">
+          <p class="eyebrow">O QUE MUDA NA PRÁTICA</p>
+          <h2>Você sai sabendo por que errou. Não só a letra certa.</h2>
+          <div class="senta-bens" style="margin-top:1.3rem">
+            <article class="senta-ben"><h3>Uma questão cabe em 8 minutos</h3><p class="copy">Você tenta, confere e marca o motivo. A lista de 80 fica para outro dia.</p></article>
+            <article class="senta-ben"><h3>O erro ganha um nome</h3><p class="copy">Não sabia, leu errado ou teve pressa. Sem o nome, a prova cobra de novo e parece azar.</p></article>
+            <article class="senta-ben"><h3>A próxima é do mesmo tipo</h3><p class="copy">Mudar de matéria agora não resolve. Repetir o erro ensina.</p></article>
+            <article class="senta-ben"><h3>O dia para no 6</h3><p class="copy">Seis questões com método. Depois encerra. Cansaço deixa de parecer produtividade.</p></article>
+          </div>
+        </div></section>
+
+        <section class="section" id="antes"><div class="wrap senta-grid">
+          <article class="senta-ben" style="background:#0F172A;color:#fff;padding:0;overflow:hidden"><img src="${A}/pain.webp" alt="Pilha de questões sem motivo marcado" style="width:100%;height:220px;object-fit:cover;opacity:.88"><div style="padding:1.15rem 1.2rem"><p class="eyebrow" style="color:#E2571C">COMO ESTÁ HOJE</p><h3>Marca o X e segue. Não escreve por que errou. A próxima é outro assunto.</h3></div></article>
+          <article class="senta-ben" style="padding:0;overflow:hidden"><img src="${A}/session.webp" alt="Uma questão, três motivos e o timer de 8 minutos" style="width:100%;height:220px;object-fit:cover"><div style="padding:1.15rem 1.2rem"><p class="eyebrow">COMO FICA</p><h3>Marca se não sabia, leu errado ou teve pressa. Não segue sem o motivo. A próxima é do mesmo erro.</h3></div></article>
+        </div></section>
+        <section class="section"><div class="wrap">
+          <p class="eyebrow">PROVA</p>
+          <h2>O que aconteceu com quem parou no erro</h2>
+          <p class="copy">Três relatos. Sem promessa de aprovação. Sem nota. Sem ranking.</p>
+          <div class="senta-faces" style="margin-top:1.4rem">
+            <blockquote class="senta-quote"><img src="${A}/faces/carla.jpg" alt="Carla F."><p>“Eu fazia 70 questões no sábado. Na segunda errava interpretação de novo. Parei em uma. Marquei que li errado. Fiz outra do enunciado. Em 8 minutos eu vi o padrão.”</p><footer>Carla F. · Concurso · Vitória</footer></blockquote>
+            <blockquote class="senta-quote"><img src="${A}/faces/sergio.jpg" alt="Sérgio L."><p>“Depois do trabalho eu olhava gabarito 40 minutos e não sabia por que errava. Limitei a 6. Marquei pressa duas vezes. Na terceira eu li o enunciado até o fim.”</p><footer>Sérgio L. · Concurso e trabalho · Londrina</footer></blockquote>
+            <blockquote class="senta-quote"><img src="${A}/faces/nanda.jpg" alt="Nanda R."><p>“Matemática era lista. Gabarito e próxima. Errei, marquei que não sabia e fiz outra do mesmo tipo. Aí abri o caderno numa página. Não no capítulo inteiro.”</p><footer>Nanda R. · ENEM · Aracaju</footer></blockquote>
+          </div>
+        </div></section>
+
+        <section class="section light"><div class="wrap senta-grid">
+          <div><p class="eyebrow">ISSO É PARA VOCÊ SE</p><h2>Você faz questão. A prova cobra o mesmo erro.</h2><p class="copy">Quem faz muita questão e erra a mesma coisa depois. Quem olha o gabarito e segue sem escrever por que errou. Quem tem de 8 a 40 minutos e precisa de método, não de caderno de 200 itens.</p></div>
+          <div><p class="eyebrow">ISSO NÃO É PARA VOCÊ SE</p><h2>Não promete aprovação, nota, nem banco de questões.</h2><p class="copy">Não é curso de conteúdo. Não substitui aula. O app não inventa a banca. Você traz a questão. O método trata o erro.</p></div>
+        </div></section>
+        <section class="senta-offer" id="oferta"><div class="wrap senta-grid">
+          <div>
+            <p class="eyebrow" style="color:#E2571C">OFERTA IMPERDÍVEL</p>
+            <h2>PDF + app. De R$ 97 por R$ 27,90. 7 dias para desistir.</h2>
+            <p class="copy">Você abre o app agora. Faz uma questão. Marca o motivo. Faz outra do mesmo tipo. O guia em PDF fica no e-mail. Se não servir, pede o dinheiro de volta em 7 dias.</p>
+            <div class="senta-stack">
+              <div><span>Guia Aprenda Fazendo Questões</span><span>PDF · 14 páginas</span></div>
+              <div><span>App Próxima Questão</span><span>No celular e no computador</span></div>
+              <div><span>3 motivos + teto de 6</span><span>Não sabia, leu errado, pressa</span></div>
+            </div>
+            <p class="senta-price"><span class="senta-old">R$ 97</span> R$ 27,90</p>
+            <p class="offer-visit">Por tempo limitado · <span class="offer-bar-clock" data-clock>20:00</span></p>
+            ${cta('Quero parar de repetir o erro')}
+            <p class="copy" style="margin-top:1rem">7 dias para desistir, nos termos do art. 49 do CDC. Sem promessa de aprovação.</p>
+          </div>
+          <div>
+            <img src="${A}/cover.webp" alt="Capa do guia Aprenda Fazendo Questões" style="width:100%;border-radius:16px">
+          </div>
+        </div></section>
+
+        <section class="section"><div class="wrap" style="max-width:720px">
+          <p class="eyebrow">GARANTIA</p>
+          <h2>7 dias para desistir. O risco fica com a gente.</h2>
+          <p class="copy">Art. 49 do CDC. Se o material não servir, peça o reembolso pelo e-mail de suporte informando a compra.</p>
+        </div></section>
+        ${upsellSection('aprenda-fazendo-questoes')}
+        <section class="section senta-faq"><div class="wrap">
+          <p class="eyebrow">FAQ</p>
+          <h2>O que você recebe, o app incluso e a garantia de 7 dias.</h2>
+          <div class="faq-list" style="margin-top:1.2rem">
+            <details open><summary>O que eu recebo?</summary><p>O guia em PDF e o app Próxima Questão. No PDF: por que a lista não ensina, os 3 motivos, como escolher a próxima do mesmo tipo e o teto de 6.</p></details>
+            <details><summary>O app já está incluso?</summary><p>Sim. Abre no celular e no computador. Sem loja. Sem instalar. Você faz uma, marca o motivo e recebe outra do mesmo tipo.</p></details>
+            <details><summary>Qual é a garantia?</summary><p>Você tem 7 dias para desistir, com base no art. 49 do CDC. Peça o reembolso pelo e-mail de suporte.</p></details>
+            <details><summary>Isso promete aprovação?</summary><p>Não. É material de estudo. Não promete aprovação, nota, classificação nem banco oficial de questões.</p></details>
+            <details><summary>O app tem as questões da minha banca?</summary><p>Não. Você traz a questão. O app aplica o método. Não vendemos banco de itens.</p></details>
+            <details><summary>Como falo com o suporte?</summary><p>E-mail oficial: suporte@toppapps.online. Informe o nome do produto e a URL acessada.</p></details>
+          </div>
+        </div></section>
+        <section class="section" style="text-align:center;padding-bottom:4rem">${cta('Quero parar de repetir o erro')}</section>
+      </main>${footer()}`;
+    }
+    function questoesAppPage() {
+      return appShell({ title:'Próxima Questão | Aprenda Fazendo Questões', kicker:'PRÓXIMA QUESTÃO', h1:'Próxima Questão', lede:'Cole uma questão. Marque por que errou. Faça outra do mesmo tipo. No máximo 6 hoje.', id:'questoes', pdfHref: 'https://cdn.jsdelivr.net/gh/toppaplicativos/educacao-hub@c4d8f7599aeec363a22cb71acd987a7e0b396e07/public/guides/aprenda-fazendo-questoes-ebook-v1.0.pdf' });
+    }
+    function questoesThanksPage() {
+      return deliveryThanks({ title:'Acesso | Aprenda Fazendo Questões', h1:'Abra o app. Baixe o PDF. Faça a da frente.', lead:'Você não precisa esperar e-mail para usar. O app Próxima Questão abre agora. O guia de 14 páginas baixa neste botão.', step3:'Cole uma questão. Marque o motivo. Faça outra do mesmo tipo. No máximo 6 hoje.', appHref:'/app/proxima-questao', appLabel:'Abrir o app Próxima Questão', pdfHref: 'https://cdn.jsdelivr.net/gh/toppaplicativos/educacao-hub@c4d8f7599aeec363a22cb71acd987a7e0b396e07/public/guides/aprenda-fazendo-questoes-ebook-v1.0.pdf', pdfLabel:'Baixar o PDF (14 páginas)' });
+    }
+
     function productPage(product) {
       const live = product.status === 'live';
       document.title = `${product.title} | ${CATEGORY.short}`;
@@ -964,12 +1139,15 @@
       else if (pathParts[0] === 'p' && pathParts[1] === 'cronograma-que-funciona' && findProduct(pathParts[1])) output = cronogramaSalesPage(findProduct(pathParts[1]));
       else if (pathParts[0] === 'p' && pathParts[1] === 'estude-uma-vez-revise-certo' && findProduct(pathParts[1])) output = revisaoSalesPage(findProduct(pathParts[1]));
       else if (pathParts[0] === 'p' && pathParts[1] === 'nunca-mais-esqueca-tudo' && findProduct(pathParts[1])) output = esquecaSalesPage(findProduct(pathParts[1]));
+      else if (pathParts[0] === 'p' && pathParts[1] === 'aprenda-fazendo-questoes' && findProduct(pathParts[1])) output = questoesSalesPage(findProduct(pathParts[1]));
       else if (pathParts[0] === 'app' && (pathParts[1] === 'plano-possivel' || pathParts[1] === 'cronograma-que-funciona')) output = cronogramaAppPage();
       else if (pathParts[0] === 'obrigado' && pathParts[1] === 'cronograma-que-funciona') output = cronogramaThanksPage();
       else if (pathParts[0] === 'app' && (pathParts[1] === 'proxima-revisao' || pathParts[1] === 'estude-uma-vez-revise-certo')) output = revisaoAppPage();
       else if (pathParts[0] === 'obrigado' && pathParts[1] === 'estude-uma-vez-revise-certo') output = revisaoThanksPage();
       else if (pathParts[0] === 'app' && (pathParts[1] === 'fila-de-hoje' || pathParts[1] === 'nunca-mais-esqueca-tudo')) output = esquecaAppPage();
       else if (pathParts[0] === 'obrigado' && pathParts[1] === 'nunca-mais-esqueca-tudo') output = esquecaThanksPage();
+      else if (pathParts[0] === 'app' && (pathParts[1] === 'proxima-questao' || pathParts[1] === 'aprenda-fazendo-questoes')) output = questoesAppPage();
+      else if (pathParts[0] === 'obrigado' && pathParts[1] === 'aprenda-fazendo-questoes') output = questoesThanksPage();
       else if (pathParts[0] === 'app' && (pathParts[1] === 'primeira-sessao' || pathParts[1] === 'senta-e-estuda')) output = sentaAppPage();
       else if (pathParts[0] === 'obrigado' && pathParts[1] === 'senta-e-estuda') output = sentaThanksPage();
       else if (pathParts[0] === 'p' && pathParts[1] && findProduct(pathParts[1])) output = productPage(findProduct(pathParts[1]));
@@ -1081,6 +1259,57 @@
           document.getElementById('fila-ok').onclick = () => { current.done = 'ok'; save(); paint(); };
           document.getElementById('fila-fail').onclick = () => { current.done = 'fail'; save(); paint(); };
           document.getElementById('fila-add').onclick = () => { root.dataset.started = 'add'; paint(); };
+        };
+        paint();
+        return;
+      }
+
+      if (kind === 'questoes') {
+        const KEY = 'topp-proxima-questao';
+        const CAP = 6;
+        const today = () => { const d = new Date(); return d.getFullYear()+'-'+(d.getMonth()+1)+'-'+d.getDate(); };
+        let items = [];
+        try {
+          const raw = JSON.parse(localStorage.getItem(KEY) || '{}');
+          if (raw.day === today() && Array.isArray(raw.items)) items = raw.items;
+        } catch (e) { items = []; }
+        const save = () => { try { localStorage.setItem(KEY, JSON.stringify({ day: today(), items })); } catch (e) {} };
+        let step = items.length >= CAP ? 'done' : 'home';
+        let text = '', motive = null, line = '';
+        const motives = [
+          { id: 'conteudo', label: 'Não sabia', hint: 'Faltou a regra, a fórmula ou o conceito.' },
+          { id: 'leitura', label: 'Leu errado', hint: 'Sabia. Pulou uma palavra do enunciado.' },
+          { id: 'pressa', label: 'Teve pressa', hint: 'Sabia. Disparou na primeira alternativa.' },
+        ];
+        const paint = () => {
+          if (step === 'home') {
+            ui.screen(ui.pad(`<p class="eyebrow" style="color:rgba(255,255,255,.8)">PRÓXIMA QUESTÃO</p><h2 style="color:#fff;margin:.4rem 0 0">Cole uma. Marque o motivo.</h2><p style="color:rgba(255,255,255,.82);margin:.7rem 0 1.2rem">A próxima é do mesmo tipo. Sem lista de 80.</p><p style="color:rgba(255,255,255,.75)">${items.length} de ${CAP} com motivo hoje</p><div style="margin-top:1.4rem">${ui.btn(items.length>=CAP?'O dia já encerrou':'Abrir a da frente','qx-start',true)}</div>`, '#1D4F91'));
+            document.getElementById('qx-start').onclick = () => { if (items.length>=CAP) { step='done'; } else { text=''; motive=null; line=''; step='try'; } paint(); };
+            return;
+          }
+          if (step === 'try') {
+            ui.screen(ui.pad(`<p class="eyebrow">${items.length+1} DE ${CAP} · TENTAR</p><h3>Cole a questão. Responda antes de olhar o gabarito.</h3><textarea id="qx-text" placeholder="Enunciado e alternativas. Você traz a banca." style="min-height:110px;width:100%;border:1px solid #e5e7eb;border-radius:10px;padding:.7rem;font:inherit">${esc(text)}</textarea><div style="margin-top:.9rem">${ui.btn('Já conferi o gabarito','qx-next',true)}</div>`));
+            document.getElementById('qx-next').onclick = () => { text = document.getElementById('qx-text').value.trim(); if (!text) return; step='motive'; paint(); };
+            return;
+          }
+          if (step === 'motive') {
+            ui.screen(ui.pad(`<p class="eyebrow">MARCAR O MOTIVO</p><h3>Por que você errou?</h3><p class="copy">Sem o motivo, a próxima não abre. Se acertou no chute, marque pressa.</p><div style="display:grid;gap:.5rem;margin:.8rem 0">${motives.map(m => `<button type="button" class="button ${motive===m.id?'senta-cta':'secondary'}" id="qx-m-${m.id}">${m.label}</button>`).join('')}</div>${ui.field('A causa em uma linha', ui.input('qx-line', line, 'placeholder="Ex.: pulei o exceto no meio do enunciado"'))}${ui.btn('Guardar e pedir outra do mesmo tipo','qx-save',true)}`));
+            motives.forEach(m => { document.getElementById('qx-m-'+m.id).onclick = () => { motive = m.id; paint(); }; });
+            document.getElementById('qx-save').onclick = () => {
+              line = document.getElementById('qx-line').value.trim();
+              if (!motive || !line) return;
+              items.push({ id: String(Date.now()), text, motive, line }); save();
+              step = items.length >= CAP ? 'done' : 'twin'; paint();
+            };
+            return;
+          }
+          if (step === 'twin') {
+            const msg = motive==='leitura' ? 'A próxima precisa ter inversão no enunciado. Exceto, não, somente.' : motive==='pressa' ? 'A próxima precisa ter isca no começo. Leia A até D antes de marcar.' : 'A próxima cobra a mesma regra. Números diferentes. Caderno numa página.';
+            ui.screen(ui.pad(`<p class="eyebrow">MESMO TIPO</p><h3>${msg}</h3><p class="copy">Sua linha: ${esc(line)}</p><p class="senta-effect">Não mude de assunto. O tipo ainda não entrou.</p><div style="margin-top:1rem">${ui.btn('Cole a próxima do mesmo tipo','qx-again',true)}</div>`));
+            document.getElementById('qx-again').onclick = () => { text=''; motive=null; line=''; step='try'; paint(); };
+            return;
+          }
+          ui.screen(ui.pad(`<p class="eyebrow">TETO DO DIA</p><h3>Seis com motivo. O dia encerrou.</h3><ul style="margin:.8rem 0;padding-left:1.1rem" class="copy">${items.map((it,i)=>`<li>${i+1}. ${(motives.find(m=>m.id===it.motive)||{}).label || it.motive}. ${esc(it.line)}</li>`).join('')}</ul><p class="copy">Amanhã o teto recomeça. Hoje não vira lista de 80.</p>`));
         };
         paint();
         return;
