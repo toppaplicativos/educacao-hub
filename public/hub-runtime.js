@@ -124,17 +124,17 @@
       const pay = 'https://pay.kiwify.com.br/EDp7t2z';
       const cta = (label) => `<a class="button senta-cta" href="${pay}" rel="noopener">${label}</a>`;
       return `<style>${salesCss()}</style>
-      <div class="offer-bar" data-offer-timer data-offer-slug="senta-e-estuda"><span class="offer-bar-kicker">OFERTA DESTA VISITA</span><span>De R$ 97 por R$ 27,90</span><span>Termina em <span class="offer-bar-clock" data-clock>20:00</span></span>${cta('Quero agora')}</div>
+      <div class="offer-bar" data-offer-timer data-offer-slug="senta-e-estuda"><span class="offer-bar-kicker">OFERTA IMPERDÍVEL</span><span>Por tempo limitado</span><span>De R$ 97 por R$ 27,90</span><span>Termina em <span class="offer-bar-clock" data-clock>20:00</span></span>${cta('Quero agora')}</div>
       ${header()}
       <main id="main-content">
         <section class="hero"><div class="wrap senta-grid senta-hero">
           <div class="hero-copy">
             <p class="eyebrow">PARA QUEM TRAVA NA HORA DE COMEÇAR</p>
-            <h1>Em 10 minutos você senta e começa — sem esperar vontade.</h1>
+            <h1>Em 10 minutos a questão 1 está no papel — e amanhã já tem entrada.</h1>
             <div class="hero-actions">${cta('Quero minha primeira sessão')}<a class="button secondary" href="#app">Ver o app em 3 funções</a></div>
             <p class="hero-note">Acesso na hora · primeira ação em 2 min · 7 dias para desistir</p>
             <p class="hero-lede">Se abrir o material já cansa, o app Primeira Sessão reduz a matéria a um movimento de menos de 2 minutos. Você faz o bloco que cabe hoje e termina com o próximo passo escrito — para amanhã não recomeçar do zero.</p>
-            <div class="senta-proof"><span>Primeira sessão em 10 min</span><span>R$ 27,90</span><span>PDF 16 páginas + app</span><span>Garantia 7 dias</span></div>
+            <div class="senta-proof"><span>Sessão feita em 10 min</span><span>R$ 27,90</span><span>PDF 16 páginas + app</span><span>Garantia 7 dias</span></div>
             <blockquote class="senta-quote" style="margin-top:1.2rem;overflow:auto">
               <img src="https://raw.githubusercontent.com/toppaplicativos/educacao-hub/main/public/product/faces/camila.webp" alt="Camila R." width="88" height="88">
               <p>“Antes: abria o PDF e fechava. Ação: questão 1, 25 minutos. Resultado: primeira sessão concluída no mesmo dia.”</p>
@@ -160,7 +160,7 @@
 
         <section class="section" id="virada"><div class="wrap">
           <p class="eyebrow">A VIRADA</p>
-          <h2>De “não sei por onde começar” para uma sessão feita em 10 minutos.</h2>
+          <h2>Da matéria larga à sessão feita: 2 minutos para reduzir, 10 para sentar.</h2>
           <p class="copy">Relógio só mede o tempo. Cronograma só lista a dívida. Aqui o começo é desenhado: uma ação de menos de 2 minutos, um bloco que cabe hoje, um próximo passo escrito.</p>
           <p class="senta-effect">Em 2 minutos você reduz a matéria. Em 10 você já sentou. No fim, amanhã não começa do zero.</p>
           <div class="senta-steps" style="margin-top:1.4rem">
@@ -172,7 +172,7 @@
 
         <section class="section light" id="metodo"><div class="wrap">
           <p class="eyebrow">MECANISMO</p>
-          <h2>O protocolo SENTA</h2>
+          <h2>SENTA reduz a matéria à sessão feita — em 10 minutos.</h2>
           <p class="copy">Quatro movimentos para reduzir a distância entre “eu deveria” e o primeiro minuto real. Cada um existe no PDF e no app — não é slogan.</p>
           <div class="senta-letters" style="margin-top:1.3rem">
             <article class="senta-letter"><span>S</span><p><b>Sinalizar</b></p><p class="copy">Escolha a matéria de hoje. Uma só.</p></article>
@@ -184,7 +184,7 @@
 
         <section class="section" id="app"><div class="wrap">
           <p class="eyebrow">NO APP · TRÊS FUNÇÕES</p>
-          <h2>Faça com o app. Atinja o resultado.</h2>
+          <h2>Três funções: reduzir, sentar, deixar a próxima escrita.</h2>
           <article class="senta-app" id="miniapp-montar" style="margin-top:1.6rem">
             <div class="senta-copy">
               <p class="eyebrow">NO APP · REDUZIR</p>
@@ -239,7 +239,7 @@
 
         <section class="section"><div class="wrap">
           <p class="eyebrow">O QUE MUDA NA PRÁTICA</p>
-          <h2>Resultado no começo da sessão — não um slogan de disciplina.</h2>
+          <h2>Matéria vira ação em 2 minutos. A sessão existe em 10.</h2>
           <div class="senta-bens" style="margin-top:1.3rem">
             <article class="senta-ben"><h3>A matéria vira um movimento em 2 minutos</h3><p class="copy">Você troca “estudar direito” por “abrir a questão 1”.</p><p class="eyebrow">No app: 3 minutos para montar a sessão.</p></article>
             <article class="senta-ben"><h3>Uma sessão feita hoje — mesmo com 10 minutos</h3><p class="copy">O bloco cabe depois do expediente.</p><p class="eyebrow">Abra o app depois do jantar. 10 minutos.</p></article>
@@ -267,16 +267,16 @@
 
 
         <section class="section light" id="publico"><div class="wrap senta-grid">
-          <div><p class="eyebrow">PARA QUEM É</p><h2>Se o difícil é começar, este guia foi escrito para você.</h2><p class="copy">Quem abre o material e fecha. Quem trabalha e estuda. Quem já tentou cronograma rígido e desistiu no primeiro atraso.</p></div>
-          <div><p class="eyebrow">PARA QUEM NÃO É</p><h2>Limites claros evitam a compra errada.</h2><p class="copy">Não promete aprovação, nota ou classificação. Não é curso de conteúdo. Não substitui professor.</p></div>
+          <div><p class="eyebrow">PARA QUEM É</p><h2>Se o material fecha na primeira página, a sessão sai hoje.</h2><p class="copy">Quem abre o material e fecha. Quem trabalha e estuda. Quem já tentou cronograma rígido e desistiu no primeiro atraso.</p></div>
+          <div><p class="eyebrow">PARA QUEM NÃO É</p><h2>Não é curso, não promete aprovação, não substitui professor.</h2><p class="copy">Não promete aprovação, nota ou classificação. Não é curso de conteúdo. Não substitui professor.</p></div>
         </div></section>
 
         <section class="senta-offer" id="oferta"><div class="wrap">
-          <p class="eyebrow" style="color:#E2571C">OFERTA DE LANÇAMENTO</p>
-          <h2>Hoje você troca mais um dia perdido por uma sessão feita.</h2>
-          <p class="copy">R$ 27,90 nesta visita. Guia em PDF (16 páginas) + app Primeira Sessão. Acesso digital após o pagamento.</p>
+          <p class="eyebrow" style="color:#E2571C">OFERTA IMPERDÍVEL</p>
+          <h2>Hoje a primeira sessão sai. O próximo passo já fica escrito.</h2>
+          <p class="copy">R$ 27,90 por tempo limitado. Guia em PDF (16 páginas) + app Primeira Sessão. Acesso digital após o pagamento.</p>
           <p class="senta-price"><span class="senta-old">R$ 97</span> R$ 27,90</p>
-          <p class="offer-visit">Esta visita · <span class="offer-bar-clock" data-clock>20:00</span></p>
+          <p class="offer-visit">Por tempo limitado · <span class="offer-bar-clock" data-clock>20:00</span></p>
           <div class="senta-stack">
             <div><span>Guia Senta e Estuda · PDF 16 páginas</span><b>incluso</b></div>
             <div><span>App Primeira Sessão · celular e computador</span><b>incluso</b></div>
@@ -295,7 +295,7 @@
 
         <section class="section" id="faq"><div class="wrap">
           <p class="eyebrow">DÚVIDAS</p>
-          <h2>Perguntas que travam a compra.</h2>
+          <h2>O que você recebe, o app incluso e a garantia de 7 dias.</h2>
           <div class="faq-list senta-faq" style="margin-top:1.2rem">
             <details><summary>O que eu recebo agora?</summary><p>O guia editorial em PDF (16 páginas) e o app Primeira Sessão. Método SENTA, exercícios, cartão da sessão, tabela de transformação, protocolos de distração e retomada, e o ciclo de sete dias.</p></details>
             <details><summary>O app já está incluso?</summary><p>Sim. O Primeira Sessão faz parte da oferta: um app simples, no celular e no computador, sem loja e sem instalação. Você define a matéria, a primeira ação e a duração, lê a frase de entrada e encerra com a próxima sessão pronta.</p></details>
@@ -310,7 +310,7 @@
         <section class="section light"><div class="wrap" style="text-align:center;max-width:720px;margin-inline:auto">
           <p class="eyebrow">COMECE HOJE</p>
           <h2>Daqui a 10 minutos o material pode estar aberto.</h2>
-          <p class="copy">No app, reduza a matéria em 2 minutos e sente 10. A condição desta visita termina no cronômetro vermelho.</p>
+          <p class="copy">No app, reduza a matéria em 2 minutos e sente 10. A oferta imperdível termina no cronômetro vermelho.</p>
           <div class="hero-actions" style="justify-content:center">${cta('Quero minha primeira sessão')}</div>
         </div></section>
         ${supportSection()}
@@ -346,17 +346,17 @@
       const cta = (label) => `<a class="button senta-cta" href="${pay}" rel="noopener">${label}</a>`;
       const A = 'https://raw.githubusercontent.com/toppaplicativos/educacao-hub/main/public/product/cronograma';
       return `<style>${salesCss()}</style>
-      <div class="offer-bar" data-offer-timer data-offer-slug="cronograma-que-funciona"><span class="offer-bar-kicker">OFERTA DESTA VISITA</span><span>De R$ 97 por R$ 27,90</span><span>Termina em <span class="offer-bar-clock" data-clock>20:00</span></span>${cta('Quero agora')}</div>
+      <div class="offer-bar" data-offer-timer data-offer-slug="cronograma-que-funciona"><span class="offer-bar-kicker">OFERTA IMPERDÍVEL</span><span>Por tempo limitado</span><span>De R$ 97 por R$ 27,90</span><span>Termina em <span class="offer-bar-clock" data-clock>20:00</span></span>${cta('Quero agora')}</div>
       ${header()}
       <main id="main-content">
         <section class="hero"><div class="wrap senta-grid senta-hero">
           <div class="hero-copy">
             <p class="eyebrow">PARA QUEM ABANDONA O PLANO NA SEGUNDA SEMANA</p>
-            <h1>Em 15 minutos, um plano que cabe na semana que você realmente tem.</h1>
+            <h1>Em 15 minutos a semana cabe nas horas que existem — e a terça não a apaga.</h1>
             <div class="hero-actions">${cta('Montar meu plano possível')}<a class="button secondary" href="#app">Ver o app em 3 funções</a></div>
             <p class="hero-note">Acesso na hora · carga a 80% · 7 dias para desistir</p>
             <p class="hero-lede">Pare de montar tabela no domingo e abandonar na terça. O app Plano Possível transforma suas horas reais em blocos de 50 minutos — com 20% de folga e a revisão já marcada.</p>
-            <div class="senta-proof"><span>Plano possível em 15 min</span><span>R$ 27,90</span><span>PDF 14 páginas + app</span><span>Garantia 7 dias</span></div>
+            <div class="senta-proof"><span>Semana executável em 15 min</span><span>R$ 27,90</span><span>PDF 14 páginas + app</span><span>Garantia 7 dias</span></div>
             <blockquote class="senta-quote" style="margin-top:1.2rem;overflow:auto">
               <img src="${A}/faces/rafael.webp" alt="Rafael S." width="88" height="88">
               <p>“Antes: grid de 30h. Ação: 80% de 12h. Resultado: semana ajustada, não apagada.”</p>
@@ -383,14 +383,14 @@
 
         <section class="section" id="virada"><div class="wrap">
           <p class="eyebrow">A VIRADA</p>
-          <h2>De uma tabela perfeita para um plano que sobrevive à segunda-feira.</h2>
+          <h2>Do grid perfeito à semana que sobrevive: 80% das horas, blocos de 50 minutos.</h2>
           <p class="copy">O problema não é falta de vontade. É obedecer a um plano que não foi construído para as horas que você realmente tem.</p>
           <p class="senta-effect">Conte as horas reais. Use 80%. Blocos de 50 minutos. Ajuste na sexta — não recomece do zero.</p>
         </div></section>
 
         <section class="section"><div class="wrap">
           <p class="eyebrow">MÉTODO</p>
-          <h2>Plano possível em 3 camadas</h2>
+          <h2>Horas reais, 80% de carga, ajuste na sexta — o plano sobrevive.</h2>
           <p class="copy">Planejar, executar e revisar. O PDF ensina. O app monta a semana em minutos — sem tabela que a vida não cabe.</p>
           <div class="senta-steps" style="margin-top:1.4rem">
             <article class="senta-step"><h3>Horas reais</h3><p>Inventário do que existe, não do que você gostaria de ter.</p></article>
@@ -434,7 +434,7 @@
         </div></section>
         <section class="section"><div class="wrap">
           <p class="eyebrow">O QUE MUDA NA PRÁTICA</p>
-          <h2>Resultado na semana que cabe — não um grid para impressionar.</h2>
+          <h2>A semana cabe. A terça não apaga. A execução aparece.</h2>
           <div class="senta-bens" style="margin-top:1.3rem">
             <article class="senta-ben"><h3>Um plano que cabe nas horas que existem</h3><p class="copy">Você conta a disponibilidade líquida e planeja 80%.</p></article>
             <article class="senta-ben"><h3>Blocos de 50 minutos com tarefa visível</h3><p class="copy">Cada sessão diz o que fazer. Não “estudar direito”.</p></article>
@@ -458,21 +458,21 @@
         </div></section>
 
         <section class="section light"><div class="wrap senta-grid">
-          <div><p class="eyebrow">PARA QUEM É</p><h2>Se o seu plano morre na segunda semana, este guia é para você.</h2><p class="copy">Quem monta cronograma no domingo e abandona. Quem tem 5 a 20 horas reais. Quem já copiou tabela pronta.</p></div>
-          <div><p class="eyebrow">PARA QUEM NÃO É</p><h2>Limites claros evitam a compra errada.</h2><p class="copy">Não promete aprovação, nota ou classificação. Não é cronograma genérico para copiar. Não substitui professor.</p></div>
+          <div><p class="eyebrow">PARA QUEM É</p><h2>Se o plano morre na segunda, aqui ele sobrevive à terça.</h2><p class="copy">Quem monta cronograma no domingo e abandona. Quem tem 5 a 20 horas reais. Quem já copiou tabela pronta.</p></div>
+          <div><p class="eyebrow">PARA QUEM NÃO É</p><h2>Não é curso, não promete aprovação, não substitui professor.</h2><p class="copy">Não promete aprovação, nota ou classificação. Não é cronograma genérico para copiar. Não substitui professor.</p></div>
         </div></section>
         <section class="senta-offer" id="oferta"><div class="wrap senta-grid">
           <div>
-            <p class="eyebrow" style="color:#E2571C">OFERTA DE LANÇAMENTO</p>
-            <h2>Hoje você troca mais uma tabela abandonada por uma semana possível.</h2>
-            <p class="copy">R$ 27,90 nesta visita. O acesso é digital: você abre o app e monta a semana com as horas que realmente tem.</p>
+            <p class="eyebrow" style="color:#E2571C">OFERTA IMPERDÍVEL</p>
+            <h2>Hoje o grid abandonado vira uma semana que se executa.</h2>
+            <p class="copy">R$ 27,90 por tempo limitado. O acesso é digital: você abre o app e monta a semana com as horas que realmente tem.</p>
             <div class="senta-stack">
               <div><span>Guia Cronograma que Funciona</span><span>PDF · 14 páginas</span></div>
               <div><span>App Plano Possível</span><span>No celular e no computador</span></div>
               <div><span>Checklist + painel</span><span>Execução visível</span></div>
             </div>
             <p class="senta-price"><span class="senta-old">R$ 97</span> R$ 27,90</p>
-            <p class="offer-visit">Esta visita · <span class="offer-bar-clock" data-clock>20:00</span></p>
+            <p class="offer-visit">Por tempo limitado · <span class="offer-bar-clock" data-clock>20:00</span></p>
             ${cta('Montar meu plano possível')}
             <p class="copy" style="margin-top:1rem">7 dias para desistir, nos termos do art. 49 do CDC. Sem promessa de aprovação.</p>
           </div>
@@ -489,7 +489,7 @@
         </div></section>
         <section class="section senta-faq"><div class="wrap">
           <p class="eyebrow">FAQ</p>
-          <h2>Perguntas que travam a compra.</h2>
+          <h2>O que você recebe, o app incluso e a garantia de 7 dias.</h2>
           <div class="faq-list" style="margin-top:1.2rem">
             <details open><summary>O que eu recebo agora?</summary><p>O guia em PDF e o app Plano Possível. Inventário real, carga a 80%, distribuição, sessão visível, revisão e o plano de 7 dias.</p></details>
             <details><summary>O app já está incluso?</summary><p>Sim. O Plano Possível faz parte da oferta: um app simples, no celular e no computador, sem loja e sem instalação.</p></details>
@@ -587,7 +587,7 @@
         clocks.forEach((el) => { el.textContent = label; });
         if (left === 0) {
           const kicker = root.querySelector('.offer-bar-kicker');
-          if (kicker) kicker.textContent = 'CONDIÇÃO ENCERRADA · PREÇO VIGENTE';
+          if (kicker) kicker.textContent = 'OFERTA ENCERRADA · PREÇO VIGENTE';
         }
       };
       tick();
