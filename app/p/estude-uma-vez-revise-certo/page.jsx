@@ -10,5 +10,5 @@ export const metadata = {
 };
 
 export default function Page() {
-  return <div id="app" />;
+  return null;
 }

@@ -1,9 +1,8 @@
     const CATEGORY = {"key":"educacao","short":"EDUCAÇÃO","label":"Estudos, concursos, ENEM e faculdade","host":"edu.toppapps.online","title":"Soluções para estudar com mais direção e menos improviso.","description":"Guias e ferramentas para organizar a semana, começar o estudo e revisar com critérios que cabem na rotina.","accent":"#5b4b8a","accent_soft":"#f2eff4","deep":"#1a1a22","hero_asset":"https://raw.githubusercontent.com/toppaplicativos/educacao-hub/main/public/product/hero-study.webp","hero_alt":"Ilustração editorial de educação com caderno, relógio e cartões de revisão","slides":[{"title":"Um plano possível vence a semana perfeita.","copy":"Escolha uma solução que respeite seu tempo, suas prioridades e os imprevistos.","image":"https://raw.githubusercontent.com/toppaplicativos/educacao-hub/main/public/product/hero-study.webp","alt":"Destaque editorial 1 de EDUCAÇÃO"},{"title":"Começar também é uma habilidade.","copy":"Reduza a fricção do primeiro bloco e transforme intenção em uma sessão real.","image":"https://raw.githubusercontent.com/toppaplicativos/educacao-hub/main/public/product/session-ready.webp","alt":"Destaque editorial 2 de EDUCAÇÃO"},{"title":"Revisar é voltar com critério.","copy":"Organize o retorno ao conteúdo para não depender de releituras aleatórias.","image":"https://raw.githubusercontent.com/toppaplicativos/educacao-hub/main/public/product/pain-desk.webp","alt":"Destaque editorial 3 de EDUCAÇÃO"}],"collections":[["planejamento","Planejar a semana","Para transformar matérias, prazos e tempo em um plano executável."],["inicio","Começar a estudar","Para reduzir a fricção e construir o primeiro bloco de estudo."],["revisao","Revisar melhor","Para voltar ao conteúdo com intervalos e perguntas mais claras."]],"products":[{"slug":"estude-uma-vez-revise-certo","title":"Estude Uma Vez, Revise Certo","subtitle":"Revisão que cobra, não que relê","description":"Feche o caderno — e a matéria volta sem reler o capítulo. Guia em PDF + app Próxima Revisão.","objective":"Revisar melhor","theme":"Revisão espaçada","audience":"Quem estuda e esquece na semana seguinte","format":"Guia digital + app","delivery":"Entrega digital","price":37.9,"status":"live","priority":0,"collection":"revisao","tags":["revisão","esquecer","pergunta","intervalo","1-3-7"],"featured":true,"cover":"https://cdn.jsdelivr.net/gh/toppaplicativos/educacao-hub@04de7fcc0793cd91af062c0a13ae811ccd818973/public/product/revisao/cover.webp","checkout":"https://pay.kiwify.com.br/jY4maqm"},{"slug":"cronograma-que-funciona","title":"Cronograma que Funciona","subtitle":"Plano de estudos possível","description":"Monte uma semana de estudos que respeita sua rotina, suas prioridades e os imprevistos do caminho.","objective":"Planejamento","theme":"Organização e produtividade","audience":"Estudantes, concurseiros e universitários","format":"Guia digital + aplicação","delivery":"Entrega digital","price":27.9,"status":"live","priority":1,"collection":"planejamento","tags":["cronograma","semana","estudos","planejamento","rotina"],"featured":true,"cover":"https://raw.githubusercontent.com/toppaplicativos/educacao-hub/main/public/assets/covers/cronograma-que-funciona.webp","checkout":"https://pay.kiwify.com.br/aMALUaX"},{"slug":"senta-e-estuda","title":"Senta e Estuda","subtitle":"Primeira sessão em 10 minutos","description":"Em 10 minutos você senta e começa — sem esperar vontade. Guia em PDF + app Primeira Sessão.","objective":"Começar a estudar","theme":"Início e foco","audience":"Quem adia o começo do estudo","format":"Guia digital + app","delivery":"Entrega digital","price":27.9,"status":"live","priority":2,"collection":"inicio","tags":["começar","foco","primeira sessão","estudar"],"featured":true,"cover":"https://raw.githubusercontent.com/toppaplicativos/educacao-hub/main/public/product/cover-navy.webp","checkout":"https://pay.kiwify.com.br/EDp7t2z"}],"faqs":[["A solução substitui uma escola ou professor?","Não. São materiais de organização e aplicação para apoiar sua rotina de estudos."],["O cronograma funciona para qualquer pessoa?","O material oferece critérios para adaptar a semana. A execução depende do tempo, objetivo e contexto de cada pessoa."],["Como uma oferta planejada aparece?","Ela fica no catálogo com estado de preparação e sem preço ou CTA de compra até que publicação, suporte e QA estejam confirmados."]]};
     const SUPPORT_EMAIL = 'suporte@toppapps.online';
     const HUB_ASSETS = 'https://cdn.jsdelivr.net/gh/toppaplicativos/educacao-hub@2fe1b01479d48d4ebc805822d4c857780aa8d64b/public/product';
-    const app = document.getElementById('app');
-    const pathParts = location.pathname.replace(/^\/+|\/+$/g,'').split('/').filter(Boolean);
-    const params = new URLSearchParams(location.search);
+    let pathParts = [];
+    let params = new URLSearchParams();
     const esc = (value) => String(value ?? '').replace(/[&<>"']/g, (char) => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'}[char]));
     const money = (value) => value == null ? 'Preço a confirmar' : value.toLocaleString('pt-BR',{style:'currency',currency:'BRL'});
     const findProduct = (slug) => CATEGORY.products.find((product) => product.slug === slug);
@@ -769,6 +768,10 @@
       return `${routeHeader('Este caminho não faz parte desta loja.', '404 · ROTA NÃO ENCONTRADA')}<section class="center-route"><div class="wrap"><div class="center-card"><p>Verifique a URL ou volte para o catálogo desta categoria. Nenhuma rota de outra loja é usada como fallback.</p><div class="actions"><a class="button" href="/">Voltar ao catálogo</a><a class="button secondary" href="/suporte">Acessar suporte</a></div></div></div></section>${footer()}</main>`;
     }
     function mount() {
+      const app = document.getElementById('app');
+      if (!app) return;
+      pathParts = location.pathname.replace(/^\/+|\/+$/g,'').split('/').filter(Boolean);
+      params = new URLSearchParams(location.search);
       let output;
       if (pathParts.length === 0) output = hub();
       else if (pathParts[0] === 'categoria' && pathParts[1] && CATEGORY.collections.some(([slug]) => slug === pathParts[1])) output = hub(pathParts[1]);
@@ -873,4 +876,17 @@
       document.querySelectorAll('[data-filter-field]').forEach((input) => input.addEventListener('change', () => { if (input.checked) selected[input.dataset.filterField].add(input.value); else selected[input.dataset.filterField].delete(input.value); render(); }));
       search.addEventListener('input', () => { state.q = search.value.trim(); render(); }); sort.addEventListener('change', () => { state.sort = sort.value; render(); }); toggle.addEventListener('click', () => { const open = panel.classList.toggle('open'); toggle.classList.toggle('active',open); toggle.setAttribute('aria-expanded',String(open)); }); document.getElementById('clear-filters')?.addEventListener('click', () => { Object.values(selected).forEach((values) => values.clear()); state.collection = ''; state.q = ''; search.value = ''; render(); }); document.getElementById('empty-clear')?.addEventListener('click', () => { Object.values(selected).forEach((values) => values.clear()); state.collection = ''; state.q = ''; search.value = ''; render(); }); render();
     }
-    mount();
+    function boot() {
+      window.__hubRemount = mount;
+      if (!document.getElementById('app')) {
+        if (document.readyState === 'loading') {
+          document.addEventListener('DOMContentLoaded', boot, { once: true });
+        } else {
+          setTimeout(boot, 30);
+        }
+        return;
+      }
+      mount();
+    }
+    boot();
+    window.addEventListener('popstate', mount);
