@@ -3,7 +3,7 @@
 import { useEffect } from 'react';
 
 const RUNTIME =
-  'https://cdn.jsdelivr.net/gh/toppaplicativos/educacao-hub@3fb0f5c5e7577d40b3f828ebcab2a1df5b95b75c/public/hub-runtime.js';
+  'https://cdn.jsdelivr.net/gh/toppaplicativos/educacao-hub@abde6378dbf71176fc5c89f101f7640ab5845650/public/hub-runtime.js';
 
 export default function HubMount() {
   useEffect(() => {
@@ -17,7 +17,7 @@ export default function HubMount() {
     script.async = false;
     script.onerror = () => {
       const fallback = document.createElement('script');
-      fallback.src = '/hub-runtime.js?v=esqueca';
+      fallback.src = '/hub-runtime.js?v=prova';
       fallback.async = false;
       document.body.appendChild(fallback);
     };
