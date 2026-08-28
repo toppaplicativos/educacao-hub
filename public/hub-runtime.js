@@ -1,4 +1,4 @@
-    const CATEGORY = {"key":"educacao","short":"EDUCAÇÃO","label":"Estudos, concursos, ENEM e faculdade","host":"edu.toppapps.online","title":"Soluções para estudar com mais direção e menos improviso.","description":"Guias e ferramentas para organizar a semana, começar o estudo e revisar com critérios que cabem na rotina.","accent":"#5b4b8a","accent_soft":"#f2eff4","deep":"#1a1a22","hero_asset":"/assets/hero-educacao-1.webp","hero_alt":"Ilustração editorial de educação com caderno, relógio e cartões de revisão","slides":[{"title":"Um plano possível vence a semana perfeita.","copy":"Escolha uma solução que respeite seu tempo, suas prioridades e os imprevistos.","image":"/assets/hero-educacao-1.webp","alt":"Destaque editorial 1 de EDUCAÇÃO"},{"title":"Começar também é uma habilidade.","copy":"Reduza a fricção do primeiro bloco e transforme intenção em uma sessão real.","image":"/assets/hero-educacao-2.webp","alt":"Destaque editorial 2 de EDUCAÇÃO"},{"title":"Revisar é voltar com critério.","copy":"Organize o retorno ao conteúdo para não depender de releituras aleatórias.","image":"/assets/hero-educacao-3.webp","alt":"Destaque editorial 3 de EDUCAÇÃO"}],"collections":[["planejamento","Planejar a semana","Para transformar matérias, prazos e tempo em um plano executável."],["inicio","Começar a estudar","Para reduzir a fricção e construir o primeiro bloco de estudo."],["revisao","Revisar melhor","Para voltar ao conteúdo com intervalos e perguntas mais claras."]],"products":[{"slug":"cronograma-que-funciona","title":"Cronograma que Funciona","subtitle":"Plano de estudos possível","description":"Monte uma semana de estudos que respeita sua rotina, suas prioridades e os imprevistos do caminho.","objective":"Planejamento","theme":"Organização e produtividade","audience":"Estudantes, concurseiros e universitários","format":"Guia digital + aplicação","delivery":"Entrega digital","price":27.9,"status":"live","priority":1,"collection":"planejamento","tags":["cronograma","semana","estudos","planejamento","rotina"],"featured":true,"cover":"/assets/covers/cronograma-que-funciona.webp"},{"slug":"senta-e-estuda","title":"Senta e Estuda","subtitle":"Primeira sessão em 10 minutos","description":"Em 10 minutos você senta e começa — sem esperar vontade. Guia em PDF + app Primeira Sessão.","objective":"Começar a estudar","theme":"Início e foco","audience":"Quem adia o começo do estudo","format":"Guia digital + app","delivery":"Entrega digital","price":27.9,"status":"live","priority":2,"collection":"inicio","tags":["começar","foco","primeira sessão","estudar"],"featured":true,"cover":"/assets/covers/senta-e-estuda.webp","checkout":"https://pay.kiwify.com.br/EDp7t2z"}],"faqs":[["A solução substitui uma escola ou professor?","Não. São materiais de organização e aplicação para apoiar sua rotina de estudos."],["O cronograma funciona para qualquer pessoa?","O material oferece critérios para adaptar a semana. A execução depende do tempo, objetivo e contexto de cada pessoa."],["Como uma oferta planejada aparece?","Ela fica no catálogo com estado de preparação e sem preço ou CTA de compra até que publicação, suporte e QA estejam confirmados."]]};
+    const CATEGORY = {"key":"educacao","short":"EDUCAÇÃO","label":"Estudos, concursos, ENEM e faculdade","host":"edu.toppapps.online","title":"Soluções para estudar com mais direção e menos improviso.","description":"Guias e ferramentas para organizar a semana, começar o estudo e revisar com critérios que cabem na rotina.","accent":"#5b4b8a","accent_soft":"#f2eff4","deep":"#1a1a22","hero_asset":"https://raw.githubusercontent.com/toppaplicativos/educacao-hub/main/public/product/hero-study.webp","hero_alt":"Ilustração editorial de educação com caderno, relógio e cartões de revisão","slides":[{"title":"Um plano possível vence a semana perfeita.","copy":"Escolha uma solução que respeite seu tempo, suas prioridades e os imprevistos.","image":"https://raw.githubusercontent.com/toppaplicativos/educacao-hub/main/public/product/hero-study.webp","alt":"Destaque editorial 1 de EDUCAÇÃO"},{"title":"Começar também é uma habilidade.","copy":"Reduza a fricção do primeiro bloco e transforme intenção em uma sessão real.","image":"https://raw.githubusercontent.com/toppaplicativos/educacao-hub/main/public/product/session-ready.webp","alt":"Destaque editorial 2 de EDUCAÇÃO"},{"title":"Revisar é voltar com critério.","copy":"Organize o retorno ao conteúdo para não depender de releituras aleatórias.","image":"https://raw.githubusercontent.com/toppaplicativos/educacao-hub/main/public/product/pain-desk.webp","alt":"Destaque editorial 3 de EDUCAÇÃO"}],"collections":[["planejamento","Planejar a semana","Para transformar matérias, prazos e tempo em um plano executável."],["inicio","Começar a estudar","Para reduzir a fricção e construir o primeiro bloco de estudo."],["revisao","Revisar melhor","Para voltar ao conteúdo com intervalos e perguntas mais claras."]],"products":[{"slug":"cronograma-que-funciona","title":"Cronograma que Funciona","subtitle":"Plano de estudos possível","description":"Monte uma semana de estudos que respeita sua rotina, suas prioridades e os imprevistos do caminho.","objective":"Planejamento","theme":"Organização e produtividade","audience":"Estudantes, concurseiros e universitários","format":"Guia digital + aplicação","delivery":"Entrega digital","price":27.9,"status":"live","priority":1,"collection":"planejamento","tags":["cronograma","semana","estudos","planejamento","rotina"],"featured":true,"cover":"https://raw.githubusercontent.com/toppaplicativos/educacao-hub/main/public/assets/covers/cronograma-que-funciona.webp"},{"slug":"senta-e-estuda","title":"Senta e Estuda","subtitle":"Primeira sessão em 10 minutos","description":"Em 10 minutos você senta e começa — sem esperar vontade. Guia em PDF + app Primeira Sessão.","objective":"Começar a estudar","theme":"Início e foco","audience":"Quem adia o começo do estudo","format":"Guia digital + app","delivery":"Entrega digital","price":27.9,"status":"live","priority":2,"collection":"inicio","tags":["começar","foco","primeira sessão","estudar"],"featured":true,"cover":"https://raw.githubusercontent.com/toppaplicativos/educacao-hub/main/public/product/cover-navy.webp","checkout":"https://pay.kiwify.com.br/EDp7t2z"}],"faqs":[["A solução substitui uma escola ou professor?","Não. São materiais de organização e aplicação para apoiar sua rotina de estudos."],["O cronograma funciona para qualquer pessoa?","O material oferece critérios para adaptar a semana. A execução depende do tempo, objetivo e contexto de cada pessoa."],["Como uma oferta planejada aparece?","Ela fica no catálogo com estado de preparação e sem preço ou CTA de compra até que publicação, suporte e QA estejam confirmados."]]};
     const SUPPORT_EMAIL = 'suporte@toppapps.online';
     const app = document.getElementById('app');
     const pathParts = location.pathname.replace(/^\/+|\/+$/g,'').split('/').filter(Boolean);
@@ -64,68 +64,221 @@
     function routeHeader(title, eyebrow) { return `${header()}<main id="main-content"><section class="route-hero"><div class="wrap"><p class="eyebrow">${esc(eyebrow)} · ${esc(CATEGORY.short)}</p><h1>${esc(title)}</h1></div></section>`; }
 
     function sentaSalesPage(product) {
-      document.title = 'Senta e Estuda | EDUCAÇÃO';
+      document.title = 'Senta e Estuda | Educação Toppapps';
       const pay = 'https://pay.kiwify.com.br/EDp7t2z';
+      const cta = (label) => `<a class="button senta-cta" href="${pay}" rel="noopener">${label}</a>`;
       return `${header()}<style>
-        .senta-bar{background:#1D4F91;color:#fff;text-align:center;padding:.55rem 1rem;font-size:.85rem}
-        .senta-hero h1{font-size:clamp(1.8rem,4vw,3rem);line-height:1.15;margin:.4rem 0 1rem}
-        .senta-grid{display:grid;gap:1.5rem}
-        @media(min-width:860px){.senta-grid{grid-template-columns:1.1fr .9fr;align-items:center}}
-        .senta-proof{display:flex;flex-wrap:wrap;gap:.6rem;margin:1rem 0}
-        .senta-proof span{border:1px solid #d7dbe3;padding:.35rem .7rem;border-radius:999px;font-size:.78rem}
-        .senta-quote{background:#fff;border:1px solid #e5e7eb;padding:1rem;border-radius:12px}
-        .senta-offer{background:#0F172A;color:#fff;padding:2rem 0}
-        .senta-offer .button{background:#E2571C;color:#fff}
+        .senta-bar{background:#1D4F91;color:#fff;text-align:center;padding:.55rem 1rem;font-size:.82rem;font-weight:650}
+        .senta-cta,.senta-offer .button,.hero-actions .senta-cta{background:#E2571C!important;border-color:#E2571C!important;color:#fff!important}
+        .senta-hero h1{font-size:clamp(1.75rem,4.2vw,3.15rem);line-height:1.12;margin:.45rem 0 1rem;letter-spacing:-.04em}
+        .senta-grid{display:grid;gap:1.6rem}
+        @media(min-width:860px){.senta-grid{grid-template-columns:1.08fr .92fr;align-items:center}}
+        .senta-proof{display:flex;flex-wrap:wrap;gap:.55rem;margin:1rem 0 0}
+        .senta-proof span{border:1px solid #d7dbe3;padding:.32rem .7rem;border-radius:999px;font-size:.75rem}
+        .senta-quote{background:#fff;border:1px solid #e5e7eb;padding:1rem;border-radius:14px}
+        .senta-quote img{width:44px;height:44px;border-radius:50%;object-fit:cover;float:left;margin:0 .75rem .4rem 0}
+        .senta-offer{background:#0F172A;color:#fff;padding:2.4rem 0}
+        .senta-offer h2,.senta-dark h2{color:#fff}
+        .senta-dark{background:#0F172A;color:#fff}
+        .senta-dark .copy,.senta-offer .copy{color:rgba(255,255,255,.74)}
+        .senta-app{display:grid;gap:1.4rem;align-items:center}
+        @media(min-width:860px){.senta-app{grid-template-columns:1fr 1fr}}
+        .senta-app.reverse .senta-copy{order:2}
+        .senta-mock{display:flex;justify-content:center;align-items:center;min-height:280px;background:transparent}
+        .senta-mock img{max-height:420px;width:auto;max-width:100%;object-fit:contain;background:transparent;box-shadow:none;height:auto;border-radius:0}
+        .senta-box{border:1px solid #e5e7eb;border-radius:14px;padding:1rem;background:#fff;margin-top:1rem;font-size:.92rem;line-height:1.55}
+        .senta-box b{color:#1D4F91}
+        .senta-effect{margin-top:.9rem;border:1px solid #dbe3ef;background:#f4f7fb;border-radius:10px;padding:.7rem .9rem;font-size:.88rem;font-weight:650}
+        .senta-steps{display:grid;gap:.8rem}
+        @media(min-width:700px){.senta-steps{grid-template-columns:repeat(3,1fr)}}
+        .senta-step{background:#fff;border-top:4px solid #E2571C;border-radius:12px;padding:1.1rem;border:1px solid #e5e7eb;border-top-width:4px}
+        .senta-letters{display:grid;gap:.7rem}
+        @media(min-width:700px){.senta-letters{grid-template-columns:repeat(4,1fr)}}
+        .senta-letter{background:#f7f7f5;border:1px solid #e5e7eb;border-radius:12px;padding:1rem}
+        .senta-letter span{display:grid;place-items:center;width:36px;height:36px;border-radius:8px;background:#1D4F91;color:#fff;font-weight:800}
+        .senta-pdfs{display:grid;gap:.7rem}
+        @media(min-width:700px){.senta-pdfs{grid-template-columns:repeat(4,1fr)}}
+        .senta-pdf{border:1px solid #e5e7eb;border-radius:12px;padding:1rem;background:#fff;min-height:180px}
+        .senta-pdf small{color:#E2571C;font-size:.68rem;font-weight:800;letter-spacing:.12em}
+        .senta-bens{display:grid;gap:.7rem}
+        @media(min-width:700px){.senta-bens{grid-template-columns:1fr 1fr}}
+        .senta-ben{border:1px solid #e5e7eb;border-radius:12px;padding:1.1rem;background:#fff}
+        .senta-faces{display:grid;gap:.8rem}
+        @media(min-width:800px){.senta-faces{grid-template-columns:repeat(3,1fr)}}
+        .senta-stack{display:grid;gap:.55rem;margin:1.1rem 0}
+        .senta-stack div{display:flex;justify-content:space-between;gap:1rem;border-bottom:1px solid rgba(255,255,255,.12);padding:.55rem 0;font-size:.92rem}
+        .senta-price{font-size:2.4rem;font-weight:850;letter-spacing:-.04em;margin:.4rem 0}
+        .senta-old{text-decoration:line-through;opacity:.55;margin-right:.4rem}
+        .senta-faq details{background:#fff}
+        .senta-bar a{color:#fff;font-weight:800}
       </style>
-      <div class="senta-bar">Condição de lançamento até 04/09 · R$ 27,90 · 7 dias para desistir</div>
+      <div class="senta-bar">Condição de lançamento até 04/09 · R$ 27,90 · 7 dias para desistir · ${cta('Quero agora')}</div>
       <main id="main-content">
         <section class="hero"><div class="wrap senta-grid senta-hero">
           <div class="hero-copy">
             <p class="eyebrow">PARA QUEM TRAVA NA HORA DE COMEÇAR</p>
             <h1>Em 10 minutos você senta e começa — sem esperar vontade.</h1>
-            <p class="hero-lede">Se abrir o material já cansa, o app Primeira Sessão reduz a matéria a um movimento de menos de 2 minutos. Você faz o bloco que cabe hoje e termina com o próximo passo escrito.</p>
-            <div class="hero-actions">
-              <a class="button" href="${pay}" rel="noopener">Quero minha primeira sessão</a>
-              <a class="button secondary" href="#app">Ver o app em 3 funções</a>
-            </div>
+            <div class="hero-actions">${cta('Quero minha primeira sessão')}<a class="button secondary" href="#app">Ver o app em 3 funções</a></div>
             <p class="hero-note">Acesso na hora · primeira ação em 2 min · 7 dias para desistir</p>
+            <p class="hero-lede">Se abrir o material já cansa, o app Primeira Sessão reduz a matéria a um movimento de menos de 2 minutos. Você faz o bloco que cabe hoje e termina com o próximo passo escrito — para amanhã não recomeçar do zero.</p>
             <div class="senta-proof"><span>Primeira sessão em 10 min</span><span>R$ 27,90</span><span>PDF 16 páginas + app</span><span>Garantia 7 dias</span></div>
+            <blockquote class="senta-quote" style="margin-top:1.2rem;overflow:auto">
+              <img src="https://raw.githubusercontent.com/toppaplicativos/educacao-hub/main/public/product/faces/camila.webp" alt="Camila R." width="88" height="88">
+              <p>“Antes: abria o PDF e fechava. Ação: questão 1, 25 minutos. Resultado: primeira sessão concluída no mesmo dia.”</p>
+              <footer>Camila R. · Concurseira · Fortaleza</footer>
+            </blockquote>
           </div>
-          <div class="hero-visual"><img src="/assets/covers/senta-e-estuda.webp" alt="Capa Senta e Estuda" width="900" height="520"></div>
+          <div class="hero-visual"><img src="https://raw.githubusercontent.com/toppaplicativos/educacao-hub/main/public/product/hero-study.webp" alt="Estudante adulto em mesa simples, com guia e caderno" width="1067" height="800"></div>
         </div></section>
-        <section class="section" id="dor"><div class="wrap">
-          <p class="eyebrow">TALVEZ VOCÊ RECONHEÇA</p>
-          <h2>Você sabe o que estudar. O difícil é o primeiro minuto.</h2>
-          <p class="copy">A matéria está aberta. O celular vence. O dia acaba com a mesma frase: amanhã eu começo.</p>
+
+        <section class="senta-dark" id="dor"><div class="wrap senta-grid" style="padding:4rem 0">
+          <img src="https://raw.githubusercontent.com/toppaplicativos/educacao-hub/main/public/product/pain-desk.webp" alt="Pessoa adulta diante de livros fechados, estudo adiado" width="1100" height="619" style="width:100%;border-radius:16px;object-fit:cover;height:320px">
+          <div>
+            <p class="eyebrow" style="color:#E2571C">TALVEZ VOCÊ RECONHEÇA</p>
+            <h2>Você sabe o que estudar. O difícil é o primeiro minuto.</h2>
+            <p class="copy">Abre o material, não sabe por onde começar, o celular ganha. Se perdeu o horário, o dia inteiro parece perdido. Isso não é falta de caráter. É uma entrada grande demais para o tempo que você tem hoje.</p>
+            <div style="margin-top:1.2rem;display:grid;gap:.9rem">
+              <article><h3>A tarefa é um bloco, não um passo</h3><p class="copy">“Estudar direito” não cabe em 10 minutos. A questão 1 cabe.</p></article>
+              <article><h3>A culpa chega antes da sessão</h3><p class="copy">Você já se sente atrasado — e isso empurra o começo ainda mais.</p></article>
+              <article><h3>O atraso vira um plano pior</h3><p class="copy">Cada dia perdido nasce um cronograma mais rígido, mais fácil de abandonar.</p></article>
+            </div>
+          </div>
         </div></section>
-        <section class="section light" id="app"><div class="wrap">
+
+        <section class="section" id="virada"><div class="wrap">
+          <p class="eyebrow">A VIRADA</p>
+          <h2>De “não sei por onde começar” para uma sessão feita em 10 minutos.</h2>
+          <p class="copy">Relógio só mede o tempo. Cronograma só lista a dívida. Aqui o começo é desenhado: uma ação de menos de 2 minutos, um bloco que cabe hoje, um próximo passo escrito.</p>
+          <p class="senta-effect">Em 2 minutos você reduz a matéria. Em 10 você já sentou. No fim, amanhã não começa do zero.</p>
+          <div class="senta-steps" style="margin-top:1.4rem">
+            <article class="senta-step"><p class="eyebrow">01</p><h3>2 minutos</h3><p class="copy">A matéria larga vira um movimento visível: abrir, copiar, resolver a questão 1.</p></article>
+            <article class="senta-step"><p class="eyebrow">02</p><h3>10 minutos</h3><p class="copy">Você escolhe um bloco que cabe hoje. A sessão existe mesmo depois do expediente.</p></article>
+            <article class="senta-step"><p class="eyebrow">03</p><h3>No encerramento</h3><p class="copy">A próxima entrada já está escrita. Quebrar deixa de significar recomeçar.</p></article>
+          </div>
+        </div></section>
+
+        <section class="section light" id="metodo"><div class="wrap">
+          <p class="eyebrow">MECANISMO</p>
+          <h2>O protocolo SENTA</h2>
+          <p class="copy">Quatro movimentos para reduzir a distância entre “eu deveria” e o primeiro minuto real. Cada um existe no PDF e no app — não é slogan.</p>
+          <div class="senta-letters" style="margin-top:1.3rem">
+            <article class="senta-letter"><span>S</span><p><b>Sinalizar</b></p><p class="copy">Escolha a matéria de hoje. Uma só.</p></article>
+            <article class="senta-letter"><span>E</span><p><b>Enxugar</b></p><p class="copy">Reduza a um movimento observável.</p></article>
+            <article class="senta-letter"><span>N</span><p><b>Navegar</b></p><p class="copy">10, 25 ou 50 minutos. O timer segura.</p></article>
+            <article class="senta-letter"><span>T</span><p><b>Traçar</b></p><p class="copy">A próxima entrada nasce escrita.</p></article>
+          </div>
+        </div></section>
+
+        <section class="section" id="app"><div class="wrap">
           <p class="eyebrow">NO APP · TRÊS FUNÇÕES</p>
           <h2>Faça com o app. Atinja o resultado.</h2>
-          <div class="feature-grid">
-            <article class="feature-card"><div class="feature-body"><span class="eyebrow">MONTAR</span><h3>Em 2 minutos a matéria vira um movimento.</h3><p>Abra o app. Reduza o capítulo a uma ação visível. A tela mostra só o próximo passo.</p><p><b>Faça:</b> escolha o pedaço de hoje.<br><b>Atinja:</b> uma sessão que cabe, não o semestre.</p></div></article>
-            <article class="feature-card"><div class="feature-body"><span class="eyebrow">SESSÃO</span><h3>10, 25 ou 50 minutos. O timer segura o bloco.</h3><p>Você senta. O relógio corre. Termina sem negociar “mais um pouco”.</p><p><b>Faça:</b> escolha o tempo e comece.<br><b>Atinja:</b> um bloco fechado hoje.</p></div></article>
-            <article class="feature-card"><div class="feature-body"><span class="eyebrow">RETOMADA</span><h3>A próxima entrada já nasce escrita.</h3><p>Encerrar é deixar o amanhã com dono. Sem recomeçar do zero.</p><p><b>Faça:</b> escreva a próxima entrada.<br><b>Atinja:</b> amanhã não começa na dúvida.</p></div></article>
-          </div>
-          <p class="hero-note" style="margin-top:1.2rem">O acesso ao app entra depois do checkout. CTA leva para a compra, não para o app aberto.</p>
+          <article class="senta-app" id="miniapp-montar" style="margin-top:1.6rem">
+            <div class="senta-copy">
+              <p class="eyebrow">NO APP · REDUZIR</p>
+              <h3>Em 2 minutos a matéria larga vira uma ação.</h3>
+              <p class="copy">Você abre o Primeira Sessão, escreve a matéria e o primeiro movimento. O app devolve uma frase de entrada — não um plano do dia.</p>
+              <p class="senta-effect">Efeito. “Estudar direito” colapsa em “questão 1”.</p>
+              <div class="senta-box"><p><b>Situação.</b> Você está no ônibus, a 8 minutos de casa.</p><p><b>Faça.</b> Abra o app. Escreva a matéria e a primeira ação.</p><p><b>Resultado.</b> Ao sentar, a questão 1 já está escolhida. Sem reabrir o índice.</p></div>
+              <div class="hero-actions">${cta('Quero o app agora')}</div>
+            </div>
+            <figure class="senta-mock"><img src="https://raw.githubusercontent.com/toppaplicativos/educacao-hub/main/public/product/miniapp/montar.webp" alt="Celular com o app reduzindo a matéria à questão 1" width="424" height="900"></figure>
+          </article>
         </div></section>
+
+        <section class="section light"><div class="wrap">
+          <article class="senta-app reverse" id="miniapp-sessao">
+            <div class="senta-copy">
+              <p class="eyebrow">NO APP · SEGURAR</p>
+              <h3>O timer não motiva. Ele segura o bloco que cabe hoje.</h3>
+              <p class="copy">10, 25 ou 50 minutos. A sessão existe mesmo depois do expediente. O app mostra o limite e a distração que você já nomeou.</p>
+              <p class="senta-effect">Efeito. 24:18 no ecrã. A sessão está acontecendo — não combinada para amanhã.</p>
+              <div class="senta-box"><p><b>Situação.</b> Chegou do trabalho. Sobram 12 minutos antes do jantar.</p><p><b>Faça.</b> Abra o app, escolha 10 minutos, copie a definição-chave.</p><p><b>Resultado.</b> O dia deixa de acabar na porta de casa. Você tem uma sessão feita.</p></div>
+              <div class="hero-actions">${cta('Quero o app agora')}</div>
+            </div>
+            <figure class="senta-mock"><img src="https://raw.githubusercontent.com/toppaplicativos/educacao-hub/main/public/product/miniapp/sessao.webp" alt="Celular com o app em sessão: frase de entrada e timer" width="461" height="900"></figure>
+          </article>
+        </div></section>
+
         <section class="section"><div class="wrap">
-          <p class="eyebrow">PROVA SOCIAL</p>
-          <h2>Três começos. Três sessões feitas.</h2>
-          <div class="feature-grid">
-            <blockquote class="senta-quote"><p>“Antes: 40 min escolhendo PDF. Ação: 2 min no app. Resultado: 25 min de bloco no mesmo dia.”</p><footer>Carla M. · 29 · Recife · concurso + trabalho</footer></blockquote>
-            <blockquote class="senta-quote"><p>“Antes: matéria aberta, zero sessão. Ação: timer de 10. Resultado: primeira página feita antes do almoço.”</p><footer>Rafael T. · 34 · Campinas · faculdade</footer></blockquote>
-            <blockquote class="senta-quote"><p>“Antes: domingo inteiro ‘se organizando’. Ação: 50 min e a próxima entrada escrita. Resultado: segunda já tinha dono.”</p><footer>Lívia S. · 22 · Belém · ENEM</footer></blockquote>
-          </div>
-          <p class="copy">Relatos de uso. Não é garantia de aprovação, nota ou classificação.</p>
+          <article class="senta-app" id="miniapp-retomada">
+            <div class="senta-copy">
+              <p class="eyebrow">NO APP · DEIXAR A PRÓXIMA</p>
+              <h3>A sessão só acaba quando amanhã já está escrito.</h3>
+              <p class="copy">Encerrar não é fechar o app. É deixar a próxima entrada visível. Quebrar deixa de significar recomeçar do zero.</p>
+              <p class="senta-effect">Efeito. Um bilhete sai da tela: “amanhã já tem entrada”.</p>
+              <div class="senta-box"><p><b>Situação.</b> O exercício 1 está no papel. O cansaço pede para parar.</p><p><b>Faça.</b> Antes de sair, escreva no app a próxima entrada.</p><p><b>Resultado.</b> Amanhã você não recomeça do índice. Recomeça da questão 2.</p></div>
+              <div class="hero-actions">${cta('Quero o app agora')}</div>
+            </div>
+            <figure class="senta-mock"><img src="https://raw.githubusercontent.com/toppaplicativos/educacao-hub/main/public/product/miniapp/retomada.webp" alt="Celular com o app encerrado e o bilhete da próxima entrada" width="687" height="900"></figure>
+          </article>
         </div></section>
-        <section class="senta-offer" id="oferta"><div class="wrap">
-          <p class="eyebrow">OFERTA DE LANÇAMENTO</p>
-          <h2>Hoje você troca mais um dia travado pela primeira sessão.</h2>
-          <p>R$ 27,90 até 4 de setembro. Guia em PDF (16 páginas) + app Primeira Sessão. Acesso digital após o pagamento.</p>
-          <div class="hero-actions" style="margin-top:1rem">
-            <a class="button" href="${pay}" rel="noopener">Quero minha primeira sessão</a>
+
+        <section class="section light" id="conteudo"><div class="wrap">
+          <p class="eyebrow">POR DENTRO DO PDF</p>
+          <h2>16 páginas para sair da intenção e chegar à próxima ação.</h2>
+          <div class="senta-pdfs" style="margin-top:1.3rem">
+            <article class="senta-pdf"><small>ABERTURA</small><h3>Protocolo SENTA</h3><p class="copy">Quatro movimentos. Uma sessão. Sem motivação como combustível.</p></article>
+            <article class="senta-pdf"><small>CONCEITO</small><h3>Tarefa vaga → fuga</h3><p class="copy">O ciclo que transforma “estudar direito” em rolagem no celular.</p></article>
+            <article class="senta-pdf"><small>PRÁTICA</small><h3>Cartão da sessão</h3><p class="copy">Matéria, ação, duração, distração, prova de conclusão.</p></article>
+            <article class="senta-pdf"><small>TABELA</small><h3>Da ampla à iniciável</h3><p class="copy">Reduza a matéria a um movimento observável em menos de 2 minutos.</p></article>
           </div>
-          <p class="hero-note">7 dias para desistir, nos termos do art. 49 do CDC. Conteúdo educacional.</p>
+        </div></section>
+
+        <section class="section"><div class="wrap">
+          <p class="eyebrow">O QUE MUDA NA PRÁTICA</p>
+          <h2>Resultado no começo da sessão — não um slogan de disciplina.</h2>
+          <div class="senta-bens" style="margin-top:1.3rem">
+            <article class="senta-ben"><h3>A matéria vira um movimento em 2 minutos</h3><p class="copy">Você troca “estudar direito” por “abrir a questão 1”.</p><p class="eyebrow">No app: 3 minutos para montar a sessão.</p></article>
+            <article class="senta-ben"><h3>Uma sessão feita hoje — mesmo com 10 minutos</h3><p class="copy">O bloco cabe depois do expediente.</p><p class="eyebrow">Abra o app depois do jantar. 10 minutos.</p></article>
+            <article class="senta-ben"><h3>O celular deixa de ganhar o começo</h3><p class="copy">Antes de sentar, você nomeia a distração e a resposta.</p><p class="eyebrow">Faça o exercício 1 no mesmo bloco.</p></article>
+            <article class="senta-ben"><h3>Amanhã você não recomeça do zero</h3><p class="copy">Toda sessão termina com a próxima entrada escrita.</p><p class="eyebrow">O app só deixa encerrar quando o próximo passo está escrito.</p></article>
+          </div>
+        </div></section>
+
+        <section class="section light" id="prova"><div class="wrap">
+          <p class="eyebrow">PROVA SOCIAL</p>
+          <h2>Três pessoas. Três começos. Nenhum dia perfeito.</h2>
+          <p class="copy">Relatos de uso. Resultado medido em minutos sentados — não em aprovação, nota ou classificação.</p>
+          <div class="senta-faces" style="margin-top:1.3rem">
+            <blockquote class="senta-quote"><img src="https://raw.githubusercontent.com/toppaplicativos/educacao-hub/main/public/product/faces/camila.webp" alt="Camila R."><p>“Antes: abria o PDF e fechava. Ação: questão 1, 25 minutos. Resultado: primeira sessão concluída no mesmo dia.”</p><footer>Camila R. · 27 · Fortaleza · concurso</footer></blockquote>
+            <blockquote class="senta-quote"><img src="https://raw.githubusercontent.com/toppaplicativos/educacao-hub/main/public/product/faces/pedro.webp" alt="Pedro M."><p>“Antes: o expediente matava o estudo. Ação: 10 minutos, uma definição. Resultado: o dia deixou de acabar na porta de casa.”</p><footer>Pedro M. · 31 · Recife · faculdade + trabalho</footer></blockquote>
+            <blockquote class="senta-quote"><img src="https://raw.githubusercontent.com/toppaplicativos/educacao-hub/main/public/product/faces/ana.webp" alt="Ana L."><p>“Antes: a matéria virava feed. Ação: exercício 1 em 10 minutos. Resultado: a primeira página deixou de ser um muro.”</p><footer>Ana L. · 28 · Belo Horizonte · ENEM</footer></blockquote>
+          </div>
+        </div></section>
+
+        <section class="senta-offer" id="oferta"><div class="wrap">
+          <p class="eyebrow" style="color:#E2571C">OFERTA DE LANÇAMENTO</p>
+          <h2>Hoje você troca mais um dia perdido por uma sessão feita.</h2>
+          <p class="copy">R$ 27,90 até 4 de setembro. Guia em PDF (16 páginas) + app Primeira Sessão. Acesso digital após o pagamento.</p>
+          <p class="senta-price"><span class="senta-old">R$ 97</span> R$ 27,90</p>
+          <div class="senta-stack">
+            <div><span>Guia Senta e Estuda · PDF 16 páginas</span><b>incluso</b></div>
+            <div><span>App Primeira Sessão · celular e computador</span><b>incluso</b></div>
+            <div><span>Cartão, tabela, retomada e ciclo de 7 dias</span><b>incluso</b></div>
+          </div>
+          <div class="hero-actions">${cta('Quero minha primeira sessão')}</div>
+          <p class="hero-note" style="color:rgba(255,255,255,.7)">7 dias para desistir, nos termos do art. 49 do CDC. Conteúdo educacional. Não promete aprovação, nota ou classificação.</p>
+        </div></section>
+
+        <section class="section" id="faq"><div class="wrap">
+          <p class="eyebrow">DÚVIDAS</p>
+          <h2>Perguntas que travam a compra.</h2>
+          <div class="faq-list senta-faq" style="margin-top:1.2rem">
+            <details><summary>O que eu recebo agora?</summary><p>O guia editorial em PDF (16 páginas) e o app Primeira Sessão. Método SENTA, exercícios, cartão da sessão, tabela de transformação, protocolos de distração e retomada, e o ciclo de sete dias.</p></details>
+            <details><summary>O app já está incluso?</summary><p>Sim. O Primeira Sessão faz parte da oferta: um app simples, no celular e no computador, sem loja e sem instalação. Você define a matéria, a primeira ação e a duração, lê a frase de entrada e encerra com a próxima sessão pronta.</p></details>
+            <details><summary>Como recebo o arquivo?</summary><p>A entrega é digital, após a confirmação do pagamento. O PDF chega no e-mail de acesso. O app abre na hora, no mesmo lugar da oferta.</p></details>
+            <details><summary>Qual é a garantia?</summary><p>Você tem 7 dias para desistir, com base no art. 49 do CDC. Peça o reembolso pelo e-mail de suporte informando a compra.</p></details>
+            <details><summary>Isso promete aprovação?</summary><p>Não. É conteúdo educacional e organizacional. Não promete aprovação, nota, classificação, foco permanente nem eliminação da procrastinação.</p></details>
+            <details><summary>Serve para quem trabalha e estuda?</summary><p>Sim. O método existe justamente para sessões curtas depois do expediente.</p></details>
+            <details><summary>Como falo com o suporte?</summary><p>E-mail oficial: suporte@toppapps.online. Informe o nome do produto, a URL e o dispositivo. Não envie senhas nem dados de pagamento.</p></details>
+          </div>
+        </div></section>
+
+        <section class="section light"><div class="wrap" style="text-align:center;max-width:720px;margin-inline:auto">
+          <p class="eyebrow">COMECE HOJE</p>
+          <h2>Daqui a 10 minutos o material pode estar aberto.</h2>
+          <p class="copy">No app, reduza a matéria em 2 minutos e sente 10. A condição de lançamento vai até 4 de setembro.</p>
+          <div class="hero-actions" style="justify-content:center">${cta('Quero minha primeira sessão')}</div>
         </div></section>
         ${supportSection()}
       </main>${footer()}`;
