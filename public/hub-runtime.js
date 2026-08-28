@@ -117,7 +117,24 @@
         .senta-old{text-decoration:line-through;opacity:.55;margin-right:.4rem}
         .senta-faq details{background:#fff}
         .senta-bar a{color:#fff;font-weight:800}
+        .senta-upsell{display:grid;gap:.9rem}
+        @media(min-width:800px){.senta-upsell{grid-template-columns:repeat(2,1fr)}}
+        .senta-up{border:1px solid #e5e7eb;border-radius:14px;padding:1.1rem;background:#fff;display:flex;flex-direction:column;gap:.65rem}
+        .senta-up img{width:100%;height:140px;object-fit:cover;border-radius:10px}
+        .senta-up .senta-price{font-size:1.45rem;margin:0}
+        .hero-actions .button.secondary[href*="pay.kiwify"]{border-color:#E2571C;color:#E2571C;font-weight:800}
       `;
+    }
+
+    function upsellSection(currentSlug) {
+      const others = CATEGORY.products.filter((p) => p.slug !== currentSlug && p.status === 'live' && p.checkout);
+      if (!others.length) return '';
+      return `<section class="section light" id="upsell"><div class="wrap">
+        <p class="eyebrow">COMPLETE A BIBLIOTECA</p>
+        <h2>Quem leva este também fecha o que já está no ar.</h2>
+        <p class="copy">Cada um com checkout próprio. Sem pacote, sem desconto inventado — o mesmo acesso digital.</p>
+        <div class="senta-upsell" style="margin-top:1.4rem">${others.map((p) => `<article class="senta-up"><img src="${esc(p.cover)}" alt="Capa de ${esc(p.title)}"><p class="eyebrow">${esc(p.subtitle)}</p><h3>${esc(p.title)}</h3><p class="copy">${esc(p.description)}</p><p class="senta-price">${money(p.price)}</p><a class="button senta-cta" href="${esc(p.checkout)}" rel="noopener">Quero ${esc(p.title)}</a></article>`).join('')}</div>
+      </div></section>`;
     }
 
     function sentaSalesPage(product) {
@@ -132,7 +149,7 @@
           <div class="hero-copy">
             <p class="eyebrow">PARA QUEM TRAVA NA HORA DE COMEÇAR</p>
             <h1>Em 10 minutos a questão 1 está no papel — e amanhã já tem entrada.</h1>
-            <div class="hero-actions">${cta('Quero minha primeira sessão')}<a class="button secondary" href="#app">Ver o app em 3 funções</a></div>
+            <div class="hero-actions">${cta('Quero minha primeira sessão')}<a class="button secondary" href="${pay}" rel="noopener">Ver o app em 3 funções</a></div>
             <p class="hero-note">Acesso na hora · primeira ação em 2 min · 7 dias para desistir</p>
             <p class="hero-lede">Se abrir o material já cansa, o app Primeira Sessão reduz a matéria a um movimento de menos de 2 minutos. Você faz o bloco que cabe hoje e termina com o próximo passo escrito — para amanhã não recomeçar do zero.</p>
             <div class="senta-proof"><span>Sessão feita em 10 min</span><span>R$ 27,90</span><span>PDF 16 páginas + app</span><span>Garantia 7 dias</span></div>
@@ -293,7 +310,7 @@
           <h2>7 dias para desistir. O risco fica com a gente.</h2>
           <p class="copy">Art. 49 do CDC. Se o material não servir, peça o reembolso pelo e-mail de suporte informando a compra.</p>
         </div></section>
-
+        ${upsellSection('senta-e-estuda')}
         <section class="section" id="faq"><div class="wrap">
           <p class="eyebrow">DÚVIDAS</p>
           <h2>O que você recebe, o app incluso e a garantia de 7 dias.</h2>
@@ -354,7 +371,7 @@
           <div class="hero-copy">
             <p class="eyebrow">PARA QUEM ABANDONA O PLANO NA SEGUNDA SEMANA</p>
             <h1>Em 15 minutos a semana cabe nas horas que existem — e a terça não a apaga.</h1>
-            <div class="hero-actions">${cta('Montar meu plano possível')}<a class="button secondary" href="#app">Ver o app em 3 funções</a></div>
+            <div class="hero-actions">${cta('Montar meu plano possível')}<a class="button secondary" href="${pay}" rel="noopener">Ver o app em 3 funções</a></div>
             <p class="hero-note">Acesso na hora · carga a 80% · 7 dias para desistir</p>
             <p class="hero-lede">Pare de montar tabela no domingo e abandonar na terça. O app Plano Possível transforma suas horas reais em blocos de 50 minutos — com 20% de folga e a revisão já marcada.</p>
             <div class="senta-proof"><span>Semana executável em 15 min</span><span>R$ 27,90</span><span>PDF 14 páginas + app</span><span>Garantia 7 dias</span></div>
@@ -488,6 +505,7 @@
           <h2>7 dias para desistir. O risco fica com a gente.</h2>
           <p class="copy">Art. 49 do CDC. Se o material não servir, peça o reembolso pelo e-mail de suporte informando a compra.</p>
         </div></section>
+        ${upsellSection('cronograma-que-funciona')}
         <section class="section senta-faq"><div class="wrap">
           <p class="eyebrow">FAQ</p>
           <h2>O que você recebe, o app incluso e a garantia de 7 dias.</h2>
