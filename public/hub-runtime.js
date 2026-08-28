@@ -1,4 +1,4 @@
-    const CATEGORY = {"key":"educacao","short":"EDUCAÇÃO","label":"Estudos, concursos, ENEM e faculdade","host":"edu.toppapps.online","title":"Soluções para estudar com mais direção e menos improviso.","description":"Guias e ferramentas para organizar a semana, começar o estudo e revisar com critérios que cabem na rotina.","accent":"#5b4b8a","accent_soft":"#f2eff4","deep":"#1a1a22","hero_asset":"https://raw.githubusercontent.com/toppaplicativos/educacao-hub/main/public/product/hero-study.webp","hero_alt":"Ilustração editorial de educação com caderno, relógio e cartões de revisão","slides":[{"title":"Um plano possível vence a semana perfeita.","copy":"Escolha uma solução que respeite seu tempo, suas prioridades e os imprevistos.","image":"https://raw.githubusercontent.com/toppaplicativos/educacao-hub/main/public/product/hero-study.webp","alt":"Destaque editorial 1 de EDUCAÇÃO"},{"title":"Começar também é uma habilidade.","copy":"Reduza a fricção do primeiro bloco e transforme intenção em uma sessão real.","image":"https://raw.githubusercontent.com/toppaplicativos/educacao-hub/main/public/product/session-ready.webp","alt":"Destaque editorial 2 de EDUCAÇÃO"},{"title":"Revisar é voltar com critério.","copy":"Organize o retorno ao conteúdo para não depender de releituras aleatórias.","image":"https://raw.githubusercontent.com/toppaplicativos/educacao-hub/main/public/product/pain-desk.webp","alt":"Destaque editorial 3 de EDUCAÇÃO"}],"collections":[["planejamento","Planejar a semana","Para transformar matérias, prazos e tempo em um plano executável."],["inicio","Começar a estudar","Para reduzir a fricção e construir o primeiro bloco de estudo."],["revisao","Revisar melhor","Para voltar ao conteúdo com intervalos e perguntas mais claras."]],"products":[{"slug":"cronograma-que-funciona","title":"Cronograma que Funciona","subtitle":"Plano de estudos possível","description":"Monte uma semana de estudos que respeita sua rotina, suas prioridades e os imprevistos do caminho.","objective":"Planejamento","theme":"Organização e produtividade","audience":"Estudantes, concurseiros e universitários","format":"Guia digital + aplicação","delivery":"Entrega digital","price":27.9,"status":"live","priority":1,"collection":"planejamento","tags":["cronograma","semana","estudos","planejamento","rotina"],"featured":true,"cover":"https://raw.githubusercontent.com/toppaplicativos/educacao-hub/main/public/assets/covers/cronograma-que-funciona.webp","checkout":"https://pay.kiwify.com.br/aMALUaX"},{"slug":"senta-e-estuda","title":"Senta e Estuda","subtitle":"Primeira sessão em 10 minutos","description":"Em 10 minutos você senta e começa — sem esperar vontade. Guia em PDF + app Primeira Sessão.","objective":"Começar a estudar","theme":"Início e foco","audience":"Quem adia o começo do estudo","format":"Guia digital + app","delivery":"Entrega digital","price":27.9,"status":"live","priority":2,"collection":"inicio","tags":["começar","foco","primeira sessão","estudar"],"featured":true,"cover":"https://raw.githubusercontent.com/toppaplicativos/educacao-hub/main/public/product/cover-navy.webp","checkout":"https://pay.kiwify.com.br/EDp7t2z"}],"faqs":[["A solução substitui uma escola ou professor?","Não. São materiais de organização e aplicação para apoiar sua rotina de estudos."],["O cronograma funciona para qualquer pessoa?","O material oferece critérios para adaptar a semana. A execução depende do tempo, objetivo e contexto de cada pessoa."],["Como uma oferta planejada aparece?","Ela fica no catálogo com estado de preparação e sem preço ou CTA de compra até que publicação, suporte e QA estejam confirmados."]]};
+    const CATEGORY = {"key":"educacao","short":"EDUCAÇÃO","label":"Estudos, concursos, ENEM e faculdade","host":"edu.toppapps.online","title":"Soluções para estudar com mais direção e menos improviso.","description":"Guias e ferramentas para organizar a semana, começar o estudo e revisar com critérios que cabem na rotina.","accent":"#5b4b8a","accent_soft":"#f2eff4","deep":"#1a1a22","hero_asset":"https://raw.githubusercontent.com/toppaplicativos/educacao-hub/main/public/product/hero-study.webp","hero_alt":"Ilustração editorial de educação com caderno, relógio e cartões de revisão","slides":[{"title":"Um plano possível vence a semana perfeita.","copy":"Escolha uma solução que respeite seu tempo, suas prioridades e os imprevistos.","image":"https://raw.githubusercontent.com/toppaplicativos/educacao-hub/main/public/product/hero-study.webp","alt":"Destaque editorial 1 de EDUCAÇÃO"},{"title":"Começar também é uma habilidade.","copy":"Reduza a fricção do primeiro bloco e transforme intenção em uma sessão real.","image":"https://raw.githubusercontent.com/toppaplicativos/educacao-hub/main/public/product/session-ready.webp","alt":"Destaque editorial 2 de EDUCAÇÃO"},{"title":"Revisar é voltar com critério.","copy":"Organize o retorno ao conteúdo para não depender de releituras aleatórias.","image":"https://raw.githubusercontent.com/toppaplicativos/educacao-hub/main/public/product/pain-desk.webp","alt":"Destaque editorial 3 de EDUCAÇÃO"}],"collections":[["planejamento","Planejar a semana","Para transformar matérias, prazos e tempo em um plano executável."],["inicio","Começar a estudar","Para reduzir a fricção e construir o primeiro bloco de estudo."],["revisao","Revisar melhor","Para voltar ao conteúdo com intervalos e perguntas mais claras."]],"products":[{"slug":"estude-uma-vez-revise-certo","title":"Estude Uma Vez, Revise Certo","subtitle":"Revisão que cobra, não que relê","description":"Feche o caderno — e a matéria volta sem reler o capítulo. Guia em PDF + app Próxima Revisão.","objective":"Revisar melhor","theme":"Revisão espaçada","audience":"Quem estuda e esquece na semana seguinte","format":"Guia digital + app","delivery":"Entrega digital","price":37.9,"status":"live","priority":0,"collection":"revisao","tags":["revisão","esquecer","pergunta","intervalo","1-3-7"],"featured":true,"cover":"/product/revisao/cover.webp","checkout":"https://pay.kiwify.com.br/jY4maqm"},{"slug":"cronograma-que-funciona","title":"Cronograma que Funciona","subtitle":"Plano de estudos possível","description":"Monte uma semana de estudos que respeita sua rotina, suas prioridades e os imprevistos do caminho.","objective":"Planejamento","theme":"Organização e produtividade","audience":"Estudantes, concurseiros e universitários","format":"Guia digital + aplicação","delivery":"Entrega digital","price":27.9,"status":"live","priority":1,"collection":"planejamento","tags":["cronograma","semana","estudos","planejamento","rotina"],"featured":true,"cover":"https://raw.githubusercontent.com/toppaplicativos/educacao-hub/main/public/assets/covers/cronograma-que-funciona.webp","checkout":"https://pay.kiwify.com.br/aMALUaX"},{"slug":"senta-e-estuda","title":"Senta e Estuda","subtitle":"Primeira sessão em 10 minutos","description":"Em 10 minutos você senta e começa — sem esperar vontade. Guia em PDF + app Primeira Sessão.","objective":"Começar a estudar","theme":"Início e foco","audience":"Quem adia o começo do estudo","format":"Guia digital + app","delivery":"Entrega digital","price":27.9,"status":"live","priority":2,"collection":"inicio","tags":["começar","foco","primeira sessão","estudar"],"featured":true,"cover":"https://raw.githubusercontent.com/toppaplicativos/educacao-hub/main/public/product/cover-navy.webp","checkout":"https://pay.kiwify.com.br/EDp7t2z"}],"faqs":[["A solução substitui uma escola ou professor?","Não. São materiais de organização e aplicação para apoiar sua rotina de estudos."],["O cronograma funciona para qualquer pessoa?","O material oferece critérios para adaptar a semana. A execução depende do tempo, objetivo e contexto de cada pessoa."],["Como uma oferta planejada aparece?","Ela fica no catálogo com estado de preparação e sem preço ou CTA de compra até que publicação, suporte e QA estejam confirmados."]]};
     const SUPPORT_EMAIL = 'suporte@toppapps.online';
     const HUB_ASSETS = 'https://cdn.jsdelivr.net/gh/toppaplicativos/educacao-hub@2fe1b01479d48d4ebc805822d4c857780aa8d64b/public/product';
     const app = document.getElementById('app');
@@ -140,6 +140,11 @@
           title: 'A semana montada não senta por você.',
           body: 'O plano cabe nas horas. O primeiro minuto ainda trava. Em 10 minutos o Senta e Estuda coloca a questão 1 no papel — e amanhã já tem a próxima entrada escrita.',
         },
+        'estude-uma-vez-revise-certo': {
+          kicker: 'JUNTO COM A REVISÃO',
+          title: 'Revisar não cria a sessão nem a semana.',
+          body: 'A revisão só rende se existe um bloco hoje e uma semana que sobrevive à terça. Em 10 minutos você senta. Em 15 a semana cabe nas horas que existem.',
+        },
       }[currentSlug] || {
         kicker: 'TAMBÉM HOJE',
         title: 'O outro ponto da rotina, resolvido no mesmo dia.',
@@ -157,6 +162,12 @@
           title: 'Em 15 minutos a semana cabe nas horas que existem — e a terça não a apaga.',
           body: 'O app Plano Possível transforma suas horas reais em blocos de 50 minutos — com 20% de folga e a revisão já marcada.',
           cta: 'Montar meu plano possível',
+        },
+        'estude-uma-vez-revise-certo': {
+          kicker: 'PARA QUEM ESTUDA E ESQUECE NA SEMANA SEGUINTE',
+          title: 'Feche o caderno — e a matéria volta sem reler o capítulo.',
+          body: 'O app Próxima Revisão pega o estudo de hoje, vira uma pergunta e marca o retorno em 1, 3 ou 7 dias. Você testa sem olhar.',
+          cta: 'Quero revisar certo',
         },
       };
       return `<section class="section light" id="upsell"><div class="wrap">
@@ -563,6 +574,177 @@
       return `${header()}<main id="main-content"><section class="center-route"><div class="wrap"><div class="center-card"><p class="eyebrow">ACESSO LIBERADO</p><h1>Acesso liberado</h1><p>O PDF está na área de membros da Kiwify. O app Plano Possível abre nesta loja, na rota do produto.</p><div class="actions"><a class="button" href="/app/plano-possivel">Abrir o app</a><a class="button secondary" href="/p/cronograma-que-funciona">Voltar à oferta</a></div></div></div></section></main>${footer()}`;
     }
 
+
+    function revisaoSalesPage(product) {
+      document.title = 'Estude Uma Vez, Revise Certo | Educação Toppapps';
+      const pay = 'https://pay.kiwify.com.br/jY4maqm';
+      const cta = (label) => `<a class="button senta-cta" href="${pay}" rel="noopener">${label}</a>`;
+      const A = '/product/revisao';
+      return `<style>${salesCss()}</style>
+      <div class="offer-bar" data-offer-timer data-offer-slug="estude-uma-vez-revise-certo"><span class="offer-bar-kicker">OFERTA IMPERDÍVEL</span><span>Por tempo limitado</span><span>De R$ 127 por R$ 37,90</span><span>Termina em <span class="offer-bar-clock" data-clock>20:00</span></span>${cta('Quero agora')}</div>
+      ${header()}
+      <main id="main-content">
+        <section class="hero"><div class="wrap senta-grid senta-hero">
+          <div class="hero-copy">
+            <p class="eyebrow">PARA QUEM ESTUDA E ESQUECE NA SEMANA SEGUINTE</p>
+            <h1>Feche o caderno — e a matéria volta sem reler o capítulo.</h1>
+            <div class="hero-actions">${cta('Quero revisar certo')}<a class="button secondary" href="${pay}" rel="noopener">Ver o app em 3 funções</a></div>
+            <p class="hero-note">Acesso na hora · caderno fechado em 3 min · 7 dias para desistir</p>
+            <p class="hero-lede">O app Próxima Revisão pega o estudo de hoje, vira uma pergunta e marca o retorno em 1, 3 ou 7 dias. Você testa sem olhar. O caderno continua fechado.</p>
+            <div class="senta-proof"><span>Pergunta em 3 min</span><span>R$ 37,90</span><span>PDF 14 páginas + app</span><span>Garantia 7 dias</span></div>
+            <blockquote class="senta-quote" style="margin-top:1.2rem;overflow:auto">
+              <img src="${A}/faces/marcos.webp" alt="Marcos T." width="88" height="88">
+              <p>“Antes: reler o capítulo. Ação: uma pergunta. Resultado: a matéria voltou na quinta.”</p>
+              <footer>Marcos T. · Concurso · João Pessoa</footer>
+            </blockquote>
+          </div>
+          <div class="hero-visual"><img src="${A}/hero.webp" alt="Caderno fechado com um cartão de pergunta e a data de volta em 3 dias" width="1600" height="1200"></div>
+        </div></section>
+
+        <section class="senta-dark" id="dor"><div class="wrap senta-grid" style="padding:4rem 0">
+          <img src="${A}/pain.webp" alt="Livros abertos cobertos de marca-texto — releitura que não gruda" width="1600" height="1200" style="width:100%;border-radius:16px;object-fit:cover;height:320px">
+          <div>
+            <p class="eyebrow" style="color:#E2571C">TALVEZ VOCÊ RECONHEÇA</p>
+            <h2>Você estuda. Na semana seguinte, a matéria some.</h2>
+            <p class="copy">Reler parece trabalho. Grifar parece domínio. Na hora da questão, o branco. Isso não é falta de inteligência. É revisão que não cobra nada de você.</p>
+            <div style="margin-top:1.2rem;display:grid;gap:.9rem">
+              <article><h3>Reler não é revisar</h3><p class="copy">Passar os olhos no caderno gera familiaridade, não recuperação.</p></article>
+              <article><h3>O buraco aparece na prova</h3><p class="copy">Você só descobre o que não sabe quando a questão cobra.</p></article>
+              <article><h3>O volume vira desculpa</h3><p class="copy">Sem data de retorno, a matéria de ontem perde a vez para a de hoje.</p></article>
+            </div>
+          </div>
+        </div></section>
+
+        <section class="section" id="virada"><div class="wrap">
+          <p class="eyebrow">A VIRADA</p>
+          <h2>Em 3 minutos o “eu já vi” vira uma pergunta que você puxa sem olhar.</h2>
+          <p class="copy">O problema não é estudar pouco. É estudar uma vez e nunca testar. Revisão certa é pergunta + intervalo + correção — não mais uma leitura.</p>
+          <p class="senta-effect">Feche o caderno. Responda. Marque 1, 3 ou 7 dias. O erro vira a próxima pergunta.</p>
+        </div></section>
+
+        <section class="section"><div class="wrap">
+          <p class="eyebrow">MÉTODO</p>
+          <h2>Pergunta, sem olhar, intervalo: a matéria volta antes de evaporar.</h2>
+          <p class="copy">Três movimentos. O PDF ensina por que a releitura engana. O app cobra a matéria hoje e marca a próxima prova dela.</p>
+          <div class="senta-steps" style="margin-top:1.4rem">
+            <article class="senta-step"><h3>Pergunta</h3><p>O estudo de hoje vira uma questão que você mesmo formula.</p></article>
+            <article class="senta-step"><h3>Sem olhar</h3><p>Você tenta recuperar. Familiaridade não conta.</p></article>
+            <article class="senta-step"><h3>Intervalo</h3><p>1, 3 ou 7 dias. A matéria volta antes de evaporar.</p></article>
+          </div>
+        </div></section>
+
+        <section class="section light" id="app"><div class="wrap">
+          <p class="eyebrow">O APP · PRÓXIMA REVISÃO</p>
+          <h2>Três movimentos. O caderno fecha. A matéria não.</h2>
+          <div class="senta-app" style="margin-top:2rem">
+            <div class="senta-copy"><p class="eyebrow">NO APP · CAPTURAR</p><h3>Em 3 minutos o estudo de hoje vira uma pergunta.</h3><p>Você escreve a matéria e o que estudou. O app devolve uma cobrança — não um resumo.</p><p class="senta-effect">O caderno grosso colapsa em um cartão.</p>
+              <div class="senta-box"><p><b>Situação.</b> A sessão acabou. Você ia grifar de novo “só para garantir”.</p><p><b>Faça.</b> Abra o app. Escreva a matéria e o que entendeu.</p><p><b>Resultado.</b> Sai uma pergunta. O caderno pode fechar.</p></div>
+              <div class="hero-actions">${cta('Quero o app agora')}</div></div>
+            <div class="senta-mock"><img src="${A}/miniapp/montar.webp" alt="Celular com o app gerando uma pergunta a partir do estudo de hoje"></div>
+          </div>
+          <div class="senta-app reverse" style="margin-top:2.4rem">
+            <div class="senta-copy"><p class="eyebrow">NO APP · TESTAR</p><h3>Em 2 minutos você descobre o buraco — ainda dá tempo de corrigir.</h3><p>Responda sem olhar. Familiaridade não conta. O branco sai barato.</p><p class="senta-effect">A pergunta está na tela. O caderno, fechado.</p>
+              <div class="senta-box"><p><b>Situação.</b> Você acha que sabe controle de constitucionalidade.</p><p><b>Faça.</b> Feche o material. Responda no app.</p><p><b>Resultado.</b> Se vier, marca 7 dias. Se falhar, marca amanhã. Sem drama.</p></div>
+              <div class="hero-actions">${cta('Quero o app agora')}</div></div>
+            <div class="senta-mock"><img src="${A}/miniapp/sessao.webp" alt="Celular com o cartão de pergunta e o botão responder sem olhar"></div>
+          </div>
+          <div class="senta-app" style="margin-top:2.4rem">
+            <div class="senta-copy"><p class="eyebrow">NO APP · AGENDAR</p><h3>Em um toque a matéria volta em 1, 3 ou 7 dias — o caderno continua fechado.</h3><p>1, 3 ou 7 dias. Encerrar não é fechar o app. É deixar o retorno visível.</p><p class="senta-effect">Um bilhete sai da tela: “próxima prova da matéria”.</p>
+              <div class="senta-box"><p><b>Situação.</b> Você acertou pela metade. Não quer reler o capítulo.</p><p><b>Faça.</b> Escolha 3 dias. Saia da sessão.</p><p><b>Resultado.</b> Quinta a pergunta volta. O caderno continua fechado.</p></div>
+              <div class="hero-actions">${cta('Quero o app agora')}</div></div>
+            <div class="senta-mock"><img src="${A}/miniapp/retomada.webp" alt="Celular com os intervalos 1, 3 e 7 dias e o recado da próxima revisão"></div>
+          </div>
+        </div></section>
+
+        <section class="section light" id="conteudo"><div class="wrap">
+          <p class="eyebrow">POR DENTRO DO PDF</p>
+          <h2>Do estudo de hoje à próxima prova da matéria — sem reler o caderno inteiro.</h2>
+          <div class="senta-pdfs" style="margin-top:1.3rem">
+            <article class="senta-pdf"><small>DIAGNÓSTICO</small><h3>Por que você esquece</h3><p class="copy">Familiaridade não é memória. Reler treina reconhecimento, não recuperação.</p></article>
+            <article class="senta-pdf"><small>MÉTODO</small><h3>Pergunta antes da página</h3><p class="copy">Toda sessão termina com uma questão que você mesmo formula.</p></article>
+            <article class="senta-pdf"><small>INTERVALO</small><h3>1, 3 e 7 dias</h3><p class="copy">A matéria volta num ponto em que ainda dá para salvar — não depois da prova.</p></article>
+            <article class="senta-pdf"><small>ERRO</small><h3>O buraco vira cartão</h3><p class="copy">O que você errou hoje é a pergunta de amanhã. Não o capítulo inteiro.</p></article>
+          </div>
+        </div></section>
+        <section class="section"><div class="wrap">
+          <p class="eyebrow">O QUE MUDA NA PRÁTICA</p>
+          <h2>O estudo de hoje vira pergunta. O retorno já tem data.</h2>
+          <div class="senta-bens" style="margin-top:1.3rem">
+            <article class="senta-ben"><h3>O estudo de hoje vira uma pergunta em 3 minutos</h3><p class="copy">Você encerra a sessão formulando a cobrança. O caderno fecha. A matéria não.</p></article>
+            <article class="senta-ben"><h3>Você descobre o buraco agora, não na prova</h3><p class="copy">Responder sem olhar é o teste barato. O branco deixa de ser surpresa.</p></article>
+            <article class="senta-ben"><h3>A matéria volta em 1, 3 ou 7 dias</h3><p class="copy">Intervalo simples, escolhido no acerto. Sem app de flashcard complicado.</p></article>
+            <article class="senta-ben"><h3>O erro vira a próxima cobrança</h3><p class="copy">O que falhou não some no resumo. Volta amanhã, em uma pergunta só.</p></article>
+          </div>
+        </div></section>
+
+        <section class="section" id="antes"><div class="wrap senta-grid">
+          <article class="senta-ben" style="background:#0F172A;color:#fff"><p class="eyebrow" style="color:#E2571C">ANTES</p><h3>Caderno grifado. Zero pergunta. Branco na questão.</h3><p class="copy">Reler o capítulo “só para garantir”. Nenhuma data de retorno. O erro some no meio do resumo.</p></article>
+          <article class="senta-ben"><p class="eyebrow">DEPOIS</p><h3>Uma pergunta. Sem olhar. Próxima data escrita.</h3><p class="copy">O estudo de hoje vira um cartão. Intervalo de 1, 3 ou 7 dias. O erro entra na próxima cobrança.</p></article>
+        </div></section>
+        <section class="section"><div class="wrap">
+          <p class="eyebrow">PROVA</p>
+          <h2>Três matérias. Três retornos. Nenhuma releitura inteira.</h2>
+          <div class="senta-faces" style="margin-top:1.4rem">
+            <blockquote class="senta-quote"><img src="${A}/faces/marcos.webp" alt="Marcos T."><p>“Antes: reler o capítulo. Ação: uma pergunta. Resultado: a matéria voltou na quinta.”</p><footer>Marcos T. · Concurso · João Pessoa</footer></blockquote>
+            <blockquote class="senta-quote"><img src="${A}/faces/diego.webp" alt="Diego P."><p>“Antes: grifo. Ação: pergunta + 1 dia. Resultado: recuperei sem reler o artigo.”</p><footer>Diego P. · Faculdade · Uberlândia</footer></blockquote>
+            <blockquote class="senta-quote"><img src="${A}/faces/bia.webp" alt="Bia N."><p>“Antes: teoria de novo. Ação: uma pergunta, 7 dias. Resultado: revisão curta que cobra.”</p><footer>Bia N. · ENEM · Niterói</footer></blockquote>
+          </div>
+        </div></section>
+
+        <section class="section light"><div class="wrap senta-grid">
+          <div><p class="eyebrow">PARA QUEM É</p><h2>Se você estuda e esquece, a matéria ganha a próxima prova hoje.</h2><p class="copy">Quem relê e mesmo assim esquece. Quem confunde grifar com revisão. Quem só descobre o buraco na hora da questão.</p></div>
+          <div><p class="eyebrow">PARA QUEM NÃO É</p><h2>Não é curso, não promete aprovação, não substitui professor.</h2><p class="copy">Não promete memória permanente, nota ou classificação. Não é resumo para reler na véspera. Não substitui professor.</p></div>
+        </div></section>
+        <section class="senta-offer" id="oferta"><div class="wrap senta-grid">
+          <div>
+            <p class="eyebrow" style="color:#E2571C">OFERTA IMPERDÍVEL</p>
+            <h2>Hoje o estudo ganha uma pergunta e uma data — não mais uma releitura.</h2>
+            <p class="copy">R$ 37,90 por tempo limitado. O acesso é digital: você abre o app, gera a pergunta do estudo de hoje e marca o retorno.</p>
+            <div class="senta-stack">
+              <div><span>Guia Estude Uma Vez, Revise Certo</span><span>PDF · 14 páginas</span></div>
+              <div><span>App Próxima Revisão</span><span>No celular e no computador</span></div>
+              <div><span>Cartão + régua 1-3-7</span><span>Próxima cobrança marcada</span></div>
+            </div>
+            <p class="senta-price"><span class="senta-old">R$ 127</span> R$ 37,90</p>
+            <p class="offer-visit">Por tempo limitado · <span class="offer-bar-clock" data-clock>20:00</span></p>
+            ${cta('Quero revisar certo')}
+            <p class="copy" style="margin-top:1rem">7 dias para desistir, nos termos do art. 49 do CDC. Sem promessa de aprovação.</p>
+          </div>
+          <div>
+            <img src="${A}/cover.webp" alt="Capa do guia Estude Uma Vez, Revise Certo" style="width:100%;border-radius:16px">
+          </div>
+        </div></section>
+
+        <section class="section"><div class="wrap" style="max-width:720px">
+          <p class="eyebrow">GARANTIA</p>
+          <h2>7 dias para desistir. O risco fica com a gente.</h2>
+          <p class="copy">Art. 49 do CDC. Se o material não servir, peça o reembolso pelo e-mail de suporte informando a compra.</p>
+        </div></section>
+        ${upsellSection('estude-uma-vez-revise-certo')}
+        <section class="section senta-faq"><div class="wrap">
+          <p class="eyebrow">FAQ</p>
+          <h2>O que você recebe, o app incluso e a garantia de 7 dias.</h2>
+          <div class="faq-list" style="margin-top:1.2rem">
+            <details open><summary>O que eu recebo agora?</summary><p>O guia em PDF e o app Próxima Revisão. Por que a releitura engana, como formular a pergunta, a régua 1-3-7, o caderno de erros útil e o ciclo de sete dias.</p></details>
+            <details><summary>O app já está incluso?</summary><p>Sim. O Próxima Revisão faz parte da oferta: um app simples, no celular e no computador, sem loja e sem instalação. Você captura o estudo, testa sem olhar e agenda o retorno.</p></details>
+            <details><summary>Qual é a garantia?</summary><p>Você tem 7 dias para desistir, com base no art. 49 do CDC. Peça o reembolso pelo e-mail de suporte informando a compra.</p></details>
+            <details><summary>Isso promete que eu nunca mais vou esquecer?</summary><p>Não. É conteúdo educacional. Não promete memória permanente, aprovação, nota nem classificação. Promete um jeito de cobrar o que você estudou hoje.</p></details>
+            <details><summary>Como falo com o suporte?</summary><p>E-mail oficial: suporte@toppapps.online. Informe o nome do produto e a URL acessada.</p></details>
+          </div>
+        </div></section>
+        <section class="section" style="text-align:center;padding-bottom:4rem">${cta('Quero revisar certo')}</section>
+      </main>${footer()}`;
+    }
+    function revisaoAppPage() {
+      document.title = 'Próxima Revisão | Estude Uma Vez, Revise Certo';
+      const pay = 'https://pay.kiwify.com.br/jY4maqm';
+      return `${header()}<main id="main-content"><section class="center-route"><div class="wrap"><div class="center-card"><p class="eyebrow">APP · PRÓXIMA REVISÃO</p><h1>Próxima Revisão</h1><p>O estudo de hoje vira uma pergunta. Você responde sem olhar e marca 1, 3 ou 7 dias. Para usar agora, confirme o acesso no checkout.</p><div class="actions"><a class="button" href="${pay}" rel="noopener">Quero o app agora</a><a class="button secondary" href="/p/estude-uma-vez-revise-certo">Voltar à oferta</a></div></div></div></section></main>${footer()}`;
+    }
+    function revisaoThanksPage() {
+      document.title = 'Acesso | Estude Uma Vez, Revise Certo';
+      return `${header()}<main id="main-content"><section class="center-route"><div class="wrap"><div class="center-card"><p class="eyebrow">ACESSO LIBERADO</p><h1>Feche o caderno. A matéria já tem data.</h1><p>O PDF está no e-mail da compra, na área de membros. O app Próxima Revisão abre nesta loja.</p><div class="actions"><a class="button" href="/app/proxima-revisao">Abrir o app</a><a class="button secondary" href="mailto:suporte@toppapps.online">Falar com o suporte</a></div></div></div></section></main>${footer()}`;
+    }
+
     function productPage(product) {
       const live = product.status === 'live';
       document.title = `${product.title} | ${CATEGORY.short}`;
@@ -592,8 +774,11 @@
       else if (pathParts[0] === 'categoria' && pathParts[1] && CATEGORY.collections.some(([slug]) => slug === pathParts[1])) output = hub(pathParts[1]);
       else if (pathParts[0] === 'p' && pathParts[1] === 'senta-e-estuda' && findProduct(pathParts[1])) output = sentaSalesPage(findProduct(pathParts[1]));
       else if (pathParts[0] === 'p' && pathParts[1] === 'cronograma-que-funciona' && findProduct(pathParts[1])) output = cronogramaSalesPage(findProduct(pathParts[1]));
+      else if (pathParts[0] === 'p' && pathParts[1] === 'estude-uma-vez-revise-certo' && findProduct(pathParts[1])) output = revisaoSalesPage(findProduct(pathParts[1]));
       else if (pathParts[0] === 'app' && (pathParts[1] === 'plano-possivel' || pathParts[1] === 'cronograma-que-funciona')) output = cronogramaAppPage();
       else if (pathParts[0] === 'obrigado' && pathParts[1] === 'cronograma-que-funciona') output = cronogramaThanksPage();
+      else if (pathParts[0] === 'app' && (pathParts[1] === 'proxima-revisao' || pathParts[1] === 'estude-uma-vez-revise-certo')) output = revisaoAppPage();
+      else if (pathParts[0] === 'obrigado' && pathParts[1] === 'estude-uma-vez-revise-certo') output = revisaoThanksPage();
       else if (pathParts[0] === 'app' && (pathParts[1] === 'primeira-sessao' || pathParts[1] === 'senta-e-estuda')) output = sentaAppPage();
       else if (pathParts[0] === 'obrigado' && pathParts[1] === 'senta-e-estuda') output = sentaThanksPage();
       else if (pathParts[0] === 'p' && pathParts[1] && findProduct(pathParts[1])) output = productPage(findProduct(pathParts[1]));
