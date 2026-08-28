@@ -1,4 +1,4 @@
-    const CATEGORY = {"key":"educacao","short":"EDUCAÇÃO","label":"Estudos, concursos, ENEM e faculdade","host":"edu.toppapps.online","title":"Soluções para estudar com mais direção e menos improviso.","description":"Guias e ferramentas para organizar a semana, começar o estudo e revisar com critérios que cabem na rotina.","accent":"#5b4b8a","accent_soft":"#f2eff4","deep":"#1a1a22","hero_asset":"https://raw.githubusercontent.com/toppaplicativos/educacao-hub/main/public/product/hero-study.webp","hero_alt":"Ilustração editorial de educação com caderno, relógio e cartões de revisão","slides":[{"title":"Um plano possível vence a semana perfeita.","copy":"Escolha uma solução que respeite seu tempo, suas prioridades e os imprevistos.","image":"https://raw.githubusercontent.com/toppaplicativos/educacao-hub/main/public/product/hero-study.webp","alt":"Destaque editorial 1 de EDUCAÇÃO"},{"title":"Começar também é uma habilidade.","copy":"Reduza a fricção do primeiro bloco e transforme intenção em uma sessão real.","image":"https://raw.githubusercontent.com/toppaplicativos/educacao-hub/main/public/product/session-ready.webp","alt":"Destaque editorial 2 de EDUCAÇÃO"},{"title":"Revisar é voltar com critério.","copy":"Organize o retorno ao conteúdo para não depender de releituras aleatórias.","image":"https://raw.githubusercontent.com/toppaplicativos/educacao-hub/main/public/product/pain-desk.webp","alt":"Destaque editorial 3 de EDUCAÇÃO"}],"collections":[["planejamento","Planejar a semana","Para transformar matérias, prazos e tempo em um plano executável."],["inicio","Começar a estudar","Para reduzir a fricção e construir o primeiro bloco de estudo."],["revisao","Revisar melhor","Para voltar ao conteúdo com intervalos e perguntas mais claras."]],"products":[{"slug":"estude-uma-vez-revise-certo","title":"Estude Uma Vez, Revise Certo","subtitle":"Revisão que cobra, não que relê","description":"Feche o caderno — e a matéria volta sem reler o capítulo. Guia em PDF + app Próxima Revisão.","objective":"Revisar melhor","theme":"Revisão espaçada","audience":"Quem estuda e esquece na semana seguinte","format":"Guia digital + app","delivery":"Entrega digital","price":37.9,"status":"live","priority":0,"collection":"revisao","tags":["revisão","esquecer","pergunta","intervalo","1-3-7"],"featured":true,"cover":"https://cdn.jsdelivr.net/gh/toppaplicativos/educacao-hub@04de7fcc0793cd91af062c0a13ae811ccd818973/public/product/revisao/cover.webp","checkout":"https://pay.kiwify.com.br/jY4maqm"},{"slug":"cronograma-que-funciona","title":"Cronograma que Funciona","subtitle":"Plano de estudos possível","description":"Monte uma semana de estudos que respeita sua rotina, suas prioridades e os imprevistos do caminho.","objective":"Planejamento","theme":"Organização e produtividade","audience":"Estudantes, concurseiros e universitários","format":"Guia digital + aplicação","delivery":"Entrega digital","price":27.9,"status":"live","priority":1,"collection":"planejamento","tags":["cronograma","semana","estudos","planejamento","rotina"],"featured":true,"cover":"https://raw.githubusercontent.com/toppaplicativos/educacao-hub/main/public/assets/covers/cronograma-que-funciona.webp","checkout":"https://pay.kiwify.com.br/aMALUaX"},{"slug":"senta-e-estuda","title":"Senta e Estuda","subtitle":"Primeira sessão em 10 minutos","description":"Em 10 minutos você senta e começa — sem esperar vontade. Guia em PDF + app Primeira Sessão.","objective":"Começar a estudar","theme":"Início e foco","audience":"Quem adia o começo do estudo","format":"Guia digital + app","delivery":"Entrega digital","price":27.9,"status":"live","priority":2,"collection":"inicio","tags":["começar","foco","primeira sessão","estudar"],"featured":true,"cover":"https://raw.githubusercontent.com/toppaplicativos/educacao-hub/main/public/product/cover-navy.webp","checkout":"https://pay.kiwify.com.br/EDp7t2z"}],"faqs":[["A solução substitui uma escola ou professor?","Não. São materiais de organização e aplicação para apoiar sua rotina de estudos."],["O cronograma funciona para qualquer pessoa?","O material oferece critérios para adaptar a semana. A execução depende do tempo, objetivo e contexto de cada pessoa."],["Como uma oferta planejada aparece?","Ela fica no catálogo com estado de preparação e sem preço ou CTA de compra até que publicação, suporte e QA estejam confirmados."]]};
+    const CATEGORY = {"key":"educacao","short":"EDUCAÇÃO","label":"Estudos, concursos, ENEM e faculdade","host":"edu.toppapps.online","title":"Soluções para estudar com mais direção e menos improviso.","description":"Guias e ferramentas para organizar a semana, começar o estudo e revisar com critérios que cabem na rotina.","accent":"#5b4b8a","accent_soft":"#f2eff4","deep":"#1a1a22","hero_asset":"https://raw.githubusercontent.com/toppaplicativos/educacao-hub/main/public/product/hero-study.webp","hero_alt":"Ilustração editorial de educação com caderno, relógio e cartões de revisão","slides":[{"title":"Um plano possível vence a semana perfeita.","copy":"Escolha uma solução que respeite seu tempo, suas prioridades e os imprevistos.","image":"https://raw.githubusercontent.com/toppaplicativos/educacao-hub/main/public/product/hero-study.webp","alt":"Destaque editorial 1 de EDUCAÇÃO"},{"title":"Começar também é uma habilidade.","copy":"Reduza a fricção do primeiro bloco e transforme intenção em uma sessão real.","image":"https://raw.githubusercontent.com/toppaplicativos/educacao-hub/main/public/product/session-ready.webp","alt":"Destaque editorial 2 de EDUCAÇÃO"},{"title":"Revisar é voltar com critério.","copy":"Organize o retorno ao conteúdo para não depender de releituras aleatórias.","image":"https://raw.githubusercontent.com/toppaplicativos/educacao-hub/main/public/product/pain-desk.webp","alt":"Destaque editorial 3 de EDUCAÇÃO"}],"collections":[["planejamento","Planejar a semana","Para transformar matérias, prazos e tempo em um plano executável."],["inicio","Começar a estudar","Para reduzir a fricção e construir o primeiro bloco de estudo."],["revisao","Revisar melhor","Para voltar ao conteúdo com intervalos e perguntas mais claras."]],"products":[{"slug":"nunca-mais-esqueca-tudo","title":"Nunca Mais Esqueça Tudo","subtitle":"Fila do que vence hoje","description":"Em 5 minutos, só o que vence hoje está na mesa. O semestre fica fora. Guia em PDF + app Fila de Hoje.","objective":"Revisar melhor","theme":"Fila de revisão","audience":"Quem acumula matéria e não sabe o que revisar","format":"Guia digital + app","delivery":"Entrega digital","price":27.9,"status":"live","priority":0,"collection":"revisao","tags":["esquecer","fila","revisão","cartão","manhã"],"featured":true,"cover":"https://cdn.jsdelivr.net/gh/toppaplicativos/educacao-hub@9959f10ca8159531f15c3ceae3e74e0e7ed2a5e5/public/product/esqueca/cover.webp","checkout":"https://pay.kiwify.com.br/csMSLPJ"},{"slug":"estude-uma-vez-revise-certo","title":"Estude Uma Vez, Revise Certo","subtitle":"Revisão que cobra, não que relê","description":"Feche o caderno — e a matéria volta sem reler o capítulo. Guia em PDF + app Próxima Revisão.","objective":"Revisar melhor","theme":"Revisão espaçada","audience":"Quem estuda e esquece na semana seguinte","format":"Guia digital + app","delivery":"Entrega digital","price":37.9,"status":"live","priority":0,"collection":"revisao","tags":["revisão","esquecer","pergunta","intervalo","1-3-7"],"featured":true,"cover":"https://cdn.jsdelivr.net/gh/toppaplicativos/educacao-hub@04de7fcc0793cd91af062c0a13ae811ccd818973/public/product/revisao/cover.webp","checkout":"https://pay.kiwify.com.br/jY4maqm"},{"slug":"cronograma-que-funciona","title":"Cronograma que Funciona","subtitle":"Plano de estudos possível","description":"Monte uma semana de estudos que respeita sua rotina, suas prioridades e os imprevistos do caminho.","objective":"Planejamento","theme":"Organização e produtividade","audience":"Estudantes, concurseiros e universitários","format":"Guia digital + aplicação","delivery":"Entrega digital","price":27.9,"status":"live","priority":1,"collection":"planejamento","tags":["cronograma","semana","estudos","planejamento","rotina"],"featured":true,"cover":"https://raw.githubusercontent.com/toppaplicativos/educacao-hub/main/public/assets/covers/cronograma-que-funciona.webp","checkout":"https://pay.kiwify.com.br/aMALUaX"},{"slug":"senta-e-estuda","title":"Senta e Estuda","subtitle":"Primeira sessão em 10 minutos","description":"Em 10 minutos você senta e começa — sem esperar vontade. Guia em PDF + app Primeira Sessão.","objective":"Começar a estudar","theme":"Início e foco","audience":"Quem adia o começo do estudo","format":"Guia digital + app","delivery":"Entrega digital","price":27.9,"status":"live","priority":2,"collection":"inicio","tags":["começar","foco","primeira sessão","estudar"],"featured":true,"cover":"https://raw.githubusercontent.com/toppaplicativos/educacao-hub/main/public/product/cover-navy.webp","checkout":"https://pay.kiwify.com.br/EDp7t2z"}],"faqs":[["A solução substitui uma escola ou professor?","Não. São materiais de organização e aplicação para apoiar sua rotina de estudos."],["O cronograma funciona para qualquer pessoa?","O material oferece critérios para adaptar a semana. A execução depende do tempo, objetivo e contexto de cada pessoa."],["Como uma oferta planejada aparece?","Ela fica no catálogo com estado de preparação e sem preço ou CTA de compra até que publicação, suporte e QA estejam confirmados."]]};
     const SUPPORT_EMAIL = 'suporte@toppapps.online';
     const HUB_ASSETS = 'https://cdn.jsdelivr.net/gh/toppaplicativos/educacao-hub@2fe1b01479d48d4ebc805822d4c857780aa8d64b/public/product';
     let pathParts = [];
@@ -139,6 +139,11 @@
           title: 'A semana montada não senta por você.',
           body: 'O plano cabe nas horas. O primeiro minuto ainda trava. Em 10 minutos o Senta e Estuda coloca a questão 1 no papel — e amanhã já tem a próxima entrada escrita.',
         },
+        'nunca-mais-esqueca-tudo': {
+          kicker: 'JUNTO COM A FILA',
+          title: 'Lembrar pede um começo hoje e uma semana que não recomeça.',
+          body: 'A matéria antiga só volta se houver sessão e plano. Em 10 minutos a questão 1 está no papel. Em 15 a semana cabe nas horas reais.',
+        },
         'estude-uma-vez-revise-certo': {
           kicker: 'JUNTO COM A REVISÃO',
           title: 'Revisar não cria a sessão nem a semana.',
@@ -161,6 +166,12 @@
           title: 'Em 15 minutos a semana cabe nas horas que existem — e a terça não a apaga.',
           body: 'O app Plano Possível transforma suas horas reais em blocos de 50 minutos — com 20% de folga e a revisão já marcada.',
           cta: 'Montar meu plano possível',
+        },
+        'nunca-mais-esqueca-tudo': {
+          kicker: 'PARA QUEM ACUMULA MATÉRIA E NÃO SABE O QUE REVISAR',
+          title: 'Em 5 minutos, só o que vence hoje está na mesa. O semestre fica fora.',
+          body: 'O app Fila de Hoje separa o vencido, cobra em dois botões e recoloca no calendário. Sem prometer memória permanente.',
+          cta: 'Quero a fila de hoje',
         },
         'estude-uma-vez-revise-certo': {
           kicker: 'PARA QUEM ESTUDA E ESQUECE NA SEMANA SEGUINTE',
@@ -744,6 +755,176 @@
       return `${header()}<main id="main-content"><section class="center-route"><div class="wrap"><div class="center-card"><p class="eyebrow">ACESSO LIBERADO</p><h1>Feche o caderno. A matéria já tem data.</h1><p>O PDF está no e-mail da compra, na área de membros. O app Próxima Revisão abre nesta loja.</p><div class="actions"><a class="button" href="/app/proxima-revisao">Abrir o app</a><a class="button secondary" href="mailto:suporte@toppapps.online">Falar com o suporte</a></div></div></div></section></main>${footer()}`;
     }
 
+    function esquecaSalesPage(product) {
+      document.title = 'Nunca Mais Esqueça Tudo | Educação Toppapps';
+      const pay = 'https://pay.kiwify.com.br/csMSLPJ';
+      const cta = (label) => `<a class="button senta-cta" href="${pay}" rel="noopener">${label}</a>`;
+      const A = 'https://cdn.jsdelivr.net/gh/toppaplicativos/educacao-hub@9959f10ca8159531f15c3ceae3e74e0e7ed2a5e5/public/product/esqueca';
+      return `<style>${salesCss()}</style>
+      <div class="offer-bar" data-offer-timer data-offer-slug="nunca-mais-esqueca-tudo"><span class="offer-bar-kicker">OFERTA IMPERDÍVEL</span><span>Por tempo limitado</span><span>De R$ 97 por R$ 27,90</span><span>Termina em <span class="offer-bar-clock" data-clock>20:00</span></span>${cta('Quero agora')}</div>
+      ${header()}
+      <main id="main-content">
+        <section class="hero"><div class="wrap senta-grid senta-hero">
+          <div class="hero-copy">
+            <p class="eyebrow">PARA QUEM ACUMULA MATÉRIA E NÃO SABE O QUE REVISAR</p>
+            <h1>Em 5 minutos, só o que vence hoje está na mesa. O semestre fica fora.</h1>
+            <div class="hero-actions">${cta('Quero a fila de hoje')}<a class="button secondary" href="${pay}" rel="noopener">Ver o app em 3 funções</a></div>
+            <p class="hero-note">Acesso na hora · fila em 5 min · 7 dias para desistir</p>
+            <p class="hero-lede">O acúmulo não se resolve relendo o semestre. O app Fila de Hoje separa o que vence hoje, cobra em cartões curtos e recoloca o resto no calendário — sem prometer memória permanente.</p>
+            <div class="senta-proof"><span>Fila de hoje em 5 min</span><span>R$ 27,90</span><span>PDF 14 páginas + app</span><span>Garantia 7 dias</span></div>
+            <blockquote class="senta-quote" style="margin-top:1.2rem;overflow:auto">
+              <img src="${A}/faces/paulo.webp" alt="Paulo R." width="88" height="88">
+              <p>“Antes: 14 PDFs. Ação: fila de 6. Resultado: a manhã coube.”</p>
+              <footer>Paulo R. · Concurso + trabalho · Teresina</footer>
+            </blockquote>
+          </div>
+          <div class="hero-visual"><img src="${A}/hero.webp" alt="Manhã simples: café e uma lista curta do que revisar hoje" width="1600" height="900"></div>
+        </div></section>
+
+        <section class="senta-dark" id="dor"><div class="wrap senta-grid" style="padding:4rem 0">
+          <img src="${A}/pain.webp" alt="Adulto diante de cadernos acumulados, sem saber o que revisar" width="1600" height="900" style="width:100%;border-radius:16px;object-fit:cover;height:320px">
+          <div>
+            <p class="eyebrow" style="color:#E2571C">TALVEZ VOCÊ RECONHEÇA</p>
+            <h2>O que você estudou em março está apagando. E você não sabe por onde voltar.</h2>
+            <p class="copy">A matéria nova empurra a antiga. Revisar “tudo” não cabe. Revisar nada também. O esquecimento não é um dia ruim — é fila sem dono.</p>
+            <div style="margin-top:1.2rem;display:grid;gap:.9rem">
+              <article><h3>O acúmulo vira névoa</h3><p class="copy">Sem data de vencimento, tudo parece urgente e nada entra na mesa.</p></article>
+              <article><h3>Reler o semestre não cabe</h3><p class="copy">A manhã tem 15 minutos. O PDF tem 400 páginas.</p></article>
+              <article><h3>O nome assusta, o método não promete milagre</h3><p class="copy">Ninguém segura 100% da matéria. Dá para não perder o que vence hoje.</p></article>
+            </div>
+          </div>
+        </div></section>
+
+        <section class="section" id="virada"><div class="wrap">
+          <p class="eyebrow">A VIRADA</p>
+          <h2>Do monte atrasado à fila de 5 minutos: só o que vence hoje.</h2>
+          <p class="copy">O problema não é memória fraca. É ausência de vencimento. O que não tem data não volta. O que tem data cabe na manhã.</p>
+          <p class="senta-effect">Separe o que vence hoje. Cobre. Recoloque o resto. O semestre não entra na mesa.</p>
+        </div></section>
+
+        <section class="section"><div class="wrap">
+          <p class="eyebrow">MÉTODO</p>
+          <h2>Separar, cobrar, recolocar: a fila da manhã zera em 5 minutos.</h2>
+          <p class="copy">Três movimentos. O PDF ensina por que o acúmulo ganha. O app mostra só o que vence hoje e devolve o resto ao calendário.</p>
+          <div class="senta-steps" style="margin-top:1.4rem">
+            <article class="senta-step"><h3>Separar</h3><p>O calendário escolhe. O semestre fica fora da mesa.</p></article>
+            <article class="senta-step"><h3>Cobrar</h3><p>Cartão curto. Sem reler o capítulo. Dois botões: lembrei ou esqueci.</p></article>
+            <article class="senta-step"><h3>Recolocar</h3><p>Acerto alonga. Erro encurta. A fila de amanhã já nasceu.</p></article>
+          </div>
+        </div></section>
+
+        <section class="section light" id="app"><div class="wrap">
+          <p class="eyebrow">O APP · FILA DE HOJE</p>
+          <h2>Três movimentos. Só o vencido. O semestre fica fora.</h2>
+          <div class="senta-app" style="margin-top:2rem">
+            <div class="senta-copy"><p class="eyebrow">NO APP · SEPARAR</p><h3>Em segundos, o semestre sai da mesa. Fica o que vence hoje.</h3><p>Você abre o app. A fila mostra só o vencido. O arquivo inteiro permanece fechado.</p><p class="senta-effect">O monte de matérias colapsa em 6 cartões.</p>
+              <div class="senta-box"><p><b>Situação.</b> Manhã. Você ia abrir o PDF de março “só um pouco”.</p><p><b>Faça.</b> Abra o app. Veja só o que vence hoje.</p><p><b>Resultado.</b> Uma fila curta. O semestre não entra.</p></div>
+              <div class="hero-actions">${cta('Quero o app agora')}</div></div>
+            <div class="senta-mock"><img src="${A}/miniapp/montar.webp" alt="Celular com o app reduzindo o acúmulo à fila do dia"></div>
+          </div>
+          <div class="senta-app reverse" style="margin-top:2.4rem">
+            <div class="senta-copy"><p class="eyebrow">NO APP · COBRAR</p><h3>Dois botões. Sem reler o capítulo.</h3><p>Lembrei ou esqueci. O cartão leva 20 segundos. A manhã leva 5 minutos.</p><p class="senta-effect">Contador 3 de 6. A fila anda.</p>
+              <div class="senta-box"><p><b>Situação.</b> Café na mesa. 6 cartões. Expediente em 10 minutos.</p><p><b>Faça.</b> Cobre. Aperte lembrei ou esqueci.</p><p><b>Resultado.</b> A fila zera antes do trabalho. O PDF de março continua fechado.</p></div>
+              <div class="hero-actions">${cta('Quero o app agora')}</div></div>
+            <div class="senta-mock"><img src="${A}/miniapp/sessao.webp" alt="Celular com o cartão do dia e os botões lembrei e esqueci"></div>
+          </div>
+          <div class="senta-app" style="margin-top:2.4rem">
+            <div class="senta-copy"><p class="eyebrow">NO APP · RECOLOCAR</p><h3>O cartão só descansa com a próxima data.</h3><p>Acerto alonga. Erro volta amanhã. Encerrar é devolver ao calendário — não “depois eu vejo”.</p><p class="senta-effect">Um bilhete sai da tela: “volta na quinta”.</p>
+              <div class="senta-box"><p><b>Situação.</b> Você lembrou pela metade. Não quer o capítulo inteiro.</p><p><b>Faça.</b> Esqueci → amanhã. Ou 7 dias se veio limpo.</p><p><b>Resultado.</b> A fila de amanhã já tem dono. A de hoje acabou.</p></div>
+              <div class="hero-actions">${cta('Quero o app agora')}</div></div>
+            <div class="senta-mock"><img src="${A}/miniapp/retomada.webp" alt="Celular recolocando o cartão no calendário"></div>
+          </div>
+        </div></section>
+
+        <section class="section light" id="conteudo"><div class="wrap">
+          <p class="eyebrow">POR DENTRO DO PDF</p>
+          <h2>Do acúmulo invisível à fila visível — o que vence hoje, nada mais.</h2>
+          <div class="senta-pdfs" style="margin-top:1.3rem">
+            <article class="senta-pdf"><small>DIAGNÓSTICO</small><h3>Por que o acúmulo ganha</h3><p class="copy">Sem vencimento, revisar vira ‘quando der’. Quando der, não dá.</p></article>
+            <article class="senta-pdf"><small>SISTEMA</small><h3>A fila, não o arquivo</h3><p class="copy">O que importa é o que vence hoje. O arquivo inteiro fica fora da mesa.</p></article>
+            <article class="senta-pdf"><small>COBRANÇA</small><h3>Lembrei / esqueci</h3><p class="copy">Dois botões. Sem nota, sem drama. O intervalo se ajusta sozinho.</p></article>
+            <article class="senta-pdf"><small>MANHÃ</small><h3>Cinco minutos</h3><p class="copy">Uma fila curta cabe no café. O semestre, não.</p></article>
+          </div>
+        </div></section>
+        <section class="section"><div class="wrap">
+          <p class="eyebrow">O QUE MUDA NA PRÁTICA</p>
+          <h2>5 minutos, só o vencido. O semestre não entra na mesa.</h2>
+          <div class="senta-bens" style="margin-top:1.3rem">
+            <article class="senta-ben"><h3>A manhã vê só o que vence hoje</h3><p class="copy">O semestre fica no arquivo. A mesa recebe uma fila curta.</p></article>
+            <article class="senta-ben"><h3>Cinco minutos cabem no café</h3><p class="copy">Cartões, dois botões, próximo. Sem abrir o PDF de março.</p></article>
+            <article class="senta-ben"><h3>O erro volta amanhã, não some</h3><p class="copy">Esqueci encurta. Lembrei alonga. O calendário carrega a decisão.</p></article>
+            <article class="senta-ben"><h3>A fila doente aparece no número</h3><p class="copy">Passou de 12, o teto corta. Você vê o acúmulo — em vez de fingir que vai reler o semestre.</p></article>
+          </div>
+        </div></section>
+
+        <section class="section" id="antes"><div class="wrap senta-grid">
+          <article class="senta-ben" style="background:#0F172A;color:#fff"><p class="eyebrow" style="color:#E2571C">ANTES</p><h3>Cadernos empilhados. Zero vencimento. Nada entra na mesa.</h3><p class="copy">Revisar “tudo no domingo”. Matéria de março sem data de volta. A manhã começa no capítulo novo.</p></article>
+          <article class="senta-ben"><p class="eyebrow">DEPOIS</p><h3>Seis cartões. Lembrei ou esqueci. O resto no calendário.</h3><p class="copy">Só o que vence hoje. Cinco minutos, não o semestre. Erro volta amanhã. Acerto, na semana.</p></article>
+        </div></section>
+        <section class="section"><div class="wrap">
+          <p class="eyebrow">PROVA</p>
+          <h2>Três manhãs. Três filas. Nenhum semestre relido.</h2>
+          <div class="senta-faces" style="margin-top:1.4rem">
+            <blockquote class="senta-quote"><img src="${A}/faces/paulo.webp" alt="Paulo R."><p>“Antes: 14 PDFs. Ação: fila de 6. Resultado: a manhã coube.”</p><footer>Paulo R. · Concurso + trabalho · Teresina</footer></blockquote>
+            <blockquote class="senta-quote"><img src="${A}/faces/helena.webp" alt="Helena C."><p>“Antes: semestre apagando. Ação: vencido do dia. Resultado: fatias, não o livro.”</p><footer>Helena C. · Faculdade · Caxias do Sul</footer></blockquote>
+            <blockquote class="senta-quote"><img src="${A}/faces/igor.webp" alt="Igor M."><p>“Antes: 300 cards. Ação: teto de 12. Resultado: a fila acabou.”</p><footer>Igor M. · ENEM · Maceió</footer></blockquote>
+          </div>
+        </div></section>
+
+        <section class="section light"><div class="wrap senta-grid">
+          <div><p class="eyebrow">PARA QUEM É</p><h2>Se a matéria antiga some, a fila de hoje devolve o que vence.</h2><p class="copy">Quem acumula matéria antiga enquanto a nova chega. Quem não sabe o que revisar hoje e por isso não revisa. Quem tem 5 a 15 minutos de manhã e precisa de uma fila, não de um arquivo.</p></div>
+          <div><p class="eyebrow">PARA QUEM NÃO É</p><h2>Não promete memória permanente, aprovação, nem substitui professor.</h2><p class="copy">Não é curso. Não é garantia de nota. Não substitui avaliação clínica de memória. O nome descreve o desejo. O contrato é a fila do que vence hoje.</p></div>
+        </div></section>
+        <section class="senta-offer" id="oferta"><div class="wrap senta-grid">
+          <div>
+            <p class="eyebrow" style="color:#E2571C">OFERTA IMPERDÍVEL</p>
+            <h2>Hoje o monte atrasado vira uma fila de 5 minutos.</h2>
+            <p class="copy">R$ 27,90 por tempo limitado. O acesso é digital: você abre o app e vê só o que vence hoje.</p>
+            <div class="senta-stack">
+              <div><span>Guia Nunca Mais Esqueça Tudo</span><span>PDF · 14 páginas</span></div>
+              <div><span>App Fila de Hoje</span><span>No celular e no computador</span></div>
+              <div><span>Filtro + teto</span><span>Só o vencido, no máximo 12</span></div>
+            </div>
+            <p class="senta-price"><span class="senta-old">R$ 97</span> R$ 27,90</p>
+            <p class="offer-visit">Por tempo limitado · <span class="offer-bar-clock" data-clock>20:00</span></p>
+            ${cta('Quero a fila de hoje')}
+            <p class="copy" style="margin-top:1rem">7 dias para desistir, nos termos do art. 49 do CDC. Sem promessa de memória permanente.</p>
+          </div>
+          <div>
+            <img src="${A}/cover.webp" alt="Capa do guia Nunca Mais Esqueça Tudo" style="width:100%;border-radius:16px">
+          </div>
+        </div></section>
+
+        <section class="section"><div class="wrap" style="max-width:720px">
+          <p class="eyebrow">GARANTIA</p>
+          <h2>7 dias para desistir. O risco fica com a gente.</h2>
+          <p class="copy">Art. 49 do CDC. Se o material não servir, peça o reembolso pelo e-mail de suporte informando a compra.</p>
+        </div></section>
+        ${upsellSection('nunca-mais-esqueca-tudo')}
+        <section class="section senta-faq"><div class="wrap">
+          <p class="eyebrow">FAQ</p>
+          <h2>O que você recebe, o app incluso e a garantia de 7 dias.</h2>
+          <div class="faq-list" style="margin-top:1.2rem">
+            <details open><summary>O que eu recebo agora?</summary><p>O guia em PDF e o app Fila de Hoje. Por que o acúmulo ganha, fila versus arquivo, teto da manhã, dois botões e o ciclo de sete manhãs.</p></details>
+            <details><summary>O app já está incluso?</summary><p>Sim. O Fila de Hoje faz parte da oferta: um app simples, no celular e no computador, sem loja e sem instalação. Você vê o vencido, cobra e recoloca.</p></details>
+            <details><summary>Qual é a garantia?</summary><p>Você tem 7 dias para desistir, com base no art. 49 do CDC. Peça o reembolso pelo e-mail de suporte informando a compra.</p></details>
+            <details><summary>Isso promete que eu nunca mais vou esquecer?</summary><p>Não. É conteúdo educacional. Não promete memória permanente, aprovação, nota nem classificação. Promete uma fila do que vence hoje.</p></details>
+            <details><summary>Como falo com o suporte?</summary><p>E-mail oficial: suporte@toppapps.online. Informe o nome do produto e a URL acessada.</p></details>
+          </div>
+        </div></section>
+        <section class="section" style="text-align:center;padding-bottom:4rem">${cta('Quero a fila de hoje')}</section>
+      </main>${footer()}`;
+    }
+    function esquecaAppPage() {
+      document.title = 'Fila de Hoje | Nunca Mais Esqueça Tudo';
+      const pay = 'https://pay.kiwify.com.br/csMSLPJ';
+      return `${header()}<main id="main-content"><section class="center-route"><div class="wrap"><div class="center-card"><p class="eyebrow">APP · FILA DE HOJE</p><h1>Fila de Hoje</h1><p>Só o que vence hoje entra na mesa. Você cobra em dois botões e recoloca o resto no calendário. Para usar agora, confirme o acesso no checkout.</p><div class="actions"><a class="button" href="${pay}" rel="noopener">Quero o app agora</a><a class="button secondary" href="/p/nunca-mais-esqueca-tudo">Voltar à oferta</a></div></div></div></section></main>${footer()}`;
+    }
+    function esquecaThanksPage() {
+      document.title = 'Acesso | Nunca Mais Esqueça Tudo';
+      return `${header()}<main id="main-content"><section class="center-route"><div class="wrap"><div class="center-card"><p class="eyebrow">ACESSO LIBERADO</p><h1>A fila de hoje já está na mesa.</h1><p>O PDF está no e-mail da compra, na área de membros. O app Fila de Hoje abre nesta loja.</p><div class="actions"><a class="button" href="/app/fila-de-hoje">Abrir o app</a><a class="button secondary" href="mailto:suporte@toppapps.online">Falar com o suporte</a></div></div></div></section></main>${footer()}`;
+    }
+
     function productPage(product) {
       const live = product.status === 'live';
       document.title = `${product.title} | ${CATEGORY.short}`;
@@ -778,10 +959,13 @@
       else if (pathParts[0] === 'p' && pathParts[1] === 'senta-e-estuda' && findProduct(pathParts[1])) output = sentaSalesPage(findProduct(pathParts[1]));
       else if (pathParts[0] === 'p' && pathParts[1] === 'cronograma-que-funciona' && findProduct(pathParts[1])) output = cronogramaSalesPage(findProduct(pathParts[1]));
       else if (pathParts[0] === 'p' && pathParts[1] === 'estude-uma-vez-revise-certo' && findProduct(pathParts[1])) output = revisaoSalesPage(findProduct(pathParts[1]));
+      else if (pathParts[0] === 'p' && pathParts[1] === 'nunca-mais-esqueca-tudo' && findProduct(pathParts[1])) output = esquecaSalesPage(findProduct(pathParts[1]));
       else if (pathParts[0] === 'app' && (pathParts[1] === 'plano-possivel' || pathParts[1] === 'cronograma-que-funciona')) output = cronogramaAppPage();
       else if (pathParts[0] === 'obrigado' && pathParts[1] === 'cronograma-que-funciona') output = cronogramaThanksPage();
       else if (pathParts[0] === 'app' && (pathParts[1] === 'proxima-revisao' || pathParts[1] === 'estude-uma-vez-revise-certo')) output = revisaoAppPage();
       else if (pathParts[0] === 'obrigado' && pathParts[1] === 'estude-uma-vez-revise-certo') output = revisaoThanksPage();
+      else if (pathParts[0] === 'app' && (pathParts[1] === 'fila-de-hoje' || pathParts[1] === 'nunca-mais-esqueca-tudo')) output = esquecaAppPage();
+      else if (pathParts[0] === 'obrigado' && pathParts[1] === 'nunca-mais-esqueca-tudo') output = esquecaThanksPage();
       else if (pathParts[0] === 'app' && (pathParts[1] === 'primeira-sessao' || pathParts[1] === 'senta-e-estuda')) output = sentaAppPage();
       else if (pathParts[0] === 'obrigado' && pathParts[1] === 'senta-e-estuda') output = sentaThanksPage();
       else if (pathParts[0] === 'p' && pathParts[1] && findProduct(pathParts[1])) output = productPage(findProduct(pathParts[1]));

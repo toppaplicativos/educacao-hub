@@ -7,6 +7,9 @@ const nextConfig = {
       { source: '/p/revisao', destination: '/p/estude-uma-vez-revise-certo', permanent: false },
       { source: '/p/revise', destination: '/p/estude-uma-vez-revise-certo', permanent: false },
       { source: '/p/estude-uma-vez', destination: '/p/estude-uma-vez-revise-certo', permanent: false },
+      { source: '/p/esqueca', destination: '/p/nunca-mais-esqueca-tudo', permanent: false },
+      { source: '/p/nunca-mais-esqueca', destination: '/p/nunca-mais-esqueca-tudo', permanent: false },
+      { source: '/p/fila-de-hoje', destination: '/p/nunca-mais-esqueca-tudo', permanent: false },
     ];
   },
   async headers() {
