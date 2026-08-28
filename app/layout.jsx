@@ -1,5 +1,7 @@
-import './globals.css';
 import HubMount from './HubMount';
+
+const CSS =
+  'https://cdn.jsdelivr.net/gh/toppaplicativos/educacao-hub@4f532b1e131998d3e0876bf1fdbb5c9b7a5df039/app/globals.css';
 
 export const metadata = {
   title: 'EDUCAÇÃO | Toppapps',
@@ -11,6 +13,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="pt-BR">
       <head>
+        <link rel="stylesheet" href={CSS} />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://cdn.jsdelivr.net" />
         <link
