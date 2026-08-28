@@ -129,11 +129,44 @@
     function upsellSection(currentSlug) {
       const others = CATEGORY.products.filter((p) => p.slug !== currentSlug && p.status === 'live' && p.checkout);
       if (!others.length) return '';
+      const frame = {
+        'senta-e-estuda': {
+          kicker: 'JUNTO COM A SESSÃO',
+          title: 'Uma sessão hoje não segura a terça.',
+          body: 'Você começa agora. Se a semana não couber nas horas reais, terça apaga o que segunda fez. Em 15 minutos o Cronograma que Funciona monta a semana: 80% da carga, blocos de 50 minutos, ajuste na sexta.',
+        },
+        'cronograma-que-funciona': {
+          kicker: 'JUNTO COM O PLANO',
+          title: 'A semana montada não senta por você.',
+          body: 'O plano cabe nas horas. O primeiro minuto ainda trava. Em 10 minutos o Senta e Estuda coloca a questão 1 no papel — e amanhã já tem a próxima entrada escrita.',
+        },
+      }[currentSlug] || {
+        kicker: 'TAMBÉM HOJE',
+        title: 'O outro ponto da rotina, resolvido no mesmo dia.',
+        body: 'Começar, fazer a semana caber, revisar com critério. Cada solução entrega um resultado concreto — agora.',
+      };
+      const card = {
+        'senta-e-estuda': {
+          kicker: 'PARA QUEM TRAVA NA HORA DE COMEÇAR',
+          title: 'Em 10 minutos a questão 1 está no papel — e amanhã já tem entrada.',
+          body: 'O app Primeira Sessão reduz a matéria a um movimento de 2 minutos. Você faz o bloco que cabe hoje e termina com o próximo passo escrito.',
+          cta: 'Quero a primeira sessão',
+        },
+        'cronograma-que-funciona': {
+          kicker: 'PARA QUEM ABANDONA O PLANO NA SEGUNDA SEMANA',
+          title: 'Em 15 minutos a semana cabe nas horas que existem — e a terça não a apaga.',
+          body: 'O app Plano Possível transforma suas horas reais em blocos de 50 minutos — com 20% de folga e a revisão já marcada.',
+          cta: 'Montar meu plano possível',
+        },
+      };
       return `<section class="section light" id="upsell"><div class="wrap">
-        <p class="eyebrow">COMPLETE A BIBLIOTECA</p>
-        <h2>Quem leva este também fecha o que já está no ar.</h2>
-        <p class="copy">Cada um com checkout próprio. Sem pacote, sem desconto inventado — o mesmo acesso digital.</p>
-        <div class="senta-upsell" style="margin-top:1.4rem">${others.map((p) => `<article class="senta-up"><img src="${esc(p.cover)}" alt="Capa de ${esc(p.title)}"><p class="eyebrow">${esc(p.subtitle)}</p><h3>${esc(p.title)}</h3><p class="copy">${esc(p.description)}</p><p class="senta-price">${money(p.price)}</p><a class="button senta-cta" href="${esc(p.checkout)}" rel="noopener">Quero ${esc(p.title)}</a></article>`).join('')}</div>
+        <p class="eyebrow">${esc(frame.kicker)}</p>
+        <h2>${esc(frame.title)}</h2>
+        <p class="copy">${esc(frame.body)}</p>
+        <div class="senta-upsell" style="margin-top:1.4rem">${others.map((p) => {
+          const pitch = card[p.slug] || { kicker: p.subtitle, title: p.title, body: p.description, cta: 'Quero agora' };
+          return `<article class="senta-up"><img src="${esc(p.cover)}" alt="Capa de ${esc(p.title)}"><p class="eyebrow">${esc(pitch.kicker)}</p><h3>${esc(pitch.title)}</h3><p class="copy">${esc(pitch.body)}</p><p class="senta-price">${esc(p.title)} · ${money(p.price)}</p><a class="button senta-cta" href="${esc(p.checkout)}" rel="noopener">${esc(pitch.cta)}</a></article>`;
+        }).join('')}</div>
       </div></section>`;
     }
 
