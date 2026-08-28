@@ -1,4 +1,4 @@
-    const CATEGORY = {"key":"educacao","short":"EDUCAÇÃO","label":"Estudos, concursos, ENEM e faculdade","host":"edu.toppapps.online","title":"Soluções para estudar com mais direção e menos improviso.","description":"Guias e ferramentas para organizar a semana, começar o estudo e revisar com critérios que cabem na rotina.","accent":"#5b4b8a","accent_soft":"#f2eff4","deep":"#1a1a22","hero_asset":"https://raw.githubusercontent.com/toppaplicativos/educacao-hub/main/public/product/hero-study.webp","hero_alt":"Ilustração editorial de educação com caderno, relógio e cartões de revisão","slides":[{"title":"Um plano possível vence a semana perfeita.","copy":"Escolha uma solução que respeite seu tempo, suas prioridades e os imprevistos.","image":"https://raw.githubusercontent.com/toppaplicativos/educacao-hub/main/public/product/hero-study.webp","alt":"Destaque editorial 1 de EDUCAÇÃO"},{"title":"Começar também é uma habilidade.","copy":"Reduza a fricção do primeiro bloco e transforme intenção em uma sessão real.","image":"https://raw.githubusercontent.com/toppaplicativos/educacao-hub/main/public/product/session-ready.webp","alt":"Destaque editorial 2 de EDUCAÇÃO"},{"title":"Revisar é voltar com critério.","copy":"Organize o retorno ao conteúdo para não depender de releituras aleatórias.","image":"https://raw.githubusercontent.com/toppaplicativos/educacao-hub/main/public/product/pain-desk.webp","alt":"Destaque editorial 3 de EDUCAÇÃO"}],"collections":[["planejamento","Planejar a semana","Para transformar matérias, prazos e tempo em um plano executável."],["inicio","Começar a estudar","Para reduzir a fricção e construir o primeiro bloco de estudo."],["revisao","Revisar melhor","Para voltar ao conteúdo com intervalos e perguntas mais claras."]],"products":[{"slug":"cronograma-que-funciona","title":"Cronograma que Funciona","subtitle":"Plano de estudos possível","description":"Monte uma semana de estudos que respeita sua rotina, suas prioridades e os imprevistos do caminho.","objective":"Planejamento","theme":"Organização e produtividade","audience":"Estudantes, concurseiros e universitários","format":"Guia digital + aplicação","delivery":"Entrega digital","price":27.9,"status":"live","priority":1,"collection":"planejamento","tags":["cronograma","semana","estudos","planejamento","rotina"],"featured":true,"cover":"https://raw.githubusercontent.com/toppaplicativos/educacao-hub/main/public/assets/covers/cronograma-que-funciona.webp"},{"slug":"senta-e-estuda","title":"Senta e Estuda","subtitle":"Primeira sessão em 10 minutos","description":"Em 10 minutos você senta e começa — sem esperar vontade. Guia em PDF + app Primeira Sessão.","objective":"Começar a estudar","theme":"Início e foco","audience":"Quem adia o começo do estudo","format":"Guia digital + app","delivery":"Entrega digital","price":27.9,"status":"live","priority":2,"collection":"inicio","tags":["começar","foco","primeira sessão","estudar"],"featured":true,"cover":"https://raw.githubusercontent.com/toppaplicativos/educacao-hub/main/public/product/cover-navy.webp","checkout":"https://pay.kiwify.com.br/EDp7t2z"}],"faqs":[["A solução substitui uma escola ou professor?","Não. São materiais de organização e aplicação para apoiar sua rotina de estudos."],["O cronograma funciona para qualquer pessoa?","O material oferece critérios para adaptar a semana. A execução depende do tempo, objetivo e contexto de cada pessoa."],["Como uma oferta planejada aparece?","Ela fica no catálogo com estado de preparação e sem preço ou CTA de compra até que publicação, suporte e QA estejam confirmados."]]};
+    const CATEGORY = {"key":"educacao","short":"EDUCAÇÃO","label":"Estudos, concursos, ENEM e faculdade","host":"edu.toppapps.online","title":"Soluções para estudar com mais direção e menos improviso.","description":"Guias e ferramentas para organizar a semana, começar o estudo e revisar com critérios que cabem na rotina.","accent":"#5b4b8a","accent_soft":"#f2eff4","deep":"#1a1a22","hero_asset":"https://raw.githubusercontent.com/toppaplicativos/educacao-hub/main/public/product/hero-study.webp","hero_alt":"Ilustração editorial de educação com caderno, relógio e cartões de revisão","slides":[{"title":"Um plano possível vence a semana perfeita.","copy":"Escolha uma solução que respeite seu tempo, suas prioridades e os imprevistos.","image":"https://raw.githubusercontent.com/toppaplicativos/educacao-hub/main/public/product/hero-study.webp","alt":"Destaque editorial 1 de EDUCAÇÃO"},{"title":"Começar também é uma habilidade.","copy":"Reduza a fricção do primeiro bloco e transforme intenção em uma sessão real.","image":"https://raw.githubusercontent.com/toppaplicativos/educacao-hub/main/public/product/session-ready.webp","alt":"Destaque editorial 2 de EDUCAÇÃO"},{"title":"Revisar é voltar com critério.","copy":"Organize o retorno ao conteúdo para não depender de releituras aleatórias.","image":"https://raw.githubusercontent.com/toppaplicativos/educacao-hub/main/public/product/pain-desk.webp","alt":"Destaque editorial 3 de EDUCAÇÃO"}],"collections":[["planejamento","Planejar a semana","Para transformar matérias, prazos e tempo em um plano executável."],["inicio","Começar a estudar","Para reduzir a fricção e construir o primeiro bloco de estudo."],["revisao","Revisar melhor","Para voltar ao conteúdo com intervalos e perguntas mais claras."]],"products":[{"slug":"cronograma-que-funciona","title":"Cronograma que Funciona","subtitle":"Plano de estudos possível","description":"Monte uma semana de estudos que respeita sua rotina, suas prioridades e os imprevistos do caminho.","objective":"Planejamento","theme":"Organização e produtividade","audience":"Estudantes, concurseiros e universitários","format":"Guia digital + aplicação","delivery":"Entrega digital","price":27.9,"status":"live","priority":1,"collection":"planejamento","tags":["cronograma","semana","estudos","planejamento","rotina"],"featured":true,"cover":"https://raw.githubusercontent.com/toppaplicativos/educacao-hub/main/public/assets/covers/cronograma-que-funciona.webp","checkout":"https://pay.kiwify.com.br/aMALUaX"},{"slug":"senta-e-estuda","title":"Senta e Estuda","subtitle":"Primeira sessão em 10 minutos","description":"Em 10 minutos você senta e começa — sem esperar vontade. Guia em PDF + app Primeira Sessão.","objective":"Começar a estudar","theme":"Início e foco","audience":"Quem adia o começo do estudo","format":"Guia digital + app","delivery":"Entrega digital","price":27.9,"status":"live","priority":2,"collection":"inicio","tags":["começar","foco","primeira sessão","estudar"],"featured":true,"cover":"https://raw.githubusercontent.com/toppaplicativos/educacao-hub/main/public/product/cover-navy.webp","checkout":"https://pay.kiwify.com.br/EDp7t2z"}],"faqs":[["A solução substitui uma escola ou professor?","Não. São materiais de organização e aplicação para apoiar sua rotina de estudos."],["O cronograma funciona para qualquer pessoa?","O material oferece critérios para adaptar a semana. A execução depende do tempo, objetivo e contexto de cada pessoa."],["Como uma oferta planejada aparece?","Ela fica no catálogo com estado de preparação e sem preço ou CTA de compra até que publicação, suporte e QA estejam confirmados."]]};
     const SUPPORT_EMAIL = 'suporte@toppapps.online';
     const app = document.getElementById('app');
     const pathParts = location.pathname.replace(/^\/+|\/+$/g,'').split('/').filter(Boolean);
@@ -307,6 +307,152 @@
         </div>
       </div></div></section>${footer()}</main>`;
     }
+    function cronogramaSalesPage(product) {
+      document.title = 'Cronograma que Funciona | Educação Toppapps';
+      const pay = 'https://pay.kiwify.com.br/aMALUaX';
+      const cta = (label) => `<a class="button senta-cta" href="${pay}" rel="noopener">${label}</a>`;
+      const A = 'https://raw.githubusercontent.com/toppaplicativos/educacao-hub/main/public/product/cronograma';
+      return `${header()}<style>
+        .senta-bar{background:#1D4F91;color:#fff;text-align:center;padding:.55rem 1rem;font-size:.82rem;font-weight:650}
+        .senta-cta,.senta-offer .button,.hero-actions .senta-cta{background:#E2571C!important;border-color:#E2571C!important;color:#fff!important}
+        .senta-hero h1{font-size:clamp(1.75rem,4.2vw,3.15rem);line-height:1.12;margin:.45rem 0 1rem;letter-spacing:-.04em}
+        .senta-grid{display:grid;gap:1.6rem}
+        @media(min-width:860px){.senta-grid{grid-template-columns:1.08fr .92fr;align-items:center}}
+        .senta-proof{display:flex;flex-wrap:wrap;gap:.55rem;margin:1rem 0 0}
+        .senta-proof span{border:1px solid #d7dbe3;padding:.32rem .7rem;border-radius:999px;font-size:.75rem}
+        .senta-quote{background:#fff;border:1px solid #e5e7eb;padding:1rem;border-radius:14px}
+        .senta-quote img{width:44px;height:44px;border-radius:50%;object-fit:cover;float:left;margin:0 .75rem .4rem 0}
+        .senta-offer{background:#0F172A;color:#fff;padding:2.4rem 0}
+        .senta-offer h2,.senta-dark h2{color:#fff}
+        .senta-dark{background:#0F172A;color:#fff}
+        .senta-dark .copy,.senta-offer .copy{color:rgba(255,255,255,.74)}
+        .senta-app{display:grid;gap:1.4rem;align-items:center}
+        @media(min-width:860px){.senta-app{grid-template-columns:1fr 1fr}}
+        .senta-app.reverse .senta-copy{order:2}
+        .senta-mock{display:flex;justify-content:center;align-items:center;min-height:280px;background:transparent}
+        .senta-mock img{max-height:420px;width:auto;max-width:100%;object-fit:contain;height:auto}
+        .senta-steps{display:grid;gap:.8rem}
+        @media(min-width:700px){.senta-steps{grid-template-columns:repeat(3,1fr)}}
+        .senta-step{background:#fff;border:1px solid #e5e7eb;border-top:4px solid #E2571C;border-radius:12px;padding:1.1rem}
+        .senta-faces{display:grid;gap:.8rem}
+        @media(min-width:800px){.senta-faces{grid-template-columns:repeat(3,1fr)}}
+        .senta-stack{display:grid;gap:.55rem;margin:1.1rem 0}
+        .senta-stack div{display:flex;justify-content:space-between;gap:1rem;border-bottom:1px solid rgba(255,255,255,.12);padding:.55rem 0;font-size:.92rem}
+        .senta-price{font-size:2.4rem;font-weight:850;letter-spacing:-.04em;margin:.4rem 0}
+        .senta-old{text-decoration:line-through;opacity:.55;margin-right:.4rem}
+        .senta-faq details{background:#fff}
+        .senta-bar a{color:#fff;font-weight:800}
+        .senta-effect{margin-top:.9rem;border:1px solid #dbe3ef;background:#f4f7fb;border-radius:10px;padding:.7rem .9rem;font-size:.88rem;font-weight:650}
+      </style>
+      <div class="senta-bar">Condição de lançamento até 04/09 · R$ 27,90 · 7 dias para desistir · ${cta('Quero agora')}</div>
+      <main id="main-content">
+        <section class="hero"><div class="wrap senta-grid senta-hero">
+          <div class="hero-copy">
+            <p class="eyebrow">PARA QUEM ABANDONA O PLANO NA SEGUNDA SEMANA</p>
+            <h1>Em 15 minutos, um plano que cabe na semana que você realmente tem.</h1>
+            <div class="hero-actions">${cta('Montar meu plano possível')}<a class="button secondary" href="#app">Ver o app em 3 funções</a></div>
+            <p class="hero-note">Acesso na hora · carga a 80% · 7 dias para desistir</p>
+            <p class="hero-lede">Pare de montar tabela no domingo e abandonar na terça. O app Plano Possível transforma suas horas reais em blocos de 50 minutos — com 20% de folga e a revisão já marcada.</p>
+            <div class="senta-proof"><span>Plano possível em 15 min</span><span>R$ 27,90</span><span>PDF 14 páginas + app</span><span>Garantia 7 dias</span></div>
+          </div>
+          <div class="hero-visual"><img src="${A}/hero.webp" alt="Mesa com um plano semanal enxuto" width="1792" height="1008"></div>
+        </div></section>
+
+        <section class="senta-dark" id="dor"><div class="wrap senta-grid" style="padding:4rem 0">
+          <img src="${A}/pain.webp" alt="Adulto diante de um cronograma cheio e abandonado" width="1100" height="700" style="width:100%;border-radius:16px;object-fit:cover;height:320px">
+          <div>
+            <p class="eyebrow" style="color:#E2571C">TALVEZ VOCÊ RECONHEÇA</p>
+            <h2>O cronograma fica lindo no domingo. Na terça, já era.</h2>
+            <p class="copy">Você distribui todas as matérias, preenche cada hora e sente que finalmente está no controle. Aí a vida cabe. Um atraso vira culpa. Culpa vira recomeço do zero.</p>
+            <div style="margin-top:1.2rem;display:grid;gap:.9rem">
+              <article><h3>A tabela ignora a vida real</h3><p class="copy">Deslocamento, jantar, cansaço e imprevisto não entram no grid. O plano nasce inflado.</p></article>
+              <article><h3>Tempo sentado não é sessão feita</h3><p class="copy">O cronograma conta horas. Ele não registra o que foi executado.</p></article>
+              <article><h3>Atraso vira plano novo</h3><p class="copy">Em vez de ajustar a semana, você apaga tudo e começa outra tabela na segunda.</p></article>
+            </div>
+          </div>
+        </div></section>
+
+        <section class="section"><div class="wrap">
+          <p class="eyebrow">MÉTODO</p>
+          <h2>Plano possível em 3 camadas</h2>
+          <p class="copy">Planejar, executar e revisar. O PDF ensina. O app monta a semana em minutos — sem tabela que a vida não cabe.</p>
+          <div class="senta-steps" style="margin-top:1.4rem">
+            <article class="senta-step"><h3>Horas reais</h3><p>Inventário do que existe, não do que você gostaria de ter.</p></article>
+            <article class="senta-step"><h3>Carga a 80%</h3><p>Se há 10 horas livres, planeje 8. Os 20% protegem o plano.</p></article>
+            <article class="senta-step"><h3>Ajuste, não reset</h3><p>Marque o executado, mova o que importa, preserve a próxima sessão.</p></article>
+          </div>
+        </div></section>
+
+        <section class="section light" id="app"><div class="wrap">
+          <p class="eyebrow">O APP · PLANO POSSÍVEL</p>
+          <h2>Três movimentos. A semana deixa de ser um grid inflado.</h2>
+          <div class="senta-app" style="margin-top:2rem">
+            <div class="senta-copy"><p class="eyebrow">NO APP · INVENTÁRIO</p><h3>Em minutos, a semana deixa de ser a que você gostaria de ter.</h3><p>Você informa as horas reais e as matérias. O app devolve uma carga a 80% — não um grid inflado.</p><p class="senta-effect">A tabela cheia colapsa em blocos de 50 minutos que cabem.</p></div>
+            <div class="senta-mock"><img src="${A}/miniapp/montar.webp" alt="App transformando horas reais em blocos"></div>
+          </div>
+          <div class="senta-app reverse" style="margin-top:2.4rem">
+            <div class="senta-copy"><p class="eyebrow">NO APP · SEMANA</p><h3>O gerador não motiva. Ele distribui o que cabe.</h3><p>50 minutos, pausa, prioridade. Alta 3x, média 2x, baixa 1x. A revisão já entra no plano.</p><p class="senta-effect">8h planejadas de 10h livres. Carga possível à vista.</p></div>
+            <div class="senta-mock"><img src="${A}/miniapp/sessao.webp" alt="Semana gerada em blocos de 50 minutos"></div>
+          </div>
+          <div class="senta-app" style="margin-top:2.4rem">
+            <div class="senta-copy"><p class="eyebrow">NO APP · EXECUÇÃO</p><h3>A sexta mede o feito. Não pune o que faltou.</h3><p>Marque planejada, executada, revisada. Execução = feitas / planejadas. Reset de 10 minutos se a semana quebrar.</p><p class="senta-effect">Um bilhete sai da tela: “não recomece do zero”.</p></div>
+            <div class="senta-mock"><img src="${A}/miniapp/retomada.webp" alt="Painel de execução do Plano Possível"></div>
+          </div>
+        </div></section>
+
+        <section class="section"><div class="wrap">
+          <p class="eyebrow">PROVA</p>
+          <h2>Três rotinas. Três semanas que não recomeçaram do zero.</h2>
+          <div class="senta-faces" style="margin-top:1.4rem">
+            <blockquote class="senta-quote"><img src="${A}/faces/rafael.webp" alt="Rafael S."><p>“Antes: grid de 30h. Ação: 80% de 12h. Resultado: semana ajustada, não apagada.”</p><footer>Rafael S. · Concurso + trabalho · Campina Grande</footer></blockquote>
+            <blockquote class="senta-quote"><img src="${A}/faces/livia.webp" alt="Lívia M."><p>“Antes: cronograma copiado. Ação: prioridade real. Resultado: semana que sobreviveu ao estágio.”</p><footer>Lívia M. · Faculdade + estágio · Curitiba</footer></blockquote>
+            <blockquote class="senta-quote"><img src="${A}/faces/tiago.webp" alt="Tiago A."><p>“Antes: horas sentado. Ação: sessão visível. Resultado: execução, não tempo na cadeira.”</p><footer>Tiago A. · ENEM · Belém</footer></blockquote>
+          </div>
+        </div></section>
+
+        <section class="senta-offer" id="oferta"><div class="wrap senta-grid">
+          <div>
+            <p class="eyebrow" style="color:#E2571C">OFERTA DE LANÇAMENTO</p>
+            <h2>Hoje você troca mais uma tabela abandonada por uma semana possível.</h2>
+            <p class="copy">R$ 27,90 até 4 de setembro. O acesso é digital: você abre o app e monta a semana com as horas que realmente tem.</p>
+            <div class="senta-stack">
+              <div><span>Guia Cronograma que Funciona</span><span>PDF · 14 páginas</span></div>
+              <div><span>App Plano Possível</span><span>No celular e no computador</span></div>
+              <div><span>Checklist + painel</span><span>Execução visível</span></div>
+            </div>
+            <p class="senta-price"><span class="senta-old">R$ 97</span> R$ 27,90</p>
+            ${cta('Montar meu plano possível')}
+            <p class="copy" style="margin-top:1rem">7 dias para desistir, nos termos do art. 49 do CDC. Sem promessa de aprovação.</p>
+          </div>
+          <div>
+            <img src="https://raw.githubusercontent.com/toppaplicativos/educacao-hub/main/public/assets/covers/cronograma-que-funciona.webp" alt="Capa do guia Cronograma que Funciona" style="width:100%;border-radius:16px">
+          </div>
+        </div></section>
+
+        <section class="section senta-faq"><div class="wrap">
+          <p class="eyebrow">FAQ</p>
+          <h2>Perguntas que travam a compra.</h2>
+          <div class="faq-list" style="margin-top:1.2rem">
+            <details open><summary>O que eu recebo agora?</summary><p>O guia em PDF e o app Plano Possível. Inventário real, carga a 80%, distribuição, sessão visível, revisão e o plano de 7 dias.</p></details>
+            <details><summary>O app já está incluso?</summary><p>Sim. O Plano Possível faz parte da oferta: um app simples, no celular e no computador, sem loja e sem instalação.</p></details>
+            <details><summary>Qual é a garantia?</summary><p>Você tem 7 dias para desistir, com base no art. 49 do CDC. Peça o reembolso pelo e-mail de suporte informando a compra.</p></details>
+            <details><summary>Isso promete aprovação?</summary><p>Não. É conteúdo educacional e organizacional. Não promete aprovação, nota nem classificação.</p></details>
+            <details><summary>Como falo com o suporte?</summary><p>E-mail oficial: suporte@toppapps.online. Informe o nome do produto e a URL acessada.</p></details>
+          </div>
+        </div></section>
+        <section class="section" style="text-align:center;padding-bottom:4rem">${cta('Montar meu plano possível')}</section>
+      </main>${footer()}`;
+    }
+    function cronogramaAppPage() {
+      document.title = 'Plano Possível | Cronograma que Funciona';
+      const pay = 'https://pay.kiwify.com.br/aMALUaX';
+      return `${header()}<main id="main-content"><section class="center-route"><div class="wrap"><div class="center-card"><p class="eyebrow">APP · PLANO POSSÍVEL</p><h1>Plano Possível</h1><p>O app monta a semana com as horas que você realmente tem. Para usar agora, confirme o acesso no checkout.</p><div class="actions"><a class="button" href="${pay}" rel="noopener">Quero o app agora</a><a class="button secondary" href="/p/cronograma-que-funciona">Voltar à oferta</a></div></div></div></section></main>${footer()}`;
+    }
+    function cronogramaThanksPage() {
+      document.title = 'Acesso | Cronograma que Funciona';
+      return `${header()}<main id="main-content"><section class="center-route"><div class="wrap"><div class="center-card"><p class="eyebrow">ACESSO LIBERADO</p><h1>Acesso liberado</h1><p>O PDF está na área de membros da Kiwify. O app Plano Possível abre nesta loja, na rota do produto.</p><div class="actions"><a class="button" href="/app/plano-possivel">Abrir o app</a><a class="button secondary" href="/p/cronograma-que-funciona">Voltar à oferta</a></div></div></div></section></main>${footer()}`;
+    }
+
     function productPage(product) {
       const live = product.status === 'live';
       document.title = `${product.title} | ${CATEGORY.short}`;
@@ -335,6 +481,9 @@
       if (pathParts.length === 0) output = hub();
       else if (pathParts[0] === 'categoria' && pathParts[1] && CATEGORY.collections.some(([slug]) => slug === pathParts[1])) output = hub(pathParts[1]);
       else if (pathParts[0] === 'p' && pathParts[1] === 'senta-e-estuda' && findProduct(pathParts[1])) output = sentaSalesPage(findProduct(pathParts[1]));
+      else if (pathParts[0] === 'p' && pathParts[1] === 'cronograma-que-funciona' && findProduct(pathParts[1])) output = cronogramaSalesPage(findProduct(pathParts[1]));
+      else if (pathParts[0] === 'app' && (pathParts[1] === 'plano-possivel' || pathParts[1] === 'cronograma-que-funciona')) output = cronogramaAppPage();
+      else if (pathParts[0] === 'obrigado' && pathParts[1] === 'cronograma-que-funciona') output = cronogramaThanksPage();
       else if (pathParts[0] === 'app' && (pathParts[1] === 'primeira-sessao' || pathParts[1] === 'senta-e-estuda')) output = sentaAppPage();
       else if (pathParts[0] === 'obrigado' && pathParts[1] === 'senta-e-estuda') output = sentaThanksPage();
       else if (pathParts[0] === 'p' && pathParts[1] && findProduct(pathParts[1])) output = productPage(findProduct(pathParts[1]));
