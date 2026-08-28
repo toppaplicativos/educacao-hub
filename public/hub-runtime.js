@@ -1,4 +1,4 @@
-    const CATEGORY = {"key":"educacao","short":"EDUCAÇÃO","label":"Estudos, concursos, ENEM e faculdade","host":"edu.toppapps.online","title":"Soluções para estudar com mais direção e menos improviso.","description":"Guias e ferramentas para organizar a semana, começar o estudo e revisar com critérios que cabem na rotina.","accent":"#5b4b8a","accent_soft":"#f2eff4","deep":"#1a1a22","hero_asset":"https://raw.githubusercontent.com/toppaplicativos/educacao-hub/main/public/product/hero-study.webp","hero_alt":"Ilustração editorial de educação com caderno, relógio e cartões de revisão","slides":[{"title":"Um plano possível vence a semana perfeita.","copy":"Escolha uma solução que respeite seu tempo, suas prioridades e os imprevistos.","image":"https://raw.githubusercontent.com/toppaplicativos/educacao-hub/main/public/product/hero-study.webp","alt":"Destaque editorial 1 de EDUCAÇÃO"},{"title":"Começar também é uma habilidade.","copy":"Reduza a fricção do primeiro bloco e transforme intenção em uma sessão real.","image":"https://raw.githubusercontent.com/toppaplicativos/educacao-hub/main/public/product/session-ready.webp","alt":"Destaque editorial 2 de EDUCAÇÃO"},{"title":"Revisar é voltar com critério.","copy":"Organize o retorno ao conteúdo para não depender de releituras aleatórias.","image":"https://raw.githubusercontent.com/toppaplicativos/educacao-hub/main/public/product/pain-desk.webp","alt":"Destaque editorial 3 de EDUCAÇÃO"}],"collections":[["planejamento","Planejar a semana","Para transformar matérias, prazos e tempo em um plano executável."],["inicio","Começar a estudar","Para reduzir a fricção e construir o primeiro bloco de estudo."],["revisao","Revisar melhor","Para voltar ao conteúdo com intervalos e perguntas mais claras."]],"products":[{"slug":"nunca-mais-esqueca-tudo","title":"Nunca Mais Esqueça Tudo","subtitle":"Fila do que vence hoje","description":"Em 5 minutos, só o que vence hoje está na mesa. O semestre fica fora. Guia em PDF + app Fila de Hoje.","objective":"Revisar melhor","theme":"Fila de revisão","audience":"Quem acumula matéria e não sabe o que revisar","format":"Guia digital + app","delivery":"Entrega digital","price":27.9,"status":"live","priority":0,"collection":"revisao","tags":["esquecer","fila","revisão","cartão","manhã"],"featured":true,"cover":"https://cdn.jsdelivr.net/gh/toppaplicativos/educacao-hub@9959f10ca8159531f15c3ceae3e74e0e7ed2a5e5/public/product/esqueca/cover.webp","checkout":"https://pay.kiwify.com.br/csMSLPJ"},{"slug":"estude-uma-vez-revise-certo","title":"Estude Uma Vez, Revise Certo","subtitle":"Revisão que cobra, não que relê","description":"Feche o caderno — e a matéria volta sem reler o capítulo. Guia em PDF + app Próxima Revisão.","objective":"Revisar melhor","theme":"Revisão espaçada","audience":"Quem estuda e esquece na semana seguinte","format":"Guia digital + app","delivery":"Entrega digital","price":37.9,"status":"live","priority":0,"collection":"revisao","tags":["revisão","esquecer","pergunta","intervalo","1-3-7"],"featured":true,"cover":"https://cdn.jsdelivr.net/gh/toppaplicativos/educacao-hub@04de7fcc0793cd91af062c0a13ae811ccd818973/public/product/revisao/cover.webp","checkout":"https://pay.kiwify.com.br/jY4maqm"},{"slug":"cronograma-que-funciona","title":"Cronograma que Funciona","subtitle":"Plano de estudos possível","description":"Monte uma semana de estudos que respeita sua rotina, suas prioridades e os imprevistos do caminho.","objective":"Planejamento","theme":"Organização e produtividade","audience":"Estudantes, concurseiros e universitários","format":"Guia digital + aplicação","delivery":"Entrega digital","price":27.9,"status":"live","priority":1,"collection":"planejamento","tags":["cronograma","semana","estudos","planejamento","rotina"],"featured":true,"cover":"https://raw.githubusercontent.com/toppaplicativos/educacao-hub/main/public/assets/covers/cronograma-que-funciona.webp","checkout":"https://pay.kiwify.com.br/aMALUaX"},{"slug":"senta-e-estuda","title":"Senta e Estuda","subtitle":"Primeira sessão em 10 minutos","description":"Em 10 minutos você senta e começa — sem esperar vontade. Guia em PDF + app Primeira Sessão.","objective":"Começar a estudar","theme":"Início e foco","audience":"Quem adia o começo do estudo","format":"Guia digital + app","delivery":"Entrega digital","price":27.9,"status":"live","priority":2,"collection":"inicio","tags":["começar","foco","primeira sessão","estudar"],"featured":true,"cover":"https://raw.githubusercontent.com/toppaplicativos/educacao-hub/main/public/product/cover-navy.webp","checkout":"https://pay.kiwify.com.br/EDp7t2z"}],"faqs":[["A solução substitui uma escola ou professor?","Não. São materiais de organização e aplicação para apoiar sua rotina de estudos."],["O cronograma funciona para qualquer pessoa?","O material oferece critérios para adaptar a semana. A execução depende do tempo, objetivo e contexto de cada pessoa."],["Como uma oferta planejada aparece?","Ela fica no catálogo com estado de preparação e sem preço ou CTA de compra até que publicação, suporte e QA estejam confirmados."]]};
+    const CATEGORY = {"key":"educacao","short":"EDUCAÇÃO","label":"Estudos, concursos, ENEM e faculdade","host":"edu.toppapps.online","title":"Soluções para estudar com mais direção e menos improviso.","description":"Guias e ferramentas para organizar a semana, começar o estudo e revisar com critérios que cabem na rotina.","accent":"#5b4b8a","accent_soft":"#f2eff4","deep":"#1a1a22","hero_asset":"https://raw.githubusercontent.com/toppaplicativos/educacao-hub/main/public/product/hero-study.webp","hero_alt":"Ilustração editorial de educação com caderno, relógio e cartões de revisão","slides":[{"title":"Um plano possível vence a semana perfeita.","copy":"Escolha uma solução que respeite seu tempo, suas prioridades e os imprevistos.","image":"https://raw.githubusercontent.com/toppaplicativos/educacao-hub/main/public/product/hero-study.webp","alt":"Destaque editorial 1 de EDUCAÇÃO"},{"title":"Começar também é uma habilidade.","copy":"Reduza a fricção do primeiro bloco e transforme intenção em uma sessão real.","image":"https://raw.githubusercontent.com/toppaplicativos/educacao-hub/main/public/product/session-ready.webp","alt":"Destaque editorial 2 de EDUCAÇÃO"},{"title":"Revisar é voltar com critério.","copy":"Organize o retorno ao conteúdo para não depender de releituras aleatórias.","image":"https://raw.githubusercontent.com/toppaplicativos/educacao-hub/main/public/product/pain-desk.webp","alt":"Destaque editorial 3 de EDUCAÇÃO"}],"collections":[["planejamento","Planejar a semana","Para transformar matérias, prazos e tempo em um plano executável."],["inicio","Começar a estudar","Para reduzir a fricção e construir o primeiro bloco de estudo."],["revisao","Revisar melhor","Para voltar ao conteúdo com intervalos e perguntas mais claras."]],"products":[{"slug":"nunca-mais-esqueca-tudo","title":"Nunca Mais Esqueça Tudo","subtitle":"Fila do que vence hoje","description":"Em 5 minutos, só o que vence hoje está na mesa. O semestre fica fora. Guia em PDF + app Fila de Hoje.","objective":"Revisar melhor","theme":"Fila de revisão","audience":"Quem acumula matéria e não sabe o que revisar","format":"Guia digital + app","delivery":"Entrega digital","price":27.9,"status":"live","priority":0,"collection":"revisao","tags":["esquecer","fila","revisão","cartão","manhã"],"featured":true,"cover":"https://cdn.jsdelivr.net/gh/toppaplicativos/educacao-hub@2862ff7b082e60218f94b15dde795712053537fd/public/product/esqueca/cover.webp","checkout":"https://pay.kiwify.com.br/csMSLPJ"},{"slug":"estude-uma-vez-revise-certo","title":"Estude Uma Vez, Revise Certo","subtitle":"Revisão que cobra, não que relê","description":"Feche o caderno — e a matéria volta sem reler o capítulo. Guia em PDF + app Próxima Revisão.","objective":"Revisar melhor","theme":"Revisão espaçada","audience":"Quem estuda e esquece na semana seguinte","format":"Guia digital + app","delivery":"Entrega digital","price":37.9,"status":"live","priority":0,"collection":"revisao","tags":["revisão","esquecer","pergunta","intervalo","1-3-7"],"featured":true,"cover":"https://cdn.jsdelivr.net/gh/toppaplicativos/educacao-hub@04de7fcc0793cd91af062c0a13ae811ccd818973/public/product/revisao/cover.webp","checkout":"https://pay.kiwify.com.br/jY4maqm"},{"slug":"cronograma-que-funciona","title":"Cronograma que Funciona","subtitle":"Plano de estudos possível","description":"Monte uma semana de estudos que respeita sua rotina, suas prioridades e os imprevistos do caminho.","objective":"Planejamento","theme":"Organização e produtividade","audience":"Estudantes, concurseiros e universitários","format":"Guia digital + aplicação","delivery":"Entrega digital","price":27.9,"status":"live","priority":1,"collection":"planejamento","tags":["cronograma","semana","estudos","planejamento","rotina"],"featured":true,"cover":"https://raw.githubusercontent.com/toppaplicativos/educacao-hub/main/public/assets/covers/cronograma-que-funciona.webp","checkout":"https://pay.kiwify.com.br/aMALUaX"},{"slug":"senta-e-estuda","title":"Senta e Estuda","subtitle":"Primeira sessão em 10 minutos","description":"Em 10 minutos você senta e começa — sem esperar vontade. Guia em PDF + app Primeira Sessão.","objective":"Começar a estudar","theme":"Início e foco","audience":"Quem adia o começo do estudo","format":"Guia digital + app","delivery":"Entrega digital","price":27.9,"status":"live","priority":2,"collection":"inicio","tags":["começar","foco","primeira sessão","estudar"],"featured":true,"cover":"https://raw.githubusercontent.com/toppaplicativos/educacao-hub/main/public/product/cover-navy.webp","checkout":"https://pay.kiwify.com.br/EDp7t2z"}],"faqs":[["A solução substitui uma escola ou professor?","Não. São materiais de organização e aplicação para apoiar sua rotina de estudos."],["O cronograma funciona para qualquer pessoa?","O material oferece critérios para adaptar a semana. A execução depende do tempo, objetivo e contexto de cada pessoa."],["Como uma oferta planejada aparece?","Ela fica no catálogo com estado de preparação e sem preço ou CTA de compra até que publicação, suporte e QA estejam confirmados."]]};
     const SUPPORT_EMAIL = 'suporte@toppapps.online';
     const HUB_ASSETS = 'https://cdn.jsdelivr.net/gh/toppaplicativos/educacao-hub@2fe1b01479d48d4ebc805822d4c857780aa8d64b/public/product';
     let pathParts = [];
@@ -388,29 +388,46 @@
         ${supportSection()}
       </main>${footer()}`;
     }
-    function sentaAppPage() {
-      document.title = 'Primeira Sessão | Senta e Estuda';
-      return `${routeHeader('Primeira Sessão', 'APP')}<section class="section"><div class="wrap"><div class="center-card">
-        <p class="eyebrow">ACESSO DO APP</p>
-        <h1>O app abre depois da compra.</h1>
-        <p>A Primeira Sessão reduz a matéria a um movimento, segura o timer e deixa a próxima entrada escrita. Para usar agora, confirme o acesso no checkout.</p>
-        <div class="actions">
-          <a class="button" href="https://pay.kiwify.com.br/EDp7t2z" rel="noopener">Quero o app agora</a>
-          <a class="button secondary" href="/p/senta-e-estuda">Voltar à oferta</a>
+    const PDF_BASE = 'https://cdn.jsdelivr.net/gh/toppaplicativos/educacao-hub@e838a03493b19d0c73714c55215a4e1c3504cfa9/public/guides';
+    function deliveryThanks(opts) {
+      document.title = opts.title;
+      return `${header()}<main id="main-content"><section class="section"><div class="wrap" style="max-width:720px">
+        <p class="eyebrow">ACESSO LIBERADO</p>
+        <h1>${opts.h1}</h1>
+        <p class="copy" style="font-size:1.08rem">${opts.lead}</p>
+        <div class="senta-box" style="margin-top:1.4rem">
+          <p><b>O que fazer agora</b></p>
+          <ol style="margin:.6rem 0 0;padding-left:1.15rem;line-height:1.7">
+            <li>Abra o app — funciona neste celular e neste computador, sem loja.</li>
+            <li>Baixe o PDF do guia (também chega no e-mail da compra, na área de membros da Kiwify).</li>
+            <li>${opts.step3}</li>
+          </ol>
         </div>
-      </div></div></section>${footer()}</main>`;
+        <div class="actions" style="margin-top:1.4rem;display:flex;flex-wrap:wrap;gap:.7rem">
+          <a class="button senta-cta" href="${opts.appHref}">${opts.appLabel}</a>
+          <a class="button secondary" href="${opts.pdfHref}" download>${opts.pdfLabel}</a>
+        </div>
+        <p class="copy" style="margin-top:1.1rem">Se o e-mail da Kiwify demorar, use o botão de baixar o PDF nesta página. Dúvida: <a href="mailto:suporte@toppapps.online">suporte@toppapps.online</a>.</p>
+      </div></section></main>${footer()}`;
+    }
+    function appShell(opts) {
+      document.title = opts.title;
+      return `${header()}<main id="main-content"><section class="section"><div class="wrap" style="max-width:640px">
+        <p class="eyebrow">APP · ${opts.kicker}</p>
+        <h1>${opts.h1}</h1>
+        <p class="copy">${opts.lede}</p>
+        <div id="delivery-app" data-app="${opts.id}" style="margin-top:1.4rem;border:1px solid #e5e7eb;border-radius:16px;overflow:hidden;background:#fff"></div>
+        <div class="actions" style="margin-top:1.2rem;display:flex;flex-wrap:wrap;gap:.7rem">
+          <a class="button secondary" href="${opts.pdfHref}" download>Baixar o PDF</a>
+          <a class="button ghost" href="/suporte">Suporte</a>
+        </div>
+      </div></section></main>${footer()}`;
+    }
+    function sentaAppPage() {
+      return appShell({ title:'Primeira Sessão | Senta e Estuda', kicker:'PRIMEIRA SESSÃO', h1:'Primeira Sessão', lede:'Reduza a matéria a uma ação. Escolha o tempo. Termine com a próxima entrada escrita.', id:'senta', pdfHref: PDF_BASE + '/senta-e-estuda-ebook-v1.1.pdf' });
     }
     function sentaThanksPage() {
-      document.title = 'Acesso | Senta e Estuda';
-      return `${routeHeader('Acesso liberado', 'OBRIGADO')}<section class="section"><div class="wrap"><div class="center-card">
-        <p class="eyebrow">PÓS-COMPRA</p>
-        <h1>A primeira sessão já pode começar.</h1>
-        <p>O PDF chega no e-mail da compra. O app Primeira Sessão está incluso. Se o pagamento ainda não confirmou, aguarde o e-mail da Kiwify.</p>
-        <div class="actions">
-          <a class="button" href="/app/primeira-sessao">Abrir o app</a>
-          <a class="button secondary" href="mailto:suporte@toppapps.online">Falar com o suporte</a>
-        </div>
-      </div></div></section>${footer()}</main>`;
+      return deliveryThanks({ title:'Acesso | Senta e Estuda', h1:'A primeira sessão já pode começar.', lead:'O PDF e o app Primeira Sessão estão inclusos. Abra o app agora. Baixe o guia se quiser ler no celular.', step3:'Faça a questão 1. Escreva a próxima entrada.', appHref:'/app/primeira-sessao', appLabel:'Abrir o app Primeira Sessão', pdfHref: PDF_BASE + '/senta-e-estuda-ebook-v1.1.pdf', pdfLabel:'Baixar o PDF (16 páginas)' });
     }
     function cronogramaSalesPage(product) {
       document.title = 'Cronograma que Funciona | Educação Toppapps';
@@ -575,16 +592,11 @@
       </main>${footer()}`;
     }
     function cronogramaAppPage() {
-      document.title = 'Plano Possível | Cronograma que Funciona';
-      const pay = 'https://pay.kiwify.com.br/aMALUaX';
-      return `${header()}<main id="main-content"><section class="center-route"><div class="wrap"><div class="center-card"><p class="eyebrow">APP · PLANO POSSÍVEL</p><h1>Plano Possível</h1><p>O app monta a semana com as horas que você realmente tem. Para usar agora, confirme o acesso no checkout.</p><div class="actions"><a class="button" href="${pay}" rel="noopener">Quero o app agora</a><a class="button secondary" href="/p/cronograma-que-funciona">Voltar à oferta</a></div></div></div></section></main>${footer()}`;
+      return appShell({ title:'Plano Possível | Cronograma que Funciona', kicker:'PLANO POSSÍVEL', h1:'Plano Possível', lede:'Informe as horas reais. Receba uma semana a 80%, em blocos de 50 minutos.', id:'cronograma', pdfHref: PDF_BASE + '/cronograma-que-funciona-ebook-v1.2.pdf' });
     }
     function cronogramaThanksPage() {
-      document.title = 'Acesso | Cronograma que Funciona';
-      return `${header()}<main id="main-content"><section class="center-route"><div class="wrap"><div class="center-card"><p class="eyebrow">ACESSO LIBERADO</p><h1>Acesso liberado</h1><p>O PDF está na área de membros da Kiwify. O app Plano Possível abre nesta loja, na rota do produto.</p><div class="actions"><a class="button" href="/app/plano-possivel">Abrir o app</a><a class="button secondary" href="/p/cronograma-que-funciona">Voltar à oferta</a></div></div></div></section></main>${footer()}`;
+      return deliveryThanks({ title:'Acesso | Cronograma que Funciona', h1:'A semana já pode caber nas horas que existem.', lead:'O PDF e o app Plano Possível estão inclusos. Abra o app agora e monte a semana com as horas reais.', step3:'Monte a semana a 80%. Blocos de 50 minutos.', appHref:'/app/plano-possivel', appLabel:'Abrir o app Plano Possível', pdfHref: PDF_BASE + '/cronograma-que-funciona-ebook-v1.2.pdf', pdfLabel:'Baixar o PDF (14 páginas)' });
     }
-
-
     function revisaoSalesPage(product) {
       document.title = 'Estude Uma Vez, Revise Certo | Educação Toppapps';
       const pay = 'https://pay.kiwify.com.br/jY4maqm';
@@ -746,20 +758,16 @@
       </main>${footer()}`;
     }
     function revisaoAppPage() {
-      document.title = 'Próxima Revisão | Estude Uma Vez, Revise Certo';
-      const pay = 'https://pay.kiwify.com.br/jY4maqm';
-      return `${header()}<main id="main-content"><section class="center-route"><div class="wrap"><div class="center-card"><p class="eyebrow">APP · PRÓXIMA REVISÃO</p><h1>Próxima Revisão</h1><p>O estudo de hoje vira uma pergunta. Você responde sem olhar e marca 1, 3 ou 7 dias. Para usar agora, confirme o acesso no checkout.</p><div class="actions"><a class="button" href="${pay}" rel="noopener">Quero o app agora</a><a class="button secondary" href="/p/estude-uma-vez-revise-certo">Voltar à oferta</a></div></div></div></section></main>${footer()}`;
+      return appShell({ title:'Próxima Revisão | Estude Uma Vez, Revise Certo', kicker:'PRÓXIMA REVISÃO', h1:'Próxima Revisão', lede:'O estudo de hoje vira uma pergunta. Você responde sem olhar e marca 1, 3 ou 7 dias.', id:'revisao', pdfHref: PDF_BASE + '/estude-uma-vez-revise-certo-ebook-v1.0.pdf' });
     }
     function revisaoThanksPage() {
-      document.title = 'Acesso | Estude Uma Vez, Revise Certo';
-      return `${header()}<main id="main-content"><section class="center-route"><div class="wrap"><div class="center-card"><p class="eyebrow">ACESSO LIBERADO</p><h1>Feche o caderno. A matéria já tem data.</h1><p>O PDF está no e-mail da compra, na área de membros. O app Próxima Revisão abre nesta loja.</p><div class="actions"><a class="button" href="/app/proxima-revisao">Abrir o app</a><a class="button secondary" href="mailto:suporte@toppapps.online">Falar com o suporte</a></div></div></div></section></main>${footer()}`;
+      return deliveryThanks({ title:'Acesso | Estude Uma Vez, Revise Certo', h1:'Feche o caderno. A matéria já tem data.', lead:'O PDF e o app Próxima Revisão estão inclusos. Abra o app agora. Baixe o guia se quiser reler o método.', step3:'Gere a pergunta do estudo de hoje. Marque 1, 3 ou 7 dias.', appHref:'/app/proxima-revisao', appLabel:'Abrir o app Próxima Revisão', pdfHref: PDF_BASE + '/estude-uma-vez-revise-certo-ebook-v1.0.pdf', pdfLabel:'Baixar o PDF (14 páginas)' });
     }
-
     function esquecaSalesPage(product) {
       document.title = 'Nunca Mais Esqueça Tudo | Educação Toppapps';
       const pay = 'https://pay.kiwify.com.br/csMSLPJ';
       const cta = (label) => `<a class="button senta-cta" href="${pay}" rel="noopener">${label}</a>`;
-      const A = 'https://cdn.jsdelivr.net/gh/toppaplicativos/educacao-hub@9959f10ca8159531f15c3ceae3e74e0e7ed2a5e5/public/product/esqueca';
+      const A = 'https://cdn.jsdelivr.net/gh/toppaplicativos/educacao-hub@2862ff7b082e60218f94b15dde795712053537fd/public/product/esqueca';
       return `<style>${salesCss()}</style>
       <div class="offer-bar" data-offer-timer data-offer-slug="nunca-mais-esqueca-tudo"><span class="offer-bar-kicker">OFERTA IMPERDÍVEL</span><span>Por tempo limitado</span><span>De R$ 97 por R$ 27,90</span><span>Termina em <span class="offer-bar-clock" data-clock>20:00</span></span>${cta('Quero agora')}</div>
       ${header()}
@@ -858,16 +866,16 @@
         </div></section>
 
         <section class="section" id="antes"><div class="wrap senta-grid">
-          <article class="senta-ben" style="background:#0F172A;color:#fff"><p class="eyebrow" style="color:#E2571C">ANTES</p><h3>Cadernos empilhados. Zero vencimento. Nada entra na mesa.</h3><p class="copy">Revisar “tudo no domingo”. Matéria de março sem data de volta. A manhã começa no capítulo novo.</p></article>
-          <article class="senta-ben"><p class="eyebrow">DEPOIS</p><h3>Seis cartões. Lembrei ou esqueci. O resto no calendário.</h3><p class="copy">Só o que vence hoje. Cinco minutos, não o semestre. Erro volta amanhã. Acerto, na semana.</p></article>
+          <article class="senta-ben" style="background:#0F172A;color:#fff;padding:0;overflow:hidden"><img src="${A}/pain.webp" alt="Monte de PDFs e cadernos sem vencimento" style="width:100%;height:220px;object-fit:cover;opacity:.88"><div style="padding:1.15rem 1.2rem"><p class="eyebrow" style="color:#E2571C">ANTES</p><h3>Cadernos empilhados. Zero vencimento. Nada entra na mesa.</h3><p class="copy">Revisar “tudo no domingo”. Matéria de março sem data de volta. A manhã começa no capítulo novo.</p></div></article>
+          <article class="senta-ben" style="padding:0;overflow:hidden"><img src="${A}/session.webp" alt="Dois montes de cartões e o timer de cinco minutos" style="width:100%;height:220px;object-fit:cover"><div style="padding:1.15rem 1.2rem"><p class="eyebrow">DEPOIS</p><h3>Seis cartões. Lembrei ou esqueci. O resto no calendário.</h3><p class="copy">Só o que vence hoje. Cinco minutos, não o semestre. Erro volta amanhã. Acerto, na semana.</p></div></article>
         </div></section>
         <section class="section"><div class="wrap">
           <p class="eyebrow">PROVA</p>
           <h2>Três manhãs. Três filas. Nenhum semestre relido.</h2>
           <div class="senta-faces" style="margin-top:1.4rem">
-            <blockquote class="senta-quote"><img src="${A}/faces/paulo.webp" alt="Paulo R."><p>“Antes: 14 PDFs. Ação: fila de 6. Resultado: a manhã coube.”</p><footer>Paulo R. · Concurso + trabalho · Teresina</footer></blockquote>
-            <blockquote class="senta-quote"><img src="${A}/faces/helena.webp" alt="Helena C."><p>“Antes: semestre apagando. Ação: vencido do dia. Resultado: fatias, não o livro.”</p><footer>Helena C. · Faculdade · Caxias do Sul</footer></blockquote>
-            <blockquote class="senta-quote"><img src="${A}/faces/igor.webp" alt="Igor M."><p>“Antes: 300 cards. Ação: teto de 12. Resultado: a fila acabou.”</p><footer>Igor M. · ENEM · Maceió</footer></blockquote>
+            <blockquote class="senta-quote"><img src="${A}/faces/paulo.webp" alt="Paulo R."><p>“Eu tinha 14 PDFs e não sabia o que revisar de manhã. Separei seis cartões do que vencia naquele dia. A revisão coube no café. O semestre ficou fora da mesa.”</p><footer>Paulo R. · Concurso + trabalho · Teresina</footer></blockquote>
+            <blockquote class="senta-quote"><img src="${A}/faces/helena.webp" alt="Helena C."><p>“A matéria de março ia apagando enquanto o semestre andava. Passei a cobrar só o que vencia no dia. Em uma semana a disciplina antiga voltou em fatias — sem reler o livro.”</p><footer>Helena C. · Faculdade · Caxias do Sul</footer></blockquote>
+            <blockquote class="senta-quote"><img src="${A}/faces/igor.webp" alt="Igor M."><p>“Meu baralho tinha 300 cards. Eu abria e fechava. Coloquei teto de 12: só o que vencia no dia. Passei a terminar a fila. Matemática antiga voltou sem abrir o capítulo.”</p><footer>Igor M. · ENEM · Maceió</footer></blockquote>
           </div>
         </div></section>
 
@@ -916,15 +924,11 @@
       </main>${footer()}`;
     }
     function esquecaAppPage() {
-      document.title = 'Fila de Hoje | Nunca Mais Esqueça Tudo';
-      const pay = 'https://pay.kiwify.com.br/csMSLPJ';
-      return `${header()}<main id="main-content"><section class="center-route"><div class="wrap"><div class="center-card"><p class="eyebrow">APP · FILA DE HOJE</p><h1>Fila de Hoje</h1><p>Só o que vence hoje entra na mesa. Você cobra em dois botões e recoloca o resto no calendário. Para usar agora, confirme o acesso no checkout.</p><div class="actions"><a class="button" href="${pay}" rel="noopener">Quero o app agora</a><a class="button secondary" href="/p/nunca-mais-esqueca-tudo">Voltar à oferta</a></div></div></div></section></main>${footer()}`;
+      return appShell({ title:'Fila de Hoje | Nunca Mais Esqueça Tudo', kicker:'FILA DE HOJE', h1:'Fila de Hoje', lede:'Só o que vence hoje. Dois botões. Cinco minutos. O semestre fica fora.', id:'esqueca', pdfHref: PDF_BASE + '/nunca-mais-esqueca-tudo-ebook-v1.0.pdf' });
     }
     function esquecaThanksPage() {
-      document.title = 'Acesso | Nunca Mais Esqueça Tudo';
-      return `${header()}<main id="main-content"><section class="center-route"><div class="wrap"><div class="center-card"><p class="eyebrow">ACESSO LIBERADO</p><h1>A fila de hoje já está na mesa.</h1><p>O PDF está no e-mail da compra, na área de membros. O app Fila de Hoje abre nesta loja.</p><div class="actions"><a class="button" href="/app/fila-de-hoje">Abrir o app</a><a class="button secondary" href="mailto:suporte@toppapps.online">Falar com o suporte</a></div></div></div></section></main>${footer()}`;
+      return deliveryThanks({ title:'Acesso | Nunca Mais Esqueça Tudo', h1:'Abra o app. Baixe o PDF. A fila já pode começar.', lead:'Você não precisa esperar e-mail para usar. O app Fila de Hoje abre agora. O PDF de 14 páginas baixa neste botão — e também chega no e-mail da compra, na área de membros da Kiwify.', step3:'Separe o vencido. Lembrei ou esqueci. Recoloque. Saia em 5 minutos.', appHref:'/app/fila-de-hoje', appLabel:'Abrir o app Fila de Hoje', pdfHref: PDF_BASE + '/nunca-mais-esqueca-tudo-ebook-v1.0.pdf', pdfLabel:'Baixar o PDF (14 páginas)' });
     }
-
     function productPage(product) {
       const live = product.status === 'live';
       document.title = `${product.title} | ${CATEGORY.short}`;
@@ -1017,6 +1021,152 @@
       tick();
       setInterval(tick, 1000);
     }
+    function bindDeliveryApps() {
+      const root = document.getElementById('delivery-app');
+      if (!root) return;
+      const kind = root.getAttribute('data-app');
+      const ui = {
+        screen(html) { root.innerHTML = html; bind(); },
+        field(label, inner) { return `<label style="display:grid;gap:.35rem"><span style="font-size:.68rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:#64748b">${label}</span>${inner}</label>`; },
+        input(id, value, extra='') { return `<input id="${id}" value="${esc(value)}" ${extra} style="height:44px;border:1px solid #e5e7eb;border-radius:10px;padding:0 .8rem;font:inherit">`; },
+        btn(label, id, primary) { return `<button type="button" id="${id}" class="button${primary ? ' senta-cta' : ' secondary'}" style="width:100%">${label}</button>`; },
+        pad(html, bg) { return `<div style="padding:1.4rem 1.3rem;background:${bg || '#fff'}">${html}</div>`; }
+      };
+      function bind() {
+        root.querySelectorAll('[data-go]').forEach((el) => el.addEventListener('click', () => render(el.getAttribute('data-go'))));
+      }
+
+      if (kind === 'esqueca') {
+        const KEY = 'topp-fila-de-hoje';
+        const seed = [
+          { id: '1', prompt: 'Princípio da legalidade' },
+          { id: '2', prompt: 'Função do 2º grau' },
+          { id: '3', prompt: 'Concordância verbal' },
+          { id: '4', prompt: 'Controle de constitucionalidade' },
+          { id: '5', prompt: 'Teorema de Pitágoras — quando usar' },
+          { id: '6', prompt: 'Capilares × artérias' },
+        ];
+        let cards;
+        try { cards = JSON.parse(localStorage.getItem(KEY) || 'null') || seed.map((c) => ({...c})); } catch (e) { cards = seed.map((c) => ({...c})); }
+        const save = () => { try { localStorage.setItem(KEY, JSON.stringify(cards)); } catch (e) {} };
+        const paint = () => {
+          const current = cards.find((c) => !c.done);
+          const done = cards.filter((c) => c.done).length;
+          if (!root.dataset.started) {
+            ui.screen(ui.pad(`<p class="eyebrow" style="color:rgba(255,255,255,.8)">FILA DE HOJE</p><h2 style="color:#fff;margin:.4rem 0 0">Só o que vence hoje.</h2><p style="color:rgba(255,255,255,.82);margin:.7rem 0 1.2rem">Dois botões. Cinco minutos. O semestre fica fora.</p><p style="color:rgba(255,255,255,.75)">${cards.filter(c=>!c.done).length} cartões nesta manhã · teto 12</p><div style="margin-top:1.4rem">${ui.btn('Ver só o que vence hoje','fila-start',true)}</div><div style="margin-top:.6rem">${ui.btn('Incluir um cartão','fila-add',false)}</div>`, '#1D4F91'));
+            document.getElementById('fila-start').onclick = () => { root.dataset.started = '1'; paint(); };
+            document.getElementById('fila-add').onclick = () => { root.dataset.started = 'add'; paint(); };
+            return;
+          }
+          if (root.dataset.started === 'add') {
+            ui.screen(ui.pad(`<p class="eyebrow">NOVO CARTÃO</p><h3>O que vence hoje?</h3><div style="display:grid;gap:.8rem;margin-top:1rem">${ui.field('Matéria / ideia', ui.input('fila-prompt','','placeholder="Ex.: habeas corpus"'))}${ui.btn('Colocar na fila','fila-save',true)}${ui.btn('Cancelar','fila-cancel',false)}</div>`));
+            document.getElementById('fila-save').onclick = () => {
+              const prompt = document.getElementById('fila-prompt').value.trim();
+              if (!prompt) return;
+              if (cards.filter((c) => !c.done).length >= 12) { alert('Teto de 12. A fila doente se declara.'); return; }
+              cards.push({ id: String(Date.now()), prompt }); save(); root.dataset.started = '1'; paint();
+            };
+            document.getElementById('fila-cancel').onclick = () => { root.dataset.started = '1'; paint(); };
+            return;
+          }
+          if (!current) {
+            const ok = cards.filter((c) => c.done === 'ok').length;
+            const fail = cards.filter((c) => c.done === 'fail').length;
+            ui.screen(ui.pad(`<p class="eyebrow">FILA ZERADA</p><h3>A manhã acabou. O semestre não entrou na mesa.</h3><p class="copy">${ok} alongados · ${fail} voltam amanhã.</p><div style="display:grid;gap:.6rem;margin-top:1rem">${ui.btn('Incluir um cartão','fila-add',true)}${ui.btn('Recomeçar a fila','fila-reset',false)}</div>`));
+            document.getElementById('fila-add').onclick = () => { root.dataset.started = 'add'; paint(); };
+            document.getElementById('fila-reset').onclick = () => { cards = seed.map((c) => ({...c})); save(); delete root.dataset.started; paint(); };
+            return;
+          }
+          ui.screen(ui.pad(`<p class="eyebrow">${done + 1} DE ${cards.length}</p><h3>${esc(current.prompt)}</h3><p class="copy">Sem olhar o caderno. Lembrei ou esqueci.</p><div style="display:grid;gap:.6rem;margin-top:1.1rem">${ui.btn('Lembrei · 7 dias','fila-ok',true)}${ui.btn('Esqueci · amanhã','fila-fail',false)}${ui.btn('Incluir outro cartão','fila-add',false)}</div>`));
+          document.getElementById('fila-ok').onclick = () => { current.done = 'ok'; save(); paint(); };
+          document.getElementById('fila-fail').onclick = () => { current.done = 'fail'; save(); paint(); };
+          document.getElementById('fila-add').onclick = () => { root.dataset.started = 'add'; paint(); };
+        };
+        paint();
+        return;
+      }
+
+      if (kind === 'revisao') {
+        let step = 'home', subject = 'Direito constitucional', studied = 'controle de constitucionalidade', answer = '', interval = null;
+        const paint = () => {
+          if (step === 'home') {
+            ui.screen(ui.pad(`<p class="eyebrow" style="color:rgba(255,255,255,.8)">PRÓXIMA REVISÃO</p><h2 style="color:#fff">O estudo de hoje vira uma pergunta.</h2><p style="color:rgba(255,255,255,.82);margin:.7rem 0 1rem">Responda sem olhar. Marque 1, 3 ou 7 dias.</p>${ui.btn('Gerar minha pergunta','rv-go',true)}`, '#1D4F91'));
+            document.getElementById('rv-go').onclick = () => { step = 'form'; paint(); };
+            return;
+          }
+          if (step === 'form') {
+            ui.screen(ui.pad(`<p class="eyebrow">CAPTURA</p><h3>O que você estudou hoje?</h3><div style="display:grid;gap:.8rem;margin-top:1rem">${ui.field('Matéria', ui.input('rv-sub', subject))}${ui.field('O que entendi', ui.input('rv-st', studied))}${ui.btn('Gerar a pergunta','rv-gen',true)}</div>`));
+            document.getElementById('rv-gen').onclick = () => { subject = document.getElementById('rv-sub').value.trim() || subject; studied = document.getElementById('rv-st').value.trim() || studied; answer=''; interval=null; step='test'; paint(); };
+            return;
+          }
+          const q = `Sem olhar o caderno: o que é ${studied} em ${subject}?`;
+          ui.screen(ui.pad(`<p class="eyebrow">SEM OLHAR</p><h3>${esc(q)}</h3><textarea id="rv-ans" placeholder="Responda com o caderno fechado" style="min-height:90px;border:1px solid #e5e7eb;border-radius:10px;padding:.7rem;font:inherit;width:100%">${esc(answer)}</textarea><p class="copy">Se acertou com folga, 7 dias. Se vacilou, 3. Se errou, 1.</p><div style="display:flex;gap:.5rem;flex-wrap:wrap;margin-top:.8rem"><button class="button senta-cta" id="rv-1" type="button">1 dia</button><button class="button senta-cta" id="rv-3" type="button">3 dias</button><button class="button senta-cta" id="rv-7" type="button">7 dias</button></div>${interval ? `<p class="senta-effect" style="margin-top:1rem">Próxima prova desta matéria: em ${interval} dia${interval>1?'s':''}.</p><div style="margin-top:.8rem">${ui.btn('Nova pergunta','rv-new',false)}</div>` : ''}`));
+          ['1','3','7'].forEach((d) => document.getElementById('rv-'+d).onclick = () => { answer = document.getElementById('rv-ans').value; interval = Number(d); paint(); });
+          const neu = document.getElementById('rv-new'); if (neu) neu.onclick = () => { step='form'; paint(); };
+        };
+        paint();
+        return;
+      }
+
+      if (kind === 'cronograma') {
+        let step = 'home', hours = 10, subjects = 'Direito, Português, Matemática';
+        const paint = () => {
+          const planned = Math.max(1, Math.round(hours * 0.8));
+          const blocks = Math.max(1, Math.round((planned * 60) / 50));
+          if (step === 'home') {
+            ui.screen(ui.pad(`<p class="eyebrow" style="color:rgba(255,255,255,.8)">PLANO POSSÍVEL</p><h2 style="color:#fff">A semana cabe nas horas que existem.</h2><p style="color:rgba(255,255,255,.82);margin:.7rem 0 1rem">80% da carga. Blocos de 50 minutos. Ajuste na sexta.</p>${ui.btn('Montar minha semana','cr-go',true)}`, '#1D4F91'));
+            document.getElementById('cr-go').onclick = () => { step='form'; paint(); };
+            return;
+          }
+          if (step === 'form') {
+            ui.screen(ui.pad(`<p class="eyebrow">INVENTÁRIO REAL</p><h3>Quantas horas você realmente tem?</h3><div style="display:grid;gap:.8rem;margin-top:1rem">${ui.field('Horas livres na semana', ui.input('cr-h', hours, 'type="number" min="5" max="40"'))}${ui.field('Matérias', ui.input('cr-s', subjects))}<p class="copy">Carga possível: ${planned}h (${blocks} blocos de 50 min).</p>${ui.btn('Gerar minha semana','cr-gen',true)}</div>`));
+            document.getElementById('cr-gen').onclick = () => { hours = Number(document.getElementById('cr-h').value) || 10; subjects = document.getElementById('cr-s').value.trim() || subjects; step='week'; paint(); };
+            return;
+          }
+          const list = subjects.split(',').map((s) => s.trim()).filter(Boolean);
+          const days = ['Seg','Ter','Qua','Qui','Sex','Sáb'];
+          const per = Math.max(1, Math.floor(blocks / 6));
+          ui.screen(ui.pad(`<p class="eyebrow">SEMANA MONTADA</p><h3>${planned}h · ${blocks} blocos de 50 min</h3><p class="copy">Você informou ${hours}h. Usamos 80% para a terça não apagar o plano.</p><div style="display:grid;gap:.45rem;margin:1rem 0">${days.map((d,i)=>`<div style="display:flex;justify-content:space-between;border-bottom:1px solid #e5e7eb;padding:.4rem 0"><b>${d}</b><span>${list[i % list.length] || 'Revisão'} · ${per} bloco(s)</span></div>`).join('')}</div>${ui.btn('Ajustar horas','cr-back',false)}`));
+          document.getElementById('cr-back').onclick = () => { step='form'; paint(); };
+        };
+        paint();
+        return;
+      }
+
+      if (kind === 'senta') {
+        let step = 'home';
+        let s = { subject:'Direito constitucional', action:'Abrir direitos fundamentais e resolver a questão 1', duration:'25', place:'mesa da sala', left: 25*60, timer: null };
+        const phrase = () => `Em ${s.place}, vou abrir ${s.subject.toLowerCase()} e fazer “${s.action}” por ${s.duration} minutos.`;
+        const paint = () => {
+          if (step === 'home') {
+            ui.screen(ui.pad(`<p class="eyebrow" style="color:rgba(255,255,255,.8)">PRIMEIRA SESSÃO</p><h2 style="color:#fff">Reduza a matéria a um movimento.</h2><p style="color:rgba(255,255,255,.82);margin:.7rem 0 1rem">Escolha o tempo. Termine com a próxima entrada escrita.</p>${ui.btn('Preparar minha sessão','se-go',true)}`, '#1D4F91'));
+            document.getElementById('se-go').onclick = () => { step='form'; paint(); };
+            return;
+          }
+          if (step === 'form') {
+            ui.screen(ui.pad(`<p class="eyebrow">CARTÃO DA SESSÃO</p><h3>O que você vai fazer agora?</h3><div style="display:grid;gap:.8rem;margin-top:1rem">${ui.field('Matéria', ui.input('se-sub', s.subject))}${ui.field('Primeira ação', ui.input('se-act', s.action))}${ui.field('Onde você vai sentar', ui.input('se-pl', s.place))}<div style="display:flex;gap:.5rem">${['10','25','50'].map((d)=>`<button type="button" class="button${s.duration===d?' senta-cta':' secondary'}" data-d="${d}" style="flex:1">${d} min</button>`).join('')}</div>${ui.btn('Gerar frase de entrada','se-gen',true)}</div>`));
+            root.querySelectorAll('[data-d]').forEach((b)=> b.onclick = () => { s.duration = b.getAttribute('data-d'); paint(); });
+            document.getElementById('se-gen').onclick = () => { s.subject=document.getElementById('se-sub').value.trim()||s.subject; s.action=document.getElementById('se-act').value.trim()||s.action; s.place=document.getElementById('se-pl').value.trim()||s.place; s.left=Number(s.duration)*60; step='plan'; paint(); };
+            return;
+          }
+          if (step === 'plan') {
+            const mm = String(Math.floor(s.left/60)).padStart(2,'0');
+            const ss = String(s.left%60).padStart(2,'0');
+            ui.screen(ui.pad(`<p class="eyebrow" style="color:#E2571C">FRASE DE ENTRADA</p><h3 style="color:#fff">${esc(phrase())}</h3><p style="font-size:3rem;font-weight:800;color:#fff;margin:1rem 0;font-variant-numeric:tabular-nums">${mm}:${ss}</p><div style="display:grid;gap:.6rem">${ui.btn(s.timer?'Pausar':'Iniciar','se-timer',true)}${ui.btn('Encerrar sessão','se-end',false)}</div>`, '#0F172A'));
+            document.getElementById('se-timer').onclick = () => {
+              if (s.timer) { clearInterval(s.timer); s.timer=null; paint(); return; }
+              s.timer = setInterval(() => { s.left=Math.max(0,s.left-1); if(s.left===0){ clearInterval(s.timer); s.timer=null; step='done'; } paint(); }, 1000);
+            };
+            document.getElementById('se-end').onclick = () => { if(s.timer) clearInterval(s.timer); s.timer=null; step='done'; paint(); };
+            return;
+          }
+          ui.screen(ui.pad(`<p class="eyebrow">SESSÃO ENCERRADA</p><h3>A próxima entrada já pode ser escrita.</h3><p class="copy">Você fez: ${esc(s.action)}. Escreva o próximo movimento antes de sair.</p><div style="margin-top:1rem">${ui.field('Próxima entrada', ui.input('se-next','A questão 2 do mesmo bloco'))}</div><div style="margin-top:1rem">${ui.btn('Nova sessão','se-new',true)}</div>`));
+          document.getElementById('se-new').onclick = () => { step='form'; paint(); };
+        };
+        paint();
+      }
+    }
+
     function bindCommon() {
       const menu = document.querySelector('.menu-toggle'), nav = document.querySelector('.main-nav');
       menu?.addEventListener('click', () => { const open = nav.classList.toggle('open'); menu.setAttribute('aria-expanded', String(open)); });
