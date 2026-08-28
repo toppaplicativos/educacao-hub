@@ -1,5 +1,6 @@
     const CATEGORY = {"key":"educacao","short":"EDUCAÇÃO","label":"Estudos, concursos, ENEM e faculdade","host":"edu.toppapps.online","title":"Soluções para estudar com mais direção e menos improviso.","description":"Guias e ferramentas para organizar a semana, começar o estudo e revisar com critérios que cabem na rotina.","accent":"#5b4b8a","accent_soft":"#f2eff4","deep":"#1a1a22","hero_asset":"https://raw.githubusercontent.com/toppaplicativos/educacao-hub/main/public/product/hero-study.webp","hero_alt":"Ilustração editorial de educação com caderno, relógio e cartões de revisão","slides":[{"title":"Um plano possível vence a semana perfeita.","copy":"Escolha uma solução que respeite seu tempo, suas prioridades e os imprevistos.","image":"https://raw.githubusercontent.com/toppaplicativos/educacao-hub/main/public/product/hero-study.webp","alt":"Destaque editorial 1 de EDUCAÇÃO"},{"title":"Começar também é uma habilidade.","copy":"Reduza a fricção do primeiro bloco e transforme intenção em uma sessão real.","image":"https://raw.githubusercontent.com/toppaplicativos/educacao-hub/main/public/product/session-ready.webp","alt":"Destaque editorial 2 de EDUCAÇÃO"},{"title":"Revisar é voltar com critério.","copy":"Organize o retorno ao conteúdo para não depender de releituras aleatórias.","image":"https://raw.githubusercontent.com/toppaplicativos/educacao-hub/main/public/product/pain-desk.webp","alt":"Destaque editorial 3 de EDUCAÇÃO"}],"collections":[["planejamento","Planejar a semana","Para transformar matérias, prazos e tempo em um plano executável."],["inicio","Começar a estudar","Para reduzir a fricção e construir o primeiro bloco de estudo."],["revisao","Revisar melhor","Para voltar ao conteúdo com intervalos e perguntas mais claras."]],"products":[{"slug":"cronograma-que-funciona","title":"Cronograma que Funciona","subtitle":"Plano de estudos possível","description":"Monte uma semana de estudos que respeita sua rotina, suas prioridades e os imprevistos do caminho.","objective":"Planejamento","theme":"Organização e produtividade","audience":"Estudantes, concurseiros e universitários","format":"Guia digital + aplicação","delivery":"Entrega digital","price":27.9,"status":"live","priority":1,"collection":"planejamento","tags":["cronograma","semana","estudos","planejamento","rotina"],"featured":true,"cover":"https://raw.githubusercontent.com/toppaplicativos/educacao-hub/main/public/assets/covers/cronograma-que-funciona.webp","checkout":"https://pay.kiwify.com.br/aMALUaX"},{"slug":"senta-e-estuda","title":"Senta e Estuda","subtitle":"Primeira sessão em 10 minutos","description":"Em 10 minutos você senta e começa — sem esperar vontade. Guia em PDF + app Primeira Sessão.","objective":"Começar a estudar","theme":"Início e foco","audience":"Quem adia o começo do estudo","format":"Guia digital + app","delivery":"Entrega digital","price":27.9,"status":"live","priority":2,"collection":"inicio","tags":["começar","foco","primeira sessão","estudar"],"featured":true,"cover":"https://raw.githubusercontent.com/toppaplicativos/educacao-hub/main/public/product/cover-navy.webp","checkout":"https://pay.kiwify.com.br/EDp7t2z"}],"faqs":[["A solução substitui uma escola ou professor?","Não. São materiais de organização e aplicação para apoiar sua rotina de estudos."],["O cronograma funciona para qualquer pessoa?","O material oferece critérios para adaptar a semana. A execução depende do tempo, objetivo e contexto de cada pessoa."],["Como uma oferta planejada aparece?","Ela fica no catálogo com estado de preparação e sem preço ou CTA de compra até que publicação, suporte e QA estejam confirmados."]]};
     const SUPPORT_EMAIL = 'suporte@toppapps.online';
+    const HUB_ASSETS = 'https://cdn.jsdelivr.net/gh/toppaplicativos/educacao-hub@2fe1b01479d48d4ebc805822d4c857780aa8d64b/public/product';
     const app = document.getElementById('app');
     const pathParts = location.pathname.replace(/^\/+|\/+$/g,'').split('/').filter(Boolean);
     const params = new URLSearchParams(location.search);
@@ -194,7 +195,7 @@
               <div class="senta-box"><p><b>Situação.</b> Você está no ônibus, a 8 minutos de casa.</p><p><b>Faça.</b> Abra o app. Escreva a matéria e a primeira ação.</p><p><b>Resultado.</b> Ao sentar, a questão 1 já está escolhida. Sem reabrir o índice.</p></div>
               <div class="hero-actions">${cta('Quero o app agora')}</div>
             </div>
-            <figure class="senta-mock"><img src="https://raw.githubusercontent.com/toppaplicativos/educacao-hub/main/public/product/miniapp/montar.webp" alt="Celular com o app reduzindo a matéria à questão 1" width="424" height="900"></figure>
+            <figure class="senta-mock"><img src="${HUB_ASSETS}/miniapp/montar.webp" alt="Celular com o app reduzindo a matéria à questão 1" width="424" height="900"></figure>
           </article>
         </div></section>
 
@@ -208,7 +209,7 @@
               <div class="senta-box"><p><b>Situação.</b> Chegou do trabalho. Sobram 12 minutos antes do jantar.</p><p><b>Faça.</b> Abra o app, escolha 10 minutos, copie a definição-chave.</p><p><b>Resultado.</b> O dia deixa de acabar na porta de casa. Você tem uma sessão feita.</p></div>
               <div class="hero-actions">${cta('Quero o app agora')}</div>
             </div>
-            <figure class="senta-mock"><img src="https://raw.githubusercontent.com/toppaplicativos/educacao-hub/main/public/product/miniapp/sessao.webp" alt="Celular com o app em sessão: frase de entrada e timer" width="461" height="900"></figure>
+            <figure class="senta-mock"><img src="${HUB_ASSETS}/miniapp/sessao.webp" alt="Celular com o app em sessão: frase de entrada e timer" width="461" height="900"></figure>
           </article>
         </div></section>
 
@@ -222,7 +223,7 @@
               <div class="senta-box"><p><b>Situação.</b> O exercício 1 está no papel. O cansaço pede para parar.</p><p><b>Faça.</b> Antes de sair, escreva no app a próxima entrada.</p><p><b>Resultado.</b> Amanhã você não recomeça do índice. Recomeça da questão 2.</p></div>
               <div class="hero-actions">${cta('Quero o app agora')}</div>
             </div>
-            <figure class="senta-mock"><img src="https://raw.githubusercontent.com/toppaplicativos/educacao-hub/main/public/product/miniapp/retomada.webp" alt="Celular com o app encerrado e o bilhete da próxima entrada" width="687" height="900"></figure>
+            <figure class="senta-mock"><img src="${HUB_ASSETS}/miniapp/retomada.webp" alt="Celular com o app encerrado e o bilhete da próxima entrada" width="687" height="900"></figure>
           </article>
         </div></section>
 
@@ -344,7 +345,7 @@
       document.title = 'Cronograma que Funciona | Educação Toppapps';
       const pay = 'https://pay.kiwify.com.br/aMALUaX';
       const cta = (label) => `<a class="button senta-cta" href="${pay}" rel="noopener">${label}</a>`;
-      const A = 'https://raw.githubusercontent.com/toppaplicativos/educacao-hub/main/public/product/cronograma';
+      const A = HUB_ASSETS + '/cronograma';
       return `<style>${salesCss()}</style>
       <div class="offer-bar" data-offer-timer data-offer-slug="cronograma-que-funciona"><span class="offer-bar-kicker">OFERTA IMPERDÍVEL</span><span>Por tempo limitado</span><span>De R$ 97 por R$ 27,90</span><span>Termina em <span class="offer-bar-clock" data-clock>20:00</span></span>${cta('Quero agora')}</div>
       ${header()}
