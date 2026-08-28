@@ -63,11 +63,16 @@
     }
     function routeHeader(title, eyebrow) { return `${header()}<main id="main-content"><section class="route-hero"><div class="wrap"><p class="eyebrow">${esc(eyebrow)} · ${esc(CATEGORY.short)}</p><h1>${esc(title)}</h1></div></section>`; }
 
-    function sentaSalesPage(product) {
-      document.title = 'Senta e Estuda | Educação Toppapps';
-      const pay = 'https://pay.kiwify.com.br/EDp7t2z';
-      const cta = (label) => `<a class="button senta-cta" href="${pay}" rel="noopener">${label}</a>`;
-      return `${header()}<style>
+
+    function salesCss() {
+      return `
+        .has-offer-bar .site-header{top:52px;z-index:70}
+        .offer-bar{position:sticky;top:0;z-index:80;background:#B91C1C;color:#fff;display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:.55rem 1rem;padding:.7rem 1rem;font-weight:700;font-size:.9rem;box-shadow:0 6px 18px rgba(185,28,28,.4)}
+        .offer-bar-kicker{letter-spacing:.14em;font-size:.7rem}
+        .offer-bar-clock{font-variant-numeric:tabular-nums;letter-spacing:.08em;background:rgba(0,0,0,.28);padding:.18rem .55rem;border-radius:6px;font-size:1.08rem}
+        .offer-bar a{color:#fff!important;background:#0F172A!important;border-color:#0F172A!important}
+        .offer-visit{margin:.55rem 0 0;font-weight:700;color:#FCA5A5;display:flex;align-items:center;gap:.45rem}
+        .offer-visit .offer-bar-clock{background:#B91C1C;color:#fff}
         .senta-bar{background:#1D4F91;color:#fff;text-align:center;padding:.55rem 1rem;font-size:.82rem;font-weight:650}
         .senta-cta,.senta-offer .button,.hero-actions .senta-cta{background:#E2571C!important;border-color:#E2571C!important;color:#fff!important}
         .senta-hero h1{font-size:clamp(1.75rem,4.2vw,3.15rem);line-height:1.12;margin:.45rem 0 1rem;letter-spacing:-.04em}
@@ -111,8 +116,16 @@
         .senta-old{text-decoration:line-through;opacity:.55;margin-right:.4rem}
         .senta-faq details{background:#fff}
         .senta-bar a{color:#fff;font-weight:800}
-      </style>
-      <div class="senta-bar">Condição de lançamento até 04/09 · R$ 27,90 · 7 dias para desistir · ${cta('Quero agora')}</div>
+      `;
+    }
+
+    function sentaSalesPage(product) {
+      document.title = 'Senta e Estuda | Educação Toppapps';
+      const pay = 'https://pay.kiwify.com.br/EDp7t2z';
+      const cta = (label) => `<a class="button senta-cta" href="${pay}" rel="noopener">${label}</a>`;
+      return `<style>${salesCss()}</style>
+      <div class="offer-bar" data-offer-timer data-offer-slug="senta-e-estuda"><span class="offer-bar-kicker">OFERTA DESTA VISITA</span><span>De R$ 97 por R$ 27,90</span><span>Termina em <span class="offer-bar-clock" data-clock>20:00</span></span>${cta('Quero agora')}</div>
+      ${header()}
       <main id="main-content">
         <section class="hero"><div class="wrap senta-grid senta-hero">
           <div class="hero-copy">
@@ -235,6 +248,12 @@
           </div>
         </div></section>
 
+
+        <section class="section" id="antes"><div class="wrap senta-grid">
+          <article class="senta-ben" style="background:#0F172A;color:#fff"><p class="eyebrow" style="color:#E2571C">ANTES</p><h3>Tarefa vaga. Celular na mesa. Dia perdido.</h3><p class="copy">“Estudar direito” sem primeiro movimento. Duração inexistente. Quebra vira culpa, não retomada.</p></article>
+          <article class="senta-ben"><p class="eyebrow">DEPOIS</p><h3>Ação visível. Tempo que cabe. Próxima entrada escrita.</h3><p class="copy">Questão 1, definição, ou página aberta. 10, 25 ou 50 minutos. Se quebrar, reentra por 10 minutos.</p></article>
+        </div></section>
+
         <section class="section light" id="prova"><div class="wrap">
           <p class="eyebrow">PROVA SOCIAL</p>
           <h2>Três pessoas. Três começos. Nenhum dia perfeito.</h2>
@@ -246,11 +265,18 @@
           </div>
         </div></section>
 
+
+        <section class="section light" id="publico"><div class="wrap senta-grid">
+          <div><p class="eyebrow">PARA QUEM É</p><h2>Se o difícil é começar, este guia foi escrito para você.</h2><p class="copy">Quem abre o material e fecha. Quem trabalha e estuda. Quem já tentou cronograma rígido e desistiu no primeiro atraso.</p></div>
+          <div><p class="eyebrow">PARA QUEM NÃO É</p><h2>Limites claros evitam a compra errada.</h2><p class="copy">Não promete aprovação, nota ou classificação. Não é curso de conteúdo. Não substitui professor.</p></div>
+        </div></section>
+
         <section class="senta-offer" id="oferta"><div class="wrap">
           <p class="eyebrow" style="color:#E2571C">OFERTA DE LANÇAMENTO</p>
           <h2>Hoje você troca mais um dia perdido por uma sessão feita.</h2>
-          <p class="copy">R$ 27,90 até 4 de setembro. Guia em PDF (16 páginas) + app Primeira Sessão. Acesso digital após o pagamento.</p>
+          <p class="copy">R$ 27,90 nesta visita. Guia em PDF (16 páginas) + app Primeira Sessão. Acesso digital após o pagamento.</p>
           <p class="senta-price"><span class="senta-old">R$ 97</span> R$ 27,90</p>
+          <p class="offer-visit">Esta visita · <span class="offer-bar-clock" data-clock>20:00</span></p>
           <div class="senta-stack">
             <div><span>Guia Senta e Estuda · PDF 16 páginas</span><b>incluso</b></div>
             <div><span>App Primeira Sessão · celular e computador</span><b>incluso</b></div>
@@ -258,6 +284,13 @@
           </div>
           <div class="hero-actions">${cta('Quero minha primeira sessão')}</div>
           <p class="hero-note" style="color:rgba(255,255,255,.7)">7 dias para desistir, nos termos do art. 49 do CDC. Conteúdo educacional. Não promete aprovação, nota ou classificação.</p>
+        </div></section>
+
+
+        <section class="section" id="garantia"><div class="wrap" style="max-width:720px">
+          <p class="eyebrow">GARANTIA</p>
+          <h2>7 dias para desistir. O risco fica com a gente.</h2>
+          <p class="copy">Art. 49 do CDC. Se o material não servir, peça o reembolso pelo e-mail de suporte informando a compra.</p>
         </div></section>
 
         <section class="section" id="faq"><div class="wrap">
@@ -277,7 +310,7 @@
         <section class="section light"><div class="wrap" style="text-align:center;max-width:720px;margin-inline:auto">
           <p class="eyebrow">COMECE HOJE</p>
           <h2>Daqui a 10 minutos o material pode estar aberto.</h2>
-          <p class="copy">No app, reduza a matéria em 2 minutos e sente 10. A condição de lançamento vai até 4 de setembro.</p>
+          <p class="copy">No app, reduza a matéria em 2 minutos e sente 10. A condição desta visita termina no cronômetro vermelho.</p>
           <div class="hero-actions" style="justify-content:center">${cta('Quero minha primeira sessão')}</div>
         </div></section>
         ${supportSection()}
@@ -312,39 +345,9 @@
       const pay = 'https://pay.kiwify.com.br/aMALUaX';
       const cta = (label) => `<a class="button senta-cta" href="${pay}" rel="noopener">${label}</a>`;
       const A = 'https://raw.githubusercontent.com/toppaplicativos/educacao-hub/main/public/product/cronograma';
-      return `${header()}<style>
-        .senta-bar{background:#1D4F91;color:#fff;text-align:center;padding:.55rem 1rem;font-size:.82rem;font-weight:650}
-        .senta-cta,.senta-offer .button,.hero-actions .senta-cta{background:#E2571C!important;border-color:#E2571C!important;color:#fff!important}
-        .senta-hero h1{font-size:clamp(1.75rem,4.2vw,3.15rem);line-height:1.12;margin:.45rem 0 1rem;letter-spacing:-.04em}
-        .senta-grid{display:grid;gap:1.6rem}
-        @media(min-width:860px){.senta-grid{grid-template-columns:1.08fr .92fr;align-items:center}}
-        .senta-proof{display:flex;flex-wrap:wrap;gap:.55rem;margin:1rem 0 0}
-        .senta-proof span{border:1px solid #d7dbe3;padding:.32rem .7rem;border-radius:999px;font-size:.75rem}
-        .senta-quote{background:#fff;border:1px solid #e5e7eb;padding:1rem;border-radius:14px}
-        .senta-quote img{width:44px;height:44px;border-radius:50%;object-fit:cover;float:left;margin:0 .75rem .4rem 0}
-        .senta-offer{background:#0F172A;color:#fff;padding:2.4rem 0}
-        .senta-offer h2,.senta-dark h2{color:#fff}
-        .senta-dark{background:#0F172A;color:#fff}
-        .senta-dark .copy,.senta-offer .copy{color:rgba(255,255,255,.74)}
-        .senta-app{display:grid;gap:1.4rem;align-items:center}
-        @media(min-width:860px){.senta-app{grid-template-columns:1fr 1fr}}
-        .senta-app.reverse .senta-copy{order:2}
-        .senta-mock{display:flex;justify-content:center;align-items:center;min-height:280px;background:transparent}
-        .senta-mock img{max-height:420px;width:auto;max-width:100%;object-fit:contain;height:auto}
-        .senta-steps{display:grid;gap:.8rem}
-        @media(min-width:700px){.senta-steps{grid-template-columns:repeat(3,1fr)}}
-        .senta-step{background:#fff;border:1px solid #e5e7eb;border-top:4px solid #E2571C;border-radius:12px;padding:1.1rem}
-        .senta-faces{display:grid;gap:.8rem}
-        @media(min-width:800px){.senta-faces{grid-template-columns:repeat(3,1fr)}}
-        .senta-stack{display:grid;gap:.55rem;margin:1.1rem 0}
-        .senta-stack div{display:flex;justify-content:space-between;gap:1rem;border-bottom:1px solid rgba(255,255,255,.12);padding:.55rem 0;font-size:.92rem}
-        .senta-price{font-size:2.4rem;font-weight:850;letter-spacing:-.04em;margin:.4rem 0}
-        .senta-old{text-decoration:line-through;opacity:.55;margin-right:.4rem}
-        .senta-faq details{background:#fff}
-        .senta-bar a{color:#fff;font-weight:800}
-        .senta-effect{margin-top:.9rem;border:1px solid #dbe3ef;background:#f4f7fb;border-radius:10px;padding:.7rem .9rem;font-size:.88rem;font-weight:650}
-      </style>
-      <div class="senta-bar">Condição de lançamento até 04/09 · R$ 27,90 · 7 dias para desistir · ${cta('Quero agora')}</div>
+      return `<style>${salesCss()}</style>
+      <div class="offer-bar" data-offer-timer data-offer-slug="cronograma-que-funciona"><span class="offer-bar-kicker">OFERTA DESTA VISITA</span><span>De R$ 97 por R$ 27,90</span><span>Termina em <span class="offer-bar-clock" data-clock>20:00</span></span>${cta('Quero agora')}</div>
+      ${header()}
       <main id="main-content">
         <section class="hero"><div class="wrap senta-grid senta-hero">
           <div class="hero-copy">
@@ -354,6 +357,11 @@
             <p class="hero-note">Acesso na hora · carga a 80% · 7 dias para desistir</p>
             <p class="hero-lede">Pare de montar tabela no domingo e abandonar na terça. O app Plano Possível transforma suas horas reais em blocos de 50 minutos — com 20% de folga e a revisão já marcada.</p>
             <div class="senta-proof"><span>Plano possível em 15 min</span><span>R$ 27,90</span><span>PDF 14 páginas + app</span><span>Garantia 7 dias</span></div>
+            <blockquote class="senta-quote" style="margin-top:1.2rem;overflow:auto">
+              <img src="${A}/faces/rafael.webp" alt="Rafael S." width="88" height="88">
+              <p>“Antes: grid de 30h. Ação: 80% de 12h. Resultado: semana ajustada, não apagada.”</p>
+              <footer>Rafael S. · Concurso + trabalho · Campina Grande</footer>
+            </blockquote>
           </div>
           <div class="hero-visual"><img src="${A}/hero.webp" alt="Mesa com um plano semanal enxuto" width="1792" height="1008"></div>
         </div></section>
@@ -372,6 +380,14 @@
           </div>
         </div></section>
 
+
+        <section class="section" id="virada"><div class="wrap">
+          <p class="eyebrow">A VIRADA</p>
+          <h2>De uma tabela perfeita para um plano que sobrevive à segunda-feira.</h2>
+          <p class="copy">O problema não é falta de vontade. É obedecer a um plano que não foi construído para as horas que você realmente tem.</p>
+          <p class="senta-effect">Conte as horas reais. Use 80%. Blocos de 50 minutos. Ajuste na sexta — não recomece do zero.</p>
+        </div></section>
+
         <section class="section"><div class="wrap">
           <p class="eyebrow">MÉTODO</p>
           <h2>Plano possível em 3 camadas</h2>
@@ -387,19 +403,50 @@
           <p class="eyebrow">O APP · PLANO POSSÍVEL</p>
           <h2>Três movimentos. A semana deixa de ser um grid inflado.</h2>
           <div class="senta-app" style="margin-top:2rem">
-            <div class="senta-copy"><p class="eyebrow">NO APP · INVENTÁRIO</p><h3>Em minutos, a semana deixa de ser a que você gostaria de ter.</h3><p>Você informa as horas reais e as matérias. O app devolve uma carga a 80% — não um grid inflado.</p><p class="senta-effect">A tabela cheia colapsa em blocos de 50 minutos que cabem.</p></div>
+            <div class="senta-copy"><p class="eyebrow">NO APP · INVENTÁRIO</p><h3>Em minutos, a semana deixa de ser a que você gostaria de ter.</h3><p>Você informa as horas reais e as matérias. O app devolve uma carga a 80% — não um grid inflado.</p><p class="senta-effect">A tabela cheia colapsa em blocos de 50 minutos que cabem.</p>
+              <div class="senta-box"><p><b>Situação.</b> Domingo à noite. Você ia preencher de novo o horário inteiro.</p><p><b>Faça.</b> Abra o app. Digite as horas que realmente existem.</p><p><b>Resultado.</b> A semana nasce no tamanho da sua vida, não no tamanho da culpa.</p></div>
+              <div class="hero-actions">${cta('Quero o app agora')}</div></div>
             <div class="senta-mock"><img src="${A}/miniapp/montar.webp" alt="App transformando horas reais em blocos"></div>
           </div>
           <div class="senta-app reverse" style="margin-top:2.4rem">
-            <div class="senta-copy"><p class="eyebrow">NO APP · SEMANA</p><h3>O gerador não motiva. Ele distribui o que cabe.</h3><p>50 minutos, pausa, prioridade. Alta 3x, média 2x, baixa 1x. A revisão já entra no plano.</p><p class="senta-effect">8h planejadas de 10h livres. Carga possível à vista.</p></div>
+            <div class="senta-copy"><p class="eyebrow">NO APP · SEMANA</p><h3>O gerador não motiva. Ele distribui o que cabe.</h3><p>50 minutos, pausa, prioridade. Alta 3x, média 2x, baixa 1x. A revisão já entra no plano.</p><p class="senta-effect">8h planejadas de 10h livres. Carga possível à vista.</p>
+              <div class="senta-box"><p><b>Situação.</b> Você tem 10 horas na semana e seis matérias pedindo espaço.</p><p><b>Faça.</b> Gere a semana no app. Aceite os 80%.</p><p><b>Resultado.</b> Cada bloco já tem tarefa. Nenhuma hora nasce inventada.</p></div>
+              <div class="hero-actions">${cta('Quero o app agora')}</div></div>
             <div class="senta-mock"><img src="${A}/miniapp/sessao.webp" alt="Semana gerada em blocos de 50 minutos"></div>
           </div>
           <div class="senta-app" style="margin-top:2.4rem">
-            <div class="senta-copy"><p class="eyebrow">NO APP · EXECUÇÃO</p><h3>A sexta mede o feito. Não pune o que faltou.</h3><p>Marque planejada, executada, revisada. Execução = feitas / planejadas. Reset de 10 minutos se a semana quebrar.</p><p class="senta-effect">Um bilhete sai da tela: “não recomece do zero”.</p></div>
+            <div class="senta-copy"><p class="eyebrow">NO APP · EXECUÇÃO</p><h3>A sexta mede o feito. Não pune o que faltou.</h3><p>Marque planejada, executada, revisada. Execução = feitas / planejadas. Reset de 10 minutos se a semana quebrar.</p><p class="senta-effect">Um bilhete sai da tela: “não recomece do zero”.</p>
+              <div class="senta-box"><p><b>Situação.</b> Terça o expediente estourou. Dois blocos caíram.</p><p><b>Faça.</b> Abra o painel. Marque o feito. Mova o que ainda é prioridade.</p><p><b>Resultado.</b> A próxima sessão continua visível. A tabela não vai para o lixo.</p></div>
+              <div class="hero-actions">${cta('Quero o app agora')}</div></div>
             <div class="senta-mock"><img src="${A}/miniapp/retomada.webp" alt="Painel de execução do Plano Possível"></div>
           </div>
         </div></section>
 
+        <section class="section light" id="conteudo"><div class="wrap">
+          <p class="eyebrow">POR DENTRO DO PDF</p>
+          <h2>Do inventário real ao ajuste de sexta — sem recomeçar do zero.</h2>
+          <div class="senta-pdfs" style="margin-top:1.3rem">
+            <article class="senta-pdf"><small>BASE</small><h3>Inventário real</h3><p class="copy">Conte as horas que existem. Desconte deslocamento, refeição, trabalho e sono.</p></article>
+            <article class="senta-pdf"><small>CARGA</small><h3>Regra dos 80%</h3><p class="copy">10 horas livres viram cerca de 8 horas de sessão. Folga não é preguiça.</p></article>
+            <article class="senta-pdf"><small>BLOCO</small><h3>50 minutos + tarefa visível</h3><p class="copy">Resolver 15 questões. Não “estudar matemática”.</p></article>
+            <article class="senta-pdf"><small>AJUSTE</small><h3>Reset de 10 minutos</h3><p class="copy">Marque, mova, reduza. Preserve a próxima sessão possível.</p></article>
+          </div>
+        </div></section>
+        <section class="section"><div class="wrap">
+          <p class="eyebrow">O QUE MUDA NA PRÁTICA</p>
+          <h2>Resultado na semana que cabe — não um grid para impressionar.</h2>
+          <div class="senta-bens" style="margin-top:1.3rem">
+            <article class="senta-ben"><h3>Um plano que cabe nas horas que existem</h3><p class="copy">Você conta a disponibilidade líquida e planeja 80%.</p></article>
+            <article class="senta-ben"><h3>Blocos de 50 minutos com tarefa visível</h3><p class="copy">Cada sessão diz o que fazer. Não “estudar direito”.</p></article>
+            <article class="senta-ben"><h3>Revisão já marcada</h3><p class="copy">24 horas e a semana seguinte entram no plano quando a sessão termina.</p></article>
+            <article class="senta-ben"><h3>A terça não apaga o domingo</h3><p class="copy">Reset de 10 minutos: marque o feito, mova o que importa.</p></article>
+          </div>
+        </div></section>
+
+        <section class="section" id="antes"><div class="wrap senta-grid">
+          <article class="senta-ben" style="background:#0F172A;color:#fff"><p class="eyebrow" style="color:#E2571C">ANTES</p><h3>Grid lotado. Nenhuma sessão marcada como feita. Recomeço na segunda.</h3><p class="copy">Todas as matérias, todos os dias. Metas de horas para compensar atraso. Um imprevisto apaga a semana.</p></article>
+          <article class="senta-ben"><p class="eyebrow">DEPOIS</p><h3>Horas reais. 80% de carga. Execução visível.</h3><p class="copy">Blocos de 50 minutos com tarefa visível. Revisão de 24h já no plano. Sexta: ajustar. Não apagar.</p></article>
+        </div></section>
         <section class="section"><div class="wrap">
           <p class="eyebrow">PROVA</p>
           <h2>Três rotinas. Três semanas que não recomeçaram do zero.</h2>
@@ -410,17 +457,22 @@
           </div>
         </div></section>
 
+        <section class="section light"><div class="wrap senta-grid">
+          <div><p class="eyebrow">PARA QUEM É</p><h2>Se o seu plano morre na segunda semana, este guia é para você.</h2><p class="copy">Quem monta cronograma no domingo e abandona. Quem tem 5 a 20 horas reais. Quem já copiou tabela pronta.</p></div>
+          <div><p class="eyebrow">PARA QUEM NÃO É</p><h2>Limites claros evitam a compra errada.</h2><p class="copy">Não promete aprovação, nota ou classificação. Não é cronograma genérico para copiar. Não substitui professor.</p></div>
+        </div></section>
         <section class="senta-offer" id="oferta"><div class="wrap senta-grid">
           <div>
             <p class="eyebrow" style="color:#E2571C">OFERTA DE LANÇAMENTO</p>
             <h2>Hoje você troca mais uma tabela abandonada por uma semana possível.</h2>
-            <p class="copy">R$ 27,90 até 4 de setembro. O acesso é digital: você abre o app e monta a semana com as horas que realmente tem.</p>
+            <p class="copy">R$ 27,90 nesta visita. O acesso é digital: você abre o app e monta a semana com as horas que realmente tem.</p>
             <div class="senta-stack">
               <div><span>Guia Cronograma que Funciona</span><span>PDF · 14 páginas</span></div>
               <div><span>App Plano Possível</span><span>No celular e no computador</span></div>
               <div><span>Checklist + painel</span><span>Execução visível</span></div>
             </div>
             <p class="senta-price"><span class="senta-old">R$ 97</span> R$ 27,90</p>
+            <p class="offer-visit">Esta visita · <span class="offer-bar-clock" data-clock>20:00</span></p>
             ${cta('Montar meu plano possível')}
             <p class="copy" style="margin-top:1rem">7 dias para desistir, nos termos do art. 49 do CDC. Sem promessa de aprovação.</p>
           </div>
@@ -429,6 +481,12 @@
           </div>
         </div></section>
 
+
+        <section class="section"><div class="wrap" style="max-width:720px">
+          <p class="eyebrow">GARANTIA</p>
+          <h2>7 dias para desistir. O risco fica com a gente.</h2>
+          <p class="copy">Art. 49 do CDC. Se o material não servir, peça o reembolso pelo e-mail de suporte informando a compra.</p>
+        </div></section>
         <section class="section senta-faq"><div class="wrap">
           <p class="eyebrow">FAQ</p>
           <h2>Perguntas que travam a compra.</h2>
@@ -495,6 +553,46 @@
       bindCommon();
       if (pathParts.length === 0 || pathParts[0] === 'categoria') bindHub();
     }
+
+    function bindOfferTimer() {
+      const root = document.querySelector('[data-offer-timer]');
+      if (!root) return;
+      document.body.classList.add('has-offer-bar');
+      const slug = root.getAttribute('data-offer-slug') || location.pathname;
+      const clocks = [...document.querySelectorAll('[data-clock]')];
+      const WINDOW_MS = 20 * 60 * 1000;
+      const MAX_MS = 30 * 60 * 1000;
+      const COOLDOWN_MS = 2 * 60 * 60 * 1000;
+      const key = 'topp-offer-' + slug;
+      const now = Date.now();
+      let end;
+      try {
+        const raw = localStorage.getItem(key);
+        const saved = Number(raw);
+        if (raw && Number.isFinite(saved)) {
+          if (saved > now && saved - now <= MAX_MS) end = saved;
+          else if (saved <= now && now - saved < COOLDOWN_MS) end = saved;
+        }
+        if (!end) {
+          end = now + WINDOW_MS;
+          localStorage.setItem(key, String(end));
+        }
+      } catch (e) {
+        end = now + WINDOW_MS;
+      }
+      const pad = (n) => String(n).padStart(2, '0');
+      const tick = () => {
+        const left = Math.max(0, end - Date.now());
+        const label = left === 0 ? '00:00' : pad(Math.floor(left / 60000)) + ':' + pad(Math.floor((left % 60000) / 1000));
+        clocks.forEach((el) => { el.textContent = label; });
+        if (left === 0) {
+          const kicker = root.querySelector('.offer-bar-kicker');
+          if (kicker) kicker.textContent = 'CONDIÇÃO ENCERRADA · PREÇO VIGENTE';
+        }
+      };
+      tick();
+      setInterval(tick, 1000);
+    }
     function bindCommon() {
       const menu = document.querySelector('.menu-toggle'), nav = document.querySelector('.main-nav');
       menu?.addEventListener('click', () => { const open = nav.classList.toggle('open'); menu.setAttribute('aria-expanded', String(open)); });
@@ -502,6 +600,7 @@
       const headerSearch = document.getElementById('header-search');
       headerSearch?.addEventListener('keydown', (event) => { if (event.key === 'Enter' && headerSearch.value.trim()) location.href = `/?q=${encodeURIComponent(headerSearch.value.trim())}#catalogo`; });
       const datalist = document.getElementById('search-suggestions');
+      bindOfferTimer();
       if (datalist) datalist.innerHTML = CATEGORY.products.flatMap((product) => [product.title, product.objective, product.theme, ...product.tags]).map((value) => `<option value="${esc(value)}"></option>`).join('');
     }
     function bindCarousel() {
