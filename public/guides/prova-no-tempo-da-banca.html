@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8" />
+<title>Prova no Tempo da Banca</title>
+<style>
+  @page { size: A4; margin: 0; }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; font-family: Inter, system-ui, sans-serif; color: #0F172A; background: #fff; }
+  .page { width: 210mm; height: 297mm; padding: 18mm 18mm 20mm; page-break-after: always; position: relative; overflow: hidden; }
+  .page:last-child { page-break-after: auto; }
+  .cover { background: #1D4F91; color: #fff; padding: 22mm 18mm; }
+  .kicker { font-size: 11px; letter-spacing: .18em; font-weight: 700; text-transform: uppercase; color: #E2571C; }
+  .cover .kicker { color: #93c5fd; }
+  .badge { display: inline-block; background: #E2571C; color: #fff; font-size: 11px; font-weight: 700; letter-spacing: .12em; padding: 6px 12px; border-radius: 999px; margin: 18px 0 22px; }
+  h1 { font-size: 40px; line-height: 1.08; margin: 0 0 16px; }
+  h2 { font-size: 26px; line-height: 1.15; margin: 0 0 12px; }
+  h3 { font-size: 16px; margin: 0 0 6px; }
+  p { font-size: 14.5px; line-height: 1.55; margin: 0 0 12px; }
+  .lede { font-size: 17px; line-height: 1.5; max-width: 42em; }
+  .muted { color: #475569; }
+  .cover p { color: #dbeafe; }
+  .foot { position: absolute; left: 18mm; right: 18mm; bottom: 12mm; font-size: 11px; color: #64748b; display: flex; justify-content: space-between; }
+  .cover .foot { color: #93c5fd; }
+  .chip { display: inline-block; border: 1px solid #e2e8f0; border-radius: 999px; padding: 6px 12px; margin: 0 8px 8px 0; font-size: 13px; font-weight: 600; }
+  .chip.on { background: #E2571C; color: #fff; border-color: #E2571C; }
+  .box { background: #F4F6F8; border-radius: 10px; padding: 14px 16px; margin: 12px 0; }
+  .grid3 { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 10px; margin: 14px 0; }
+  .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin: 14px 0; }
+  .card { background: #F4F6F8; border-radius: 10px; padding: 14px; }
+  .card b { display: block; font-size: 13px; letter-spacing: .08em; color: #1D4F91; margin-bottom: 6px; }
+  ol { padding-left: 18px; }
+  li { margin: 0 0 8px; font-size: 14.5px; line-height: 1.5; }
+  .num { font-size: 11px; font-weight: 700; letter-spacing: .16em; color: #E2571C; margin-bottom: 8px; }
+  .ex { border-left: 4px solid #E2571C; padding: 8px 12px; margin: 12px 0; background: #FFF7F2; }
+  table { width: 100%; border-collapse: collapse; font-size: 13px; margin: 12px 0; }
+  th { text-align: left; background: #1D4F91; color: #fff; padding: 8px 10px; }
+  td { border-bottom: 1px solid #E8EDF2; padding: 8px 10px; }
+  .clock { font-size: 42px; font-weight: 800; letter-spacing: .04em; color: #E2571C; margin: 8px 0 16px; }
+</style>
+</head>
+<body>
+
+<section class="page cover">
+  <p class="kicker">TOPPAPPS · EDUCAÇÃO</p>
+  <div class="badge">GUIA PRÁTICO · 14 PÁGINAS</div>
+  <h1>Prova no Tempo da Banca</h1>
+  <p class="lede">O relógio da banca fica na mesa. Você termina o bloco no tempo real. Um bloco. O que sobrou ganha nome.</p>
+  <p>50, 90 ou 120 minutos. Sem pausa. Sem caderno no meio.</p>
+  <p>Acabou o tempo. Não sabia. Deu tempo.</p>
+  <p class="foot"><span>PDF + app Relógio da Prova</span><span>R$ 27,90 · garantia 7 dias</span></p>
+</section>
+
+<section class="page">
+  <p class="num">00 · ANTES DE COMEÇAR</p>
+  <h2>Como usar este guia</h2>
+  <p class="lede">Leia em ordem. Depois abra o app. O PDF explica o porquê. O app coloca o relógio na mesa.</p>
+  <div class="box">
+    <p><b>O que você precisa.</b> Um bloco da sua banca. Caderno, PDF ou site. Caneta. 50, 90 ou 120 minutos. O app no celular ou no computador.</p>
+  </div>
+  <ol>
+    <li>Escolha o tempo da sua prova. Não um recorte que cabe no humor.</li>
+    <li>Ponha o relógio na mesa. Sem pausa. Sem caderno no meio.</li>
+    <li>Faça um bloco. O fiscal não espera você voltar.</li>
+    <li>Quando o relógio zerar, dê um nome ao que sobrou.</li>
+    <li>Um bloco por dia. Depois para.</li>
+  </ol>
+  <p>Este material não promete aprovação, nota nem prova oficial da banca. Você traz o bloco. O método trata o tempo.</p>
+  <p class="foot"><span>Prova no Tempo da Banca</span><span>2</span></p>
+</section>
+
+<section class="page">
+  <p class="num">01 · DIAGNÓSTICO</p>
+  <h2>Por que estudar sem relógio falha na prova</h2>
+  <p class="lede">A mesa aceita 3 horas. A banca não. Você estuda até cansar. Na prova o tempo acaba no meio da questão 32.</p>
+  <p>Sem relógio, o bloco não existe. Você faz até o corpo pedir. Pausa. Olha o caderno. Volta. Isso ensina a matéria. Não ensina a prova.</p>
+  <p>Na hora o fiscal avisa 15 minutos. Você ainda está na metade. A matéria você sabia. O tempo não estava na mesa.</p>
+  <div class="grid3">
+    <div class="card"><b>O QUE SOBE</b><p>Horas na cadeira. Páginas marcadas. Cansaço.</p></div>
+    <div class="card"><b>O QUE NÃO MUDA</b><p>O ritmo. A primeira dezena. A pausa escondida.</p></div>
+    <div class="card"><b>O QUE A PROVA COBRA</b><p>O relógio. Um só. Sem caderno no meio.</p></div>
+  </div>
+  <p>Quantidade sem hora é treino de resistência. Resistência sem relógio some na prova.</p>
+  <p class="foot"><span>Prova no Tempo da Banca</span><span>3</span></p>
+</section>
+
+<section class="page">
+  <p class="num">02 · O BLOCO</p>
+  <h2>O bloco da sua banca. Não um recorte.</h2>
+  <p class="lede">50, 90 ou 120. Você escolhe o tempo real. Não 12 minutos porque o jantar chegou.</p>
+  <p>A prova não se parte no seu humor. Se a banca dá 50 minutos para 20 questões, o treino é 50. Se dá 120 para linguagens, o treino é 120.</p>
+  <div class="grid3">
+    <div class="card"><b>50 MIN</b><p>Bloco curto. Concurso de uma manhã. Linguagens em recorte de prova.</p></div>
+    <div class="card"><b>90 MIN</b><p>Bloco médio. Depois do trabalho. Uma prova de meio período.</p></div>
+    <div class="card"><b>120 MIN</b><p>Bloco longo. ENEM. Uma área inteira. Sem partir em dois dias.</p></div>
+  </div>
+  <div class="ex">
+    <p>Se você só tem 40 minutos hoje, não invente um bloco de 40. Espere o bloco caber. Ou escolha 50 e termine quando o relógio mandar. Recortar o tempo ensina outro exame.</p>
+  </div>
+  <p>O app oferece só esses três. De propósito. Sem 4 horas fingidas. Sem 8 minutos de pomodoro.</p>
+  <p class="foot"><span>Prova no Tempo da Banca</span><span>4</span></p>
+</section>
+
+<section class="page">
+  <p class="num">03 · PAUSA</p>
+  <h2>Pausa é trapaça</h2>
+  <p class="lede">Olhar o caderno no meio do simulado ensina a matéria. Não ensina a prova. O fiscal não espera você voltar.</p>
+  <p>O reflexo é honesto. Travou na 14. Abre o resumo. Volta. A nota do simulado sobe. A prova não sobe com você.</p>
+  <p>Na prova não existe pausa. Não existe fórmula no celular. Não existe “só um segundo”.</p>
+  <div class="box">
+    <p><b>Regra do bloco.</b> Relógio ligado. Caderno fechado. Celular virado. Se travar, pule. Marque. Siga. O nome do que sobrou vem no fim.</p>
+  </div>
+  <p>Pular não é fraqueza. É o que a prova pede quando o relógio anda. Você volta no fim se der tempo. Se não der, o nome fica: acabou o tempo.</p>
+  <p>Quem pausa treina outro exame. Quem segue treina o exame que existe.</p>
+  <p class="foot"><span>Prova no Tempo da Banca</span><span>5</span></p>
+</section>
+
+<section class="page">
+  <p class="num">04 · OS 3 NOMES</p>
+  <h2>O que sobrou precisa de um nome</h2>
+  <p class="lede">Acabou o tempo. Não sabia. Deu tempo. Sem o nome, o próximo sábado é igual.</p>
+  <div class="grid3">
+    <div class="card"><b>ACABOU O TEMPO</b><p>A matéria você sabia. O relógio cortou. Faltou ritmo. O próximo bloco começa mais cedo nas primeiras.</p></div>
+    <div class="card"><b>NÃO SABIA</b><p>Sobrou relógio. Faltou a regra. Isso é conteúdo. Abre o caderno numa página. Não no capítulo.</p></div>
+    <div class="card"><b>DEU TEMPO</b><p>Terminou. Se errou, o problema é outro. Não é o relógio. Não treine hora. Treine o tipo.</p></div>
+  </div>
+  <p>Uma marca por bloco. Não três desculpas. Você escolhe a que descreve o que ficou.</p>
+  <div class="ex">
+    <p>Se o relógio zerou e você ainda tinha 12 questões, o nome é acabou o tempo. Mesmo que duas delas você não soubesse. O corte foi o relógio.</p>
+  </div>
+  <p>O app não encerra o bloco sem essa marca. E pede uma linha. A linha prende o fato. “Demorei nas 10 primeiras e o relógio cortou na 28.”</p>
+  <p class="foot"><span>Prova no Tempo da Banca</span><span>6</span></p>
+</section>
+
+<section class="page">
+  <p class="num">05 · TETO</p>
+  <h2>Um bloco por sessão</h2>
+  <p class="lede">Terminou. Para. Dois blocos no mesmo dia viram cansaço com outro nome.</p>
+  <p>O reflexo depois de 50 minutos é fazer mais um. Porque ainda tem energia. Porque o edital é grande. Porque o sábado é longo.</p>
+  <p>O segundo bloco não é prova. É maratona. A prova tem um relógio. Depois ela acaba. Você não faz outra na sequência.</p>
+  <div class="box">
+    <p><b>Teto do dia.</b> Um bloco. O app conta. Terminou, a sessão acaba. Amanhã o teto recomeça. Hoje não vira 4 horas com pausa.</p>
+  </div>
+  <p>Cansaço deixa de parecer simulado. Você sai sabendo o nome do que sobrou. Isso já é o treino. O segundo round apaga o nome.</p>
+  <p>Se o dia tem 4 horas livres, leia o PDF. Revise o erro. Não ligue o relógio de novo.</p>
+  <p class="foot"><span>Prova no Tempo da Banca</span><span>7</span></p>
+</section>
+
+<section class="page">
+  <p class="num">06 · DEU TEMPO</p>
+  <h2>Quando deu tempo</h2>
+  <p class="lede">Sobrou relógio e você ainda errou. Isso é conteúdo. Não é relógio.</p>
+  <p>Muita gente trata o término como vitória. Terminei. Logo o método funcionou. Não. Terminar mede o relógio. Acertar mede a matéria.</p>
+  <p>Se deu tempo e errou, o próximo passo não é outro bloco de 120. É abrir o caderno na página daquele erro. Uma página. Não o capítulo.</p>
+  <div class="grid2">
+    <div class="card"><b>O QUE FAZER</b><p>Marque deu tempo. Escreva a linha. Feche o app. Abra só a regra que faltou.</p></div>
+    <div class="card"><b>O QUE NÃO FAZER</b><p>Não ligue o relógio de novo. Não faça mais 40 “para render”.</p></div>
+  </div>
+  <p>Deu tempo e acertou o que importava? Ótimo. O relógio não é o problema. Não treine o que já está resolvido. Treine o tipo que ainda erra.</p>
+  <p class="foot"><span>Prova no Tempo da Banca</span><span>8</span></p>
+</section>
+
+<section class="page">
+  <p class="num">07 · ACABOU O TEMPO</p>
+  <h2>Quando acabou o tempo</h2>
+  <p class="lede">A matéria você sabia. Faltou ritmo. O próximo bloco começa mais cedo.</p>
+  <p>Acabou o tempo não é fracasso. É o dado mais honesto do treino. Você viu onde o relógio cortou. Sem isso, a prova corta no mesmo lugar e parece azar.</p>
+  <div class="ex">
+    <p>Renata fazia simulado de 4 horas e pausava. Na prova o tempo acabava na 30. Colocou 50 minutos. Um bloco. Parou na 22. Marcou acabou o tempo. No outro bloco começou mais rápido nas primeiras 10.</p>
+  </div>
+  <p>O ajuste é simples. Se as primeiras 10 comem 25 minutos, o próximo bloco muda o começo. Não muda a matéria. Você treina o ritmo das primeiras. Sem pausa. Sem caderno.</p>
+  <p>Escreva a linha com o número. “Relógio cortou na 28. Demorei nas 10 primeiras.” Sem o número, o nome vira desculpa.</p>
+  <p class="foot"><span>Prova no Tempo da Banca</span><span>9</span></p>
+</section>
+
+<section class="page">
+  <p class="num">08 · SETE BLOCOS</p>
+  <h2>Sete blocos. Uma semana com o relógio na mesa.</h2>
+  <p class="lede">Você vê o padrão. Não a quantidade de horas.</p>
+  <p>Um bloco mostra um corte. Sete blocos mostram se o corte anda. Se toda sessão para na mesma dezena, o problema é o começo. Se um dia deu tempo e outro acabou, o problema é o humor da pausa.</p>
+  <table>
+    <tr><th>Dia</th><th>Duração</th><th>Nome</th><th>Linha</th></tr>
+    <tr><td>1</td><td>50</td><td></td><td></td></tr>
+    <tr><td>2</td><td>50</td><td></td><td></td></tr>
+    <tr><td>3</td><td>90</td><td></td><td></td></tr>
+    <tr><td>4</td><td>50</td><td></td><td></td></tr>
+    <tr><td>5</td><td>90</td><td></td><td></td></tr>
+    <tr><td>6</td><td>120</td><td></td><td></td></tr>
+    <tr><td>7</td><td>50</td><td></td><td></td></tr>
+  </table>
+  <p>Não precisa seguir essa ordem. Siga o tempo da sua banca. A tabela só impede o sábado de sumir da memória.</p>
+  <p>No fim da semana você lê as sete linhas. O padrão aparece. Aí o oitavo bloco muda uma coisa. Só uma.</p>
+  <p class="foot"><span>Prova no Tempo da Banca</span><span>10</span></p>
+</section>
+
+<section class="page">
+  <p class="num">09 · O APP</p>
+  <h2>Relógio da Prova. Três telas.</h2>
+  <p class="lede">O PDF ensina. O app executa. Você escolhe a duração. Faz o bloco. Marca o que sobrou.</p>
+  <div class="grid3">
+    <div class="card"><b>TELA 1</b><p>Escolha 50, 90 ou 120. Sem 4 horas. O relógio ainda não começou.</p></div>
+    <div class="card"><b>TELA 2</b><p>O bloco corre. Sem pausa. Terminei ou o relógio zerou.</p></div>
+    <div class="card"><b>TELA 3</b><p>Três nomes. Uma linha. Encerrar o bloco de hoje.</p></div>
+  </div>
+  <div class="clock">50:00</div>
+  <p>Abre no celular e no computador. Sem loja. Sem instalar. O teto de um bloco fica gravado no dia. Amanhã recomeça.</p>
+  <p>Você traz o caderno, o PDF da banca, o site. O app não vende prova oficial. Ele aplica o relógio e os 3 nomes.</p>
+  <p class="foot"><span>Prova no Tempo da Banca</span><span>11</span></p>
+</section>
+
+<section class="page">
+  <p class="num">10 · EXERCÍCIO</p>
+  <h2>O próximo bloco. Agora.</h2>
+  <p class="lede">Não termine este PDF sem marcar o bloco. Papel. Caneta. Depois o app.</p>
+  <ol>
+    <li>Qual é o tempo da sua banca neste bloco? 50, 90 ou 120.</li>
+    <li>Qual caderno, PDF ou site entra na mesa? Um. Não três.</li>
+    <li>Onde você vai sentar? Mesa. Sem celular de recado.</li>
+    <li>Quando? Hoje. Não “quando o simulado completo couber”.</li>
+  </ol>
+  <div class="box">
+    <p><b>Depois do bloco.</b> Marque o nome. Escreva a linha com o número da questão onde o relógio cortou, ou com a regra que faltou. Feche. Não faça o segundo.</p>
+  </div>
+  <p>Se você só tem 20 minutos agora, leia de novo a página 4. Não recorte o bloco. Espere o tempo caber. O recorte ensina outro exame.</p>
+  <p>Quem fecha o PDF sem o relógio na mesa voltou a estudar até cansar.</p>
+  <p class="foot"><span>Prova no Tempo da Banca</span><span>12</span></p>
+</section>
+
+<section class="page">
+  <p class="num">11 · O QUE NÃO É</p>
+  <h2>O que este guia não é</h2>
+  <p class="lede">É material de estudo. Não é curso. Não é banca. Não é garantia.</p>
+  <div class="grid2">
+    <div class="card"><b>NÃO PROMETE</b><p>Aprovação. Nota. Classificação. Prova oficial. Banco com milhares de questões.</p></div>
+    <div class="card"><b>NÃO SUBSTITUI</b><p>Aula. Professor. Edital. O conteúdo que você ainda não tem.</p></div>
+  </div>
+  <p>Se você quer garantia de aprovação, este material não é para você. Se você só quer baixar simulado e fazer em dois dias, também não.</p>
+  <p>O app não traz a prova da banca. Você traz o bloco. O método trata o tempo.</p>
+  <div class="box">
+    <p><b>Garantia.</b> 7 dias para desistir, nos termos do art. 49 do Código de Defesa do Consumidor. Se não servir, peça o reembolso no e-mail de suporte. suporte@toppapps.online.</p>
+  </div>
+  <p>R$ 27,90. PDF + app. Acesso digital. Sem mensalidade.</p>
+  <p class="foot"><span>Prova no Tempo da Banca</span><span>13</span></p>
+</section>
+
+<section class="page">
+  <p class="num">12 · AGORA</p>
+  <h2>Ponha o relógio na mesa.</h2>
+  <p class="lede">Um bloco. O que sobrou ganha nome. A próxima prova também vai ter relógio. A sua mesa ainda não tem.</p>
+  <span class="chip on">50 min</span>
+  <span class="chip on">90 min</span>
+  <span class="chip on">120 min</span>
+  <span class="chip">1 bloco</span>
+  <span class="chip">3 nomes</span>
+  <ol>
+    <li>Abra o app Relógio da Prova.</li>
+    <li>Escolha a duração da banca.</li>
+    <li>Faça o bloco. Sem pausa.</li>
+    <li>Marque o que sobrou. Uma linha.</li>
+    <li>Encerre. Amanhã o teto recomeça.</li>
+  </ol>
+  <div class="ex">
+    <p>A oferta acaba quando o cronômetro da página zera. O bloco sem hora não vira treino. Sem o nome do que sobrou, o próximo sábado é igual.</p>
+  </div>
+  <p>Conteúdo educacional. Não promete aprovação, nota ou classificação.</p>
+  <p class="foot"><span>Toppapps · Educação · suporte@toppapps.online</span><span>14</span></p>
+</section>
+
+</body>
+</html>
