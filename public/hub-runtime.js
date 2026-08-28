@@ -1,6 +1,7 @@
-    const CATEGORY = {"key":"educacao","short":"EDUCAÇÃO","label":"Estudos, concursos, ENEM e faculdade","host":"edu.toppapps.online","title":"Soluções para estudar com mais direção e menos improviso.","description":"Guias e ferramentas para organizar a semana, começar o estudo e revisar com critérios que cabem na rotina.","accent":"#5b4b8a","accent_soft":"#f2eff4","deep":"#1a1a22","hero_asset":"https://raw.githubusercontent.com/toppaplicativos/educacao-hub/main/public/product/hero-study.webp","hero_alt":"Ilustração editorial de educação com caderno, relógio e cartões de revisão","slides":[{"title":"Um plano possível vence a semana perfeita.","copy":"Escolha uma solução que respeite seu tempo, suas prioridades e os imprevistos.","image":"https://raw.githubusercontent.com/toppaplicativos/educacao-hub/main/public/product/hero-study.webp","alt":"Destaque editorial 1 de EDUCAÇÃO"},{"title":"Começar também é uma habilidade.","copy":"Reduza a fricção do primeiro bloco e transforme intenção em uma sessão real.","image":"https://raw.githubusercontent.com/toppaplicativos/educacao-hub/main/public/product/session-ready.webp","alt":"Destaque editorial 2 de EDUCAÇÃO"},{"title":"Revisar é voltar com critério.","copy":"Organize o retorno ao conteúdo para não depender de releituras aleatórias.","image":"https://raw.githubusercontent.com/toppaplicativos/educacao-hub/main/public/product/pain-desk.webp","alt":"Destaque editorial 3 de EDUCAÇÃO"}],"collections":[["planejamento","Planejar a semana","Para transformar matérias, prazos e tempo em um plano executável."],["inicio","Começar a estudar","Para reduzir a fricção e construir o primeiro bloco de estudo."],["revisao","Revisar melhor","Para voltar ao conteúdo com intervalos e perguntas mais claras."]],"products":[{"slug": "aprenda-fazendo-questoes", "title": "Aprenda Fazendo Questões", "subtitle": "Uma questão. O motivo. Outra do mesmo tipo.", "description": "Em 8 minutos você marca por que errou. A próxima questão é desse tipo. Guia em PDF + app Próxima Questão.", "objective": "Fazer questões", "theme": "Questões com método", "audience": "Quem faz muita questão e continua errando a mesma coisa", "format": "Guia digital + app", "delivery": "Entrega digital", "price": 27.9, "status": "live", "priority": 0, "collection": "inicio", "tags": ["questões", "erro", "gabarito", "concurso", "ENEM"], "featured": true, "cover": "https://cdn.jsdelivr.net/gh/toppaplicativos/educacao-hub@c4d8f7599aeec363a22cb71acd987a7e0b396e07/public/product/questoes/cover.webp", "checkout": "https://pay.kiwify.com.br/VZpz5C9"},{"slug":"nunca-mais-esqueca-tudo","title":"Nunca Mais Esqueça Tudo","subtitle":"Fila do que vence hoje","description":"Em 5 minutos, só o que vence hoje está na mesa. O semestre fica fora. Guia em PDF + app Fila de Hoje.","objective":"Revisar melhor","theme":"Fila de revisão","audience":"Quem acumula matéria e não sabe o que revisar","format":"Guia digital + app","delivery":"Entrega digital","price":27.9,"status":"live","priority":0,"collection":"revisao","tags":["esquecer","fila","revisão","cartão","manhã"],"featured":true,"cover":"https://cdn.jsdelivr.net/gh/toppaplicativos/educacao-hub@2862ff7b082e60218f94b15dde795712053537fd/public/product/esqueca/cover.webp","checkout":"https://pay.kiwify.com.br/csMSLPJ"},{"slug":"estude-uma-vez-revise-certo","title":"Estude Uma Vez, Revise Certo","subtitle":"Revisão que cobra, não que relê","description":"Feche o caderno — e a matéria volta sem reler o capítulo. Guia em PDF + app Próxima Revisão.","objective":"Revisar melhor","theme":"Revisão espaçada","audience":"Quem estuda e esquece na semana seguinte","format":"Guia digital + app","delivery":"Entrega digital","price":37.9,"status":"live","priority":0,"collection":"revisao","tags":["revisão","esquecer","pergunta","intervalo","1-3-7"],"featured":true,"cover":"https://cdn.jsdelivr.net/gh/toppaplicativos/educacao-hub@04de7fcc0793cd91af062c0a13ae811ccd818973/public/product/revisao/cover.webp","checkout":"https://pay.kiwify.com.br/jY4maqm"},{"slug":"cronograma-que-funciona","title":"Cronograma que Funciona","subtitle":"Plano de estudos possível","description":"Monte uma semana de estudos que respeita sua rotina, suas prioridades e os imprevistos do caminho.","objective":"Planejamento","theme":"Organização e produtividade","audience":"Estudantes, concurseiros e universitários","format":"Guia digital + aplicação","delivery":"Entrega digital","price":27.9,"status":"live","priority":1,"collection":"planejamento","tags":["cronograma","semana","estudos","planejamento","rotina"],"featured":true,"cover":"https://raw.githubusercontent.com/toppaplicativos/educacao-hub/main/public/assets/covers/cronograma-que-funciona.webp","checkout":"https://pay.kiwify.com.br/aMALUaX"},{"slug":"senta-e-estuda","title":"Senta e Estuda","subtitle":"Primeira sessão em 10 minutos","description":"Em 10 minutos você senta e começa — sem esperar vontade. Guia em PDF + app Primeira Sessão.","objective":"Começar a estudar","theme":"Início e foco","audience":"Quem adia o começo do estudo","format":"Guia digital + app","delivery":"Entrega digital","price":27.9,"status":"live","priority":2,"collection":"inicio","tags":["começar","foco","primeira sessão","estudar"],"featured":true,"cover":"https://raw.githubusercontent.com/toppaplicativos/educacao-hub/main/public/product/cover-navy.webp","checkout":"https://pay.kiwify.com.br/EDp7t2z"}],"faqs":[["A solução substitui uma escola ou professor?","Não. São materiais de organização e aplicação para apoiar sua rotina de estudos."],["O cronograma funciona para qualquer pessoa?","O material oferece critérios para adaptar a semana. A execução depende do tempo, objetivo e contexto de cada pessoa."],["Como uma oferta planejada aparece?","Ela fica no catálogo com estado de preparação e sem preço ou CTA de compra até que publicação, suporte e QA estejam confirmados."]]};
+    const CATEGORY = {"key":"educacao","short":"EDUCAÇÃO","label":"Estudos, concursos, ENEM e faculdade","host":"edu.toppapps.online","title":"Soluções para estudar com mais direção e menos improviso.","description":"Guias e ferramentas para organizar a semana, começar o estudo e revisar com critérios que cabem na rotina.","accent":"#5b4b8a","accent_soft":"#f2eff4","deep":"#1a1a22","hero_asset":"https://raw.githubusercontent.com/toppaplicativos/educacao-hub/main/public/product/hero-study.webp","hero_alt":"Ilustração editorial de educação com caderno, relógio e cartões de revisão","slides":[{"title":"Um plano possível vence a semana perfeita.","copy":"Escolha uma solução que respeite seu tempo, suas prioridades e os imprevistos.","image":"https://raw.githubusercontent.com/toppaplicativos/educacao-hub/main/public/product/hero-study.webp","alt":"Destaque editorial 1 de EDUCAÇÃO"},{"title":"Começar também é uma habilidade.","copy":"Reduza a fricção do primeiro bloco e transforme intenção em uma sessão real.","image":"https://raw.githubusercontent.com/toppaplicativos/educacao-hub/main/public/product/session-ready.webp","alt":"Destaque editorial 2 de EDUCAÇÃO"},{"title":"Revisar é voltar com critério.","copy":"Organize o retorno ao conteúdo para não depender de releituras aleatórias.","image":"https://raw.githubusercontent.com/toppaplicativos/educacao-hub/main/public/product/pain-desk.webp","alt":"Destaque editorial 3 de EDUCAÇÃO"}],"collections":[["planejamento","Planejar a semana","Para transformar matérias, prazos e tempo em um plano executável."],["inicio","Começar a estudar","Para reduzir a fricção e construir o primeiro bloco de estudo."],["revisao","Revisar melhor","Para voltar ao conteúdo com intervalos e perguntas mais claras."]],"products":[{"slug": "prova-no-tempo-da-banca", "title": "Prova no Tempo da Banca", "subtitle": "Um bloco no relógio da prova", "description": "Em 50 minutos você faz um bloco da prova. No fim, sabe se faltou tempo ou matéria. Guia em PDF + app Relógio da Prova.", "objective": "Treinar o tempo", "theme": "Simulado no relógio", "audience": "Quem trava na prova mesmo sabendo a matéria", "format": "Guia digital + app", "delivery": "Entrega digital", "price": 27.9, "status": "live", "priority": 0, "collection": "inicio", "tags": ["prova", "tempo", "simulado", "concurso", "ENEM"], "featured": true, "cover": "https://cdn.jsdelivr.net/gh/toppaplicativos/educacao-hub@e95487171be0f0a7d17ed45a0671f8e53c5980e9/public/product/prova/cover.webp", "checkout": "https://pay.kiwify.com.br/ziYRYmK"},{"slug": "aprenda-fazendo-questoes", "title": "Aprenda Fazendo Questões", "subtitle": "Uma questão. O motivo. Outra do mesmo tipo.", "description": "Em 8 minutos você marca por que errou. A próxima questão é desse tipo. Guia em PDF + app Próxima Questão.", "objective": "Fazer questões", "theme": "Questões com método", "audience": "Quem faz muita questão e continua errando a mesma coisa", "format": "Guia digital + app", "delivery": "Entrega digital", "price": 27.9, "status": "live", "priority": 0, "collection": "inicio", "tags": ["questões", "erro", "gabarito", "concurso", "ENEM"], "featured": true, "cover": "https://cdn.jsdelivr.net/gh/toppaplicativos/educacao-hub@c4d8f7599aeec363a22cb71acd987a7e0b396e07/public/product/questoes/cover.webp", "checkout": "https://pay.kiwify.com.br/VZpz5C9"},{"slug":"nunca-mais-esqueca-tudo","title":"Nunca Mais Esqueça Tudo","subtitle":"Fila do que vence hoje","description":"Em 5 minutos, só o que vence hoje está na mesa. O semestre fica fora. Guia em PDF + app Fila de Hoje.","objective":"Revisar melhor","theme":"Fila de revisão","audience":"Quem acumula matéria e não sabe o que revisar","format":"Guia digital + app","delivery":"Entrega digital","price":27.9,"status":"live","priority":0,"collection":"revisao","tags":["esquecer","fila","revisão","cartão","manhã"],"featured":true,"cover":"https://cdn.jsdelivr.net/gh/toppaplicativos/educacao-hub@2862ff7b082e60218f94b15dde795712053537fd/public/product/esqueca/cover.webp","checkout":"https://pay.kiwify.com.br/csMSLPJ"},{"slug":"estude-uma-vez-revise-certo","title":"Estude Uma Vez, Revise Certo","subtitle":"Revisão que cobra, não que relê","description":"Feche o caderno — e a matéria volta sem reler o capítulo. Guia em PDF + app Próxima Revisão.","objective":"Revisar melhor","theme":"Revisão espaçada","audience":"Quem estuda e esquece na semana seguinte","format":"Guia digital + app","delivery":"Entrega digital","price":37.9,"status":"live","priority":0,"collection":"revisao","tags":["revisão","esquecer","pergunta","intervalo","1-3-7"],"featured":true,"cover":"https://cdn.jsdelivr.net/gh/toppaplicativos/educacao-hub@04de7fcc0793cd91af062c0a13ae811ccd818973/public/product/revisao/cover.webp","checkout":"https://pay.kiwify.com.br/jY4maqm"},{"slug":"cronograma-que-funciona","title":"Cronograma que Funciona","subtitle":"Plano de estudos possível","description":"Monte uma semana de estudos que respeita sua rotina, suas prioridades e os imprevistos do caminho.","objective":"Planejamento","theme":"Organização e produtividade","audience":"Estudantes, concurseiros e universitários","format":"Guia digital + aplicação","delivery":"Entrega digital","price":27.9,"status":"live","priority":1,"collection":"planejamento","tags":["cronograma","semana","estudos","planejamento","rotina"],"featured":true,"cover":"https://raw.githubusercontent.com/toppaplicativos/educacao-hub/main/public/assets/covers/cronograma-que-funciona.webp","checkout":"https://pay.kiwify.com.br/aMALUaX"},{"slug":"senta-e-estuda","title":"Senta e Estuda","subtitle":"Primeira sessão em 10 minutos","description":"Em 10 minutos você senta e começa — sem esperar vontade. Guia em PDF + app Primeira Sessão.","objective":"Começar a estudar","theme":"Início e foco","audience":"Quem adia o começo do estudo","format":"Guia digital + app","delivery":"Entrega digital","price":27.9,"status":"live","priority":2,"collection":"inicio","tags":["começar","foco","primeira sessão","estudar"],"featured":true,"cover":"https://raw.githubusercontent.com/toppaplicativos/educacao-hub/main/public/product/cover-navy.webp","checkout":"https://pay.kiwify.com.br/EDp7t2z"}],"faqs":[["A solução substitui uma escola ou professor?","Não. São materiais de organização e aplicação para apoiar sua rotina de estudos."],["O cronograma funciona para qualquer pessoa?","O material oferece critérios para adaptar a semana. A execução depende do tempo, objetivo e contexto de cada pessoa."],["Como uma oferta planejada aparece?","Ela fica no catálogo com estado de preparação e sem preço ou CTA de compra até que publicação, suporte e QA estejam confirmados."]]};
     const SUPPORT_EMAIL = 'suporte@toppapps.online';
     const QUESTOES_ASSETS = 'https://cdn.jsdelivr.net/gh/toppaplicativos/educacao-hub@c4d8f7599aeec363a22cb71acd987a7e0b396e07/public/product/questoes';
+    const PROVA_ASSETS = 'https://cdn.jsdelivr.net/gh/toppaplicativos/educacao-hub@e95487171be0f0a7d17ed45a0671f8e53c5980e9/public/product/prova';
     const HUB_ASSETS = 'https://cdn.jsdelivr.net/gh/toppaplicativos/educacao-hub@2fe1b01479d48d4ebc805822d4c857780aa8d64b/public/product';
     let pathParts = [];
     let params = new URLSearchParams();
@@ -145,6 +146,11 @@
           title: 'Lembrar pede um começo hoje e uma semana que não recomeça.',
           body: 'A matéria antiga só volta se houver sessão e plano. Em 10 minutos a questão 1 está no papel. Em 15 a semana cabe nas horas reais.',
         },
+        'prova-no-tempo-da-banca': {
+          kicker: 'JUNTO COM O RELÓGIO',
+          title: 'O relógio mostrou o que faltou. Agora trate o tipo do erro.',
+          body: 'Se faltou matéria, o app Próxima Questão pega uma questão, marca o motivo e devolve outra do mesmo tipo.',
+        },
         'aprenda-fazendo-questoes': {
           kicker: 'JUNTO COM A QUESTÃO',
           title: 'Primeiro você senta. Depois a semana cabe nas horas que você tem.',
@@ -161,6 +167,18 @@
         body: 'Começar, fazer a semana caber, revisar com critério. Cada solução entrega um resultado concreto — agora.',
       };
       const card = {
+        'prova-no-tempo-da-banca': {
+          kicker: 'VOCÊ ESTUDA SEM RELÓGIO. A PROVA COBRA O TEMPO.',
+          title: 'Em 50 minutos você faz um bloco da prova. No fim, sabe se faltou tempo ou matéria.',
+          body: 'O app Relógio da Prova põe 50, 90 ou 120 minutos na mesa. Um bloco sem pausa. No fim você marca: acabou o tempo, não sabia, ou deu tempo.',
+          cta: 'Quero treinar no tempo da prova',
+        },
+        'aprenda-fazendo-questoes': {
+          kicker: 'VOCÊ FAZ QUESTÃO. A PROVA COBRA O MESMO ERRO.',
+          title: 'Em 8 minutos você marca por que errou. A próxima questão é desse tipo.',
+          body: 'O app Próxima Questão pede uma questão, o motivo do erro e devolve outra do mesmo tipo. No máximo 6 no dia.',
+          cta: 'Quero parar de repetir o erro',
+        },
         'senta-e-estuda': {
           kicker: 'PARA QUEM TRAVA NA HORA DE COMEÇAR',
           title: 'Em 10 minutos a questão 1 está no papel — e amanhã já tem entrada.',
@@ -404,7 +422,7 @@
         <div class="senta-box" style="margin-top:1.4rem">
           <p><b>O que fazer agora</b></p>
           <ol style="margin:.6rem 0 0;padding-left:1.15rem;line-height:1.7">
-            <li>Abra o app — funciona neste celular e neste computador, sem loja.</li>
+            <li>Abra o app. Funciona neste celular e neste computador, sem loja.</li>
             <li>Baixe o PDF do guia (também chega no e-mail da compra, na área de membros da Kiwify).</li>
             <li>${opts.step3}</li>
           </ol>
@@ -1104,6 +1122,176 @@
       return deliveryThanks({ title:'Acesso | Aprenda Fazendo Questões', h1:'Abra o app. Baixe o PDF. Faça a da frente.', lead:'Você não precisa esperar e-mail para usar. O app Próxima Questão abre agora. O guia de 14 páginas baixa neste botão.', step3:'Cole uma questão. Marque o motivo. Faça outra do mesmo tipo. No máximo 6 hoje.', appHref:'/app/proxima-questao', appLabel:'Abrir o app Próxima Questão', pdfHref: 'https://cdn.jsdelivr.net/gh/toppaplicativos/educacao-hub@c4d8f7599aeec363a22cb71acd987a7e0b396e07/public/guides/aprenda-fazendo-questoes-ebook-v1.0.pdf', pdfLabel:'Baixar o PDF (14 páginas)' });
     }
 
+
+    function provaSalesPage(product) {
+      document.title = 'Prova no Tempo da Banca | Educação Toppapps';
+      const pay = 'https://pay.kiwify.com.br/ziYRYmK';
+      const cta = (label) => `<a class="button senta-cta" href="${pay}" rel="noopener">${label}</a>`;
+      const A = PROVA_ASSETS;
+      return `<style>${salesCss()}</style>
+      <div class="offer-bar" data-offer-timer data-offer-slug="prova-no-tempo-da-banca"><span class="offer-bar-kicker">OFERTA IMPERDÍVEL</span><span>Por tempo limitado</span><span>De R$ 97 por R$ 27,90</span><span>Termina em <span class="offer-bar-clock" data-clock>20:00</span></span>${cta('Quero treinar no tempo da prova')}</div>
+      ${header()}
+      <main id="main-content">
+        <section class="hero"><div class="wrap senta-grid senta-hero">
+          <div class="hero-copy">
+            <p class="eyebrow">VOCÊ ESTUDA SEM RELÓGIO. A PROVA COBRA O TEMPO.</p>
+            <h1>Em 50 minutos você faz um bloco da prova. No fim, sabe se faltou tempo ou matéria.</h1>
+            <div class="hero-actions">${cta('Quero treinar no tempo da prova')}<a class="button secondary" href="${pay}" rel="noopener">Ver o app em 3 funções</a></div>
+            <p class="hero-note">Acesso na hora. 7 dias para desistir.</p>
+            <p class="hero-lede">Você estuda 3 horas. Na prova o fiscal avisa 15 minutos e você ainda está na questão 32. A matéria você sabia. O relógio não estava na mesa. Pare. Ponha 50, 90 ou 120 minutos. Faça um bloco sem pausar. No fim, marque: acabou o tempo, não sabia, ou deu tempo.</p>
+            <div class="senta-proof"><span>Um bloco no relógio</span><span>R$ 27,90</span><span>PDF 14 páginas + app</span><span>Garantia 7 dias</span></div>
+            <blockquote class="senta-quote" style="margin-top:1.2rem;overflow:auto">
+              <img src="${A}/faces/renata.jpg" alt="Renata M." width="88" height="88">
+              <p>“Eu fazia simulado de 4 horas e pausava para olhar o caderno. Na prova o tempo acabava. Coloquei 50 minutos. Um bloco. Vi que eu demorava nas primeiras 10.”</p>
+              <footer>Renata M. · Concurso · Belém</footer>
+            </blockquote>
+          </div>
+          <div class="hero-visual"><img src="${A}/hero.webp" alt="Timer de 50 minutos, caderno de prova e café na mesa da cozinha" width="1600" height="900"></div>
+        </div></section>
+
+        <section class="senta-dark" id="dor"><div class="wrap senta-grid" style="padding:4rem 0">
+          <img src="${A}/pain.webp" alt="Mesa cheia de simulados, cadernos e celular. Sem relógio da prova." width="1600" height="900" style="width:100%;border-radius:16px;object-fit:cover;height:320px">
+          <div>
+            <p class="eyebrow" style="color:#E2571C">OLHA SE ISSO É VOCÊ</p>
+            <h2>Você estuda 3 horas. Na prova o tempo acaba na questão 32.</h2>
+            <p class="copy">Sem relógio, você faz até cansar. Pausa. Olha o caderno. Volta. Na prova o fiscal avisa 15 minutos. Você ainda está na metade. A matéria você sabia. O tempo não estava na mesa.</p>
+            <div style="margin-top:1.2rem;display:grid;gap:.9rem">
+              <article><h3>Estuda sem relógio</h3><p class="copy">A prova tem hora para acabar. A sua mesa não tem.</p></article>
+              <article><h3>O simulado vira estudo</h3><p class="copy">Você pausa, olha o caderno, volta. Na prova isso não existe.</p></article>
+              <article><h3>Não sabe o que faltou</h3><p class="copy">Acabou o tempo ou você não sabia? Sem marcar, o próximo sábado é igual.</p></article>
+            </div>
+          </div>
+        </div></section>
+
+        <section class="section" id="virada"><div class="wrap">
+          <p class="eyebrow">A VIRADA</p>
+          <h2>Um bloco no relógio da prova ensina mais do que 3 horas sem hora.</h2>
+          <p class="copy">Não é falta de matéria. É treinar sem o tempo que a prova cobra. Ponha 50, 90 ou 120 minutos. Faça o bloco. Marque o que aconteceu.</p>
+          <p class="senta-effect">Relógio na mesa. Um bloco. No fim você marca: acabou o tempo, não sabia, ou deu tempo.</p>
+          <div class="senta-steps" style="margin-top:1.4rem">
+            <article class="senta-step"><h3>Ponha o tempo da prova</h3><p>50, 90 ou 120 minutos. O mesmo da sua banca. Não um treino de 12 minutos.</p></article>
+            <article class="senta-step"><h3>Faça um bloco</h3><p>Sem pausa. Sem caderno. Sem olhar o celular.</p></article>
+            <article class="senta-step"><h3>Marque o que aconteceu</h3><p>Acabou o tempo. Não sabia. Deu tempo. Aí o próximo bloco muda.</p></article>
+          </div>
+        </div></section>
+
+        <section class="section"><div class="wrap">
+          <p class="eyebrow">MÉTODO</p>
+          <h2>Três passos. Um bloco. O tempo da prova fica visível.</h2>
+          <p class="copy">O PDF mostra o método. O app Relógio da Prova aplica. Você escolhe a duração. Faz o bloco. Marca o que aconteceu.</p>
+        </div></section>
+
+        <section class="section light" id="app"><div class="wrap">
+          <p class="eyebrow">O APP · RELÓGIO DA PROVA</p>
+          <h2>O relógio. O bloco. A marca no fim.</h2>
+          <div class="senta-app" style="margin-top:2rem">
+            <div class="senta-copy"><p class="eyebrow">NO APP · PASSO 1</p><h3>O relógio da prova entra na mesa.</h3><p>Você abre o app. Escolhe 50, 90 ou 120. Sem fingir que tem 4 horas.</p><p class="senta-effect">A sessão vira o tempo da prova.</p>
+              <div class="senta-box"><p><b>Situação.</b> Sábado. Você ia sentar até cansar.</p><p><b>Faça.</b> Abra o app. Escolha a duração da banca.</p><p><b>Resultado.</b> O relógio está na mesa. O bloco ainda não começou.</p></div>
+              <div class="hero-actions">${cta('Quero o app agora')}</div></div>
+            <div class="senta-mock"><img src="${A}/miniapp/montar.webp" alt="Celular com o timer de 50 minutos para começar o bloco"></div>
+          </div>
+          <div class="senta-app reverse" style="margin-top:2.4rem">
+            <div class="senta-copy"><p class="eyebrow">NO APP · PASSO 2</p><h3>O bloco corre. Sem pausa.</h3><p>O app conta. Você faz. Sem caderno. Sem celular de recado.</p><p class="senta-effect">O tempo anda. A questão também.</p>
+              <div class="senta-box"><p><b>Situação.</b> Você quer pausar para olhar a fórmula.</p><p><b>Faça.</b> Fique no bloco. Marque feita ou pulei.</p><p><b>Resultado.</b> Um treino que parece prova. Sem pausa para olhar o caderno.</p></div>
+              <div class="hero-actions">${cta('Quero o app agora')}</div></div>
+            <div class="senta-mock"><img src="${A}/miniapp/sessao.webp" alt="Celular com o bloco em andamento e o relógio caindo"></div>
+          </div>
+          <div class="senta-app" style="margin-top:2.4rem">
+            <div class="senta-copy"><p class="eyebrow">NO APP · PASSO 3</p><h3>No fim, você marca o que aconteceu.</h3><p>Acabou o tempo. Não sabia. Deu tempo. Sem marcar, o próximo bloco não muda.</p><p class="senta-effect">Três marcas. Você escolhe o que ficou.</p>
+              <div class="senta-box"><p><b>Situação.</b> O relógio zerou. O reflexo é fechar e esquecer.</p><p><b>Faça.</b> Marque o que aconteceu. Uma linha.</p><p><b>Resultado.</b> Você sabe se faltou ritmo ou conteúdo.</p></div>
+              <div class="hero-actions">${cta('Quero o app agora')}</div></div>
+            <div class="senta-mock"><img src="${A}/miniapp/retomada.webp" alt="Celular com três marcas para o que aconteceu no bloco"></div>
+          </div>
+        </div></section>
+
+        <section class="section light" id="conteudo"><div class="wrap">
+          <p class="eyebrow">POR DENTRO DO PDF</p>
+          <h2>O que tem no guia</h2>
+          <div class="senta-pdfs" style="margin-top:1.3rem">
+            <article class="senta-pdf"><small>1</small><h3>Por que estudar sem relógio falha na prova</h3><p class="copy">A mesa aceita 3 horas. A banca corta no meio da questão 32.</p></article>
+            <article class="senta-pdf"><small>2</small><h3>O bloco da sua banca</h3><p class="copy">50, 90 ou 120 minutos. O tempo real da prova. Não um recorte.</p></article>
+            <article class="senta-pdf"><small>3</small><h3>Os 3 jeitos de terminar o bloco</h3><p class="copy">Acabou o tempo. Não sabia. Deu tempo.</p></article>
+            <article class="senta-pdf"><small>4</small><h3>Um bloco por sessão</h3><p class="copy">Terminou. Para. O próximo bloco usa o que você marcou hoje.</p></article>
+          </div>
+        </div></section>
+        <section class="section"><div class="wrap">
+          <p class="eyebrow">O QUE MUDA NA PRÁTICA</p>
+          <h2>Você sai sabendo onde o tempo acabou. Não só a matéria que faltou.</h2>
+          <div class="senta-bens" style="margin-top:1.3rem">
+            <article class="senta-ben"><h3>O tempo da prova fica na mesa</h3><p class="copy">Você escolhe 50, 90 ou 120. O app conta. Sem pausa.</p></article>
+            <article class="senta-ben"><h3>No fim você sabe o que faltou</h3><p class="copy">Acabou o tempo, não sabia ou deu tempo. Sem marcar, o próximo sábado é igual.</p></article>
+            <article class="senta-ben"><h3>Um bloco cabe na sessão</h3><p class="copy">Você não precisa de 4 horas. Precisa do tempo da banca, uma vez.</p></article>
+            <article class="senta-ben"><h3>O dia para no 1</h3><p class="copy">Um bloco. Depois encerra. Dois blocos viram cansaço.</p></article>
+          </div>
+        </div></section>
+
+        <section class="section" id="antes"><div class="wrap senta-grid">
+          <article class="senta-ben" style="background:#0F172A;color:#fff;padding:0;overflow:hidden"><img src="${A}/pain.webp" alt="Mesa cheia de simulados sem relógio" style="width:100%;height:220px;object-fit:cover;opacity:.88"><div style="padding:1.15rem 1.2rem"><p class="eyebrow" style="color:#E2571C">COMO ESTÁ HOJE</p><h3>Estuda até cansar. Pausa o simulado para olhar o caderno. Não sabe se faltou tempo ou conteúdo.</h3></div></article>
+          <article class="senta-ben" style="padding:0;overflow:hidden"><img src="${A}/session.webp" alt="Timer de 50 minutos e três notas: acabou o tempo, não sabia, deu tempo" style="width:100%;height:220px;object-fit:cover"><div style="padding:1.15rem 1.2rem"><p class="eyebrow">COMO FICA</p><h3>O relógio da prova fica na mesa. Um bloco sem pausa. No fim você marca se faltou tempo ou matéria.</h3></div></article>
+        </div></section>
+        <section class="section"><div class="wrap">
+          <p class="eyebrow">PROVA SOCIAL</p>
+          <h2>O que aconteceu com quem pôs o relógio na mesa</h2>
+          <p class="copy">Três relatos. Sem promessa de aprovação. Sem nota. Sem ranking.</p>
+          <div class="senta-faces" style="margin-top:1.4rem">
+            <blockquote class="senta-quote"><img src="${A}/faces/renata.jpg" alt="Renata M."><p>“Eu fazia simulado de 4 horas e pausava para olhar o caderno. Na prova o tempo acabava. Coloquei 50 minutos. Um bloco. Vi que eu demorava nas primeiras 10.”</p><footer>Renata M. · Concurso · Belém</footer></blockquote>
+            <blockquote class="senta-quote"><img src="${A}/faces/caio.jpg" alt="Caio T."><p>“Depois do trabalho eu estudava até dormir. Sem hora. Na prova travava. Fiz 90 minutos. Sobrou questão. Marquei que não sabia. Aí vi que o problema era conteúdo, não relógio.”</p><footer>Caio T. · Concurso e trabalho · Uberlândia</footer></blockquote>
+            <blockquote class="senta-quote"><img src="${A}/faces/lara.jpg" alt="Lara P."><p>“O simulado do ENEM eu fazia em dois dias. No dia da prova o relógio era um só. Fiz 120 minutos de linguagens. Terminei. Marquei deu tempo. Aí eu soube que o problema não era o relógio.”</p><footer>Lara P. · ENEM · Natal</footer></blockquote>
+          </div>
+        </div></section>
+
+        <section class="section light"><div class="wrap senta-grid">
+          <div><p class="eyebrow">ISSO É PARA VOCÊ SE</p><h2>Você trava na prova mesmo sabendo a matéria.</h2><p class="copy">Quem faz simulado com pausa e na hora o relógio é um só. Quem tem de 50 a 120 minutos e precisa treinar o tempo, não só o conteúdo.</p></div>
+          <div><p class="eyebrow">ISSO NÃO É PARA VOCÊ SE</p><h2>Não promete aprovação, nota, nem prova oficial.</h2><p class="copy">Não é curso de conteúdo. Não substitui aula. O app não traz a prova da banca. Você traz o bloco. O método trata o tempo.</p></div>
+        </div></section>
+        <section class="senta-offer" id="oferta"><div class="wrap senta-grid">
+          <div>
+            <p class="eyebrow" style="color:#E2571C">OFERTA IMPERDÍVEL</p>
+            <h2>PDF + app. De R$ 97 por R$ 27,90. 7 dias para desistir.</h2>
+            <p class="copy">Você abre o app agora. Escolhe 50, 90 ou 120 minutos. Faz um bloco. Marca o que aconteceu. O guia em PDF fica no e-mail. Se não servir, pede o dinheiro de volta em 7 dias.</p>
+            <div class="senta-stack">
+              <div><span>Guia Prova no Tempo da Banca</span><span>PDF · 14 páginas</span></div>
+              <div><span>App Relógio da Prova</span><span>No celular e no computador</span></div>
+              <div><span>3 marcas no fim</span><span>Acabou o tempo, não sabia, deu tempo</span></div>
+            </div>
+            <p class="senta-price"><span class="senta-old">R$ 97</span> R$ 27,90</p>
+            <p class="offer-visit">Por tempo limitado · <span class="offer-bar-clock" data-clock>20:00</span></p>
+            ${cta('Quero treinar no tempo da prova')}
+            <p class="copy" style="margin-top:1rem">7 dias para desistir, nos termos do art. 49 do CDC. Sem promessa de aprovação.</p>
+          </div>
+          <div>
+            <img src="${A}/cover.webp" alt="Capa do guia Prova no Tempo da Banca" style="width:100%;border-radius:16px">
+          </div>
+        </div></section>
+
+        <section class="section"><div class="wrap" style="max-width:720px">
+          <p class="eyebrow">GARANTIA</p>
+          <h2>7 dias para desistir. O risco fica com a gente.</h2>
+          <p class="copy">Art. 49 do CDC. Se o material não servir, peça o reembolso pelo e-mail de suporte informando a compra.</p>
+        </div></section>
+        ${upsellSection('prova-no-tempo-da-banca')}
+        <section class="section senta-faq"><div class="wrap">
+          <p class="eyebrow">FAQ</p>
+          <h2>O que você recebe, o app incluso e a garantia de 7 dias.</h2>
+          <div class="faq-list" style="margin-top:1.2rem">
+            <details open><summary>O que eu recebo?</summary><p>O guia em PDF e o app Relógio da Prova. No PDF: por que estudar sem relógio falha, o bloco da banca, as 3 marcas do fim e o teto de um bloco.</p></details>
+            <details><summary>O app já está incluso?</summary><p>Sim. Abre no celular e no computador. Sem loja. Sem instalar. Você escolhe a duração, faz o bloco e marca o que aconteceu.</p></details>
+            <details><summary>Qual é a garantia?</summary><p>Você tem 7 dias para desistir, com base no art. 49 do CDC. Peça o reembolso pelo e-mail de suporte.</p></details>
+            <details><summary>Isso promete aprovação?</summary><p>Não. É material de estudo. Não promete aprovação, nota, classificação nem prova oficial da banca.</p></details>
+            <details><summary>O app tem o caderno da minha banca?</summary><p>Não. Você traz o bloco. O app aplica o relógio e as 3 marcas. Não vendemos prova oficial.</p></details>
+            <details><summary>Como falo com o suporte?</summary><p>E-mail oficial: suporte@toppapps.online. Informe o nome do produto e a URL acessada.</p></details>
+          </div>
+        </div></section>
+        <section class="section" style="text-align:center;padding-bottom:4rem">${cta('Quero treinar no tempo da prova')}</section>
+      </main>${footer()}`;
+    }
+    function provaAppPage() {
+      return appShell({ title:'Relógio da Prova | Prova no Tempo da Banca', kicker:'RELÓGIO DA PROVA', h1:'Relógio da Prova', lede:'Escolha 50, 90 ou 120 minutos. Faça um bloco. Marque o que aconteceu. Um bloco hoje.', id:'prova', pdfHref: 'https://cdn.jsdelivr.net/gh/toppaplicativos/educacao-hub@e95487171be0f0a7d17ed45a0671f8e53c5980e9/public/guides/prova-no-tempo-da-banca-ebook-v1.0.pdf' });
+    }
+    function provaThanksPage() {
+      return deliveryThanks({ title:'Acesso | Prova no Tempo da Banca', h1:'Abra o app. Baixe o PDF. Ponha o relógio na mesa.', lead:'Você não precisa esperar e-mail para usar. O app Relógio da Prova abre agora. O guia de 14 páginas baixa neste botão.', step3:'Escolha 50, 90 ou 120 minutos. Faça um bloco. Marque o que aconteceu. Um bloco hoje.', appHref:'/app/relogio-da-prova', appLabel:'Abrir o app Relógio da Prova', pdfHref: 'https://cdn.jsdelivr.net/gh/toppaplicativos/educacao-hub@e95487171be0f0a7d17ed45a0671f8e53c5980e9/public/guides/prova-no-tempo-da-banca-ebook-v1.0.pdf', pdfLabel:'Baixar o PDF (14 páginas)' });
+    }
+
     function productPage(product) {
       const live = product.status === 'live';
       document.title = `${product.title} | ${CATEGORY.short}`;
@@ -1140,6 +1328,7 @@
       else if (pathParts[0] === 'p' && pathParts[1] === 'estude-uma-vez-revise-certo' && findProduct(pathParts[1])) output = revisaoSalesPage(findProduct(pathParts[1]));
       else if (pathParts[0] === 'p' && pathParts[1] === 'nunca-mais-esqueca-tudo' && findProduct(pathParts[1])) output = esquecaSalesPage(findProduct(pathParts[1]));
       else if (pathParts[0] === 'p' && pathParts[1] === 'aprenda-fazendo-questoes' && findProduct(pathParts[1])) output = questoesSalesPage(findProduct(pathParts[1]));
+      else if (pathParts[0] === 'p' && pathParts[1] === 'prova-no-tempo-da-banca' && findProduct(pathParts[1])) output = provaSalesPage(findProduct(pathParts[1]));
       else if (pathParts[0] === 'app' && (pathParts[1] === 'plano-possivel' || pathParts[1] === 'cronograma-que-funciona')) output = cronogramaAppPage();
       else if (pathParts[0] === 'obrigado' && pathParts[1] === 'cronograma-que-funciona') output = cronogramaThanksPage();
       else if (pathParts[0] === 'app' && (pathParts[1] === 'proxima-revisao' || pathParts[1] === 'estude-uma-vez-revise-certo')) output = revisaoAppPage();
@@ -1148,6 +1337,8 @@
       else if (pathParts[0] === 'obrigado' && pathParts[1] === 'nunca-mais-esqueca-tudo') output = esquecaThanksPage();
       else if (pathParts[0] === 'app' && (pathParts[1] === 'proxima-questao' || pathParts[1] === 'aprenda-fazendo-questoes')) output = questoesAppPage();
       else if (pathParts[0] === 'obrigado' && pathParts[1] === 'aprenda-fazendo-questoes') output = questoesThanksPage();
+      else if (pathParts[0] === 'app' && (pathParts[1] === 'relogio-da-prova' || pathParts[1] === 'prova-no-tempo-da-banca')) output = provaAppPage();
+      else if (pathParts[0] === 'obrigado' && pathParts[1] === 'prova-no-tempo-da-banca') output = provaThanksPage();
       else if (pathParts[0] === 'app' && (pathParts[1] === 'primeira-sessao' || pathParts[1] === 'senta-e-estuda')) output = sentaAppPage();
       else if (pathParts[0] === 'obrigado' && pathParts[1] === 'senta-e-estuda') output = sentaThanksPage();
       else if (pathParts[0] === 'p' && pathParts[1] && findProduct(pathParts[1])) output = productPage(findProduct(pathParts[1]));
@@ -1259,6 +1450,58 @@
           document.getElementById('fila-ok').onclick = () => { current.done = 'ok'; save(); paint(); };
           document.getElementById('fila-fail').onclick = () => { current.done = 'fail'; save(); paint(); };
           document.getElementById('fila-add').onclick = () => { root.dataset.started = 'add'; paint(); };
+        };
+        paint();
+        return;
+      }
+
+
+      if (kind === 'prova') {
+        const KEY = 'topp-relogio-da-prova';
+        const today = () => { const d = new Date(); return d.getFullYear()+'-'+(d.getMonth()+1)+'-'+d.getDate(); };
+        let items = [];
+        try {
+          const raw = JSON.parse(localStorage.getItem(KEY) || '{}');
+          if (raw.day === today() && Array.isArray(raw.items)) items = raw.items;
+        } catch (e) { items = []; }
+        const save = () => { try { localStorage.setItem(KEY, JSON.stringify({ day: today(), items })); } catch (e) {} };
+        let step = items.length >= 1 ? 'done' : 'home';
+        let minutes = 50, left = 50 * 60, running = false, motive = null, line = '', timer = null;
+        const motives = [
+          { id: 'tempo', label: 'Acabou o tempo', hint: 'A matéria você sabia. O relógio cortou.' },
+          { id: 'conteudo', label: 'Não sabia', hint: 'Sobrou relógio. Faltou a regra.' },
+          { id: 'deu', label: 'Deu tempo', hint: 'Terminou. O problema, se houver, é outro.' },
+        ];
+        const mmss = (n) => String(Math.floor(n/60)).padStart(2,'0') + ':' + String(n%60).padStart(2,'0');
+        const stopTimer = () => { if (timer) { clearInterval(timer); timer = null; } running = false; };
+        const paint = () => {
+          if (step === 'home') {
+            ui.screen(ui.pad(`<p class="eyebrow" style="color:rgba(255,255,255,.8)">RELÓGIO DA PROVA</p><h2 style="color:#fff;margin:.4rem 0 0">Escolha o tempo da banca.</h2><p style="color:rgba(255,255,255,.82);margin:.7rem 0 1.2rem">Faça um bloco. Marque o que aconteceu. Um bloco hoje.</p><div style="display:flex;gap:.5rem;flex-wrap:wrap">${[50,90,120].map((n)=>`<button type="button" class="button${minutes===n?' senta-cta':' secondary'}" id="pv-m-${n}">${n} min</button>`).join('')}</div><div style="margin-top:1.4rem">${ui.btn(items.length>=1?'O bloco de hoje já saiu':`Começar o bloco de ${minutes} min`,'pv-start',true)}</div>`, '#1D4F91'));
+            [50,90,120].forEach((n) => { document.getElementById('pv-m-'+n).onclick = () => { minutes = n; paint(); }; });
+            document.getElementById('pv-start').onclick = () => { if (items.length>=1) { step='done'; paint(); return; } left = minutes*60; motive=null; line=''; running=true; step='run'; paint(); };
+            return;
+          }
+          if (step === 'run') {
+            if (running && !timer) {
+              timer = setInterval(() => { left = Math.max(0, left-1); if (left===0) { stopTimer(); step='motive'; } paint(); }, 1000);
+            }
+            ui.screen(ui.pad(`<p class="eyebrow">BLOCO NO TEMPO DA BANCA</p><p style="font-size:3.4rem;font-weight:800;letter-spacing:.04em;margin:.4rem 0;font-variant-numeric:tabular-nums">${mmss(left)}</p><p class="copy">Sem pausa. Sem caderno. Faça o bloco que está na mesa.</p><div style="display:grid;gap:.6rem;margin-top:1rem">${ui.btn('Terminei o bloco','pv-end',true)}${ui.btn('O relógio zerou','pv-zero',false)}</div>`));
+            document.getElementById('pv-end').onclick = () => { stopTimer(); step='motive'; paint(); };
+            document.getElementById('pv-zero').onclick = () => { stopTimer(); left=0; step='motive'; paint(); };
+            return;
+          }
+          if (step === 'motive') {
+            ui.screen(ui.pad(`<p class="eyebrow">O QUE ACONTECEU</p><h3>Marque. Sem isso o próximo bloco não muda.</h3><div style="display:grid;gap:.5rem;margin:.8rem 0">${motives.map(m => `<button type="button" class="button ${motive===m.id?'senta-cta':'secondary'}" id="pv-mo-${m.id}">${m.label}</button>`).join('')}</div>${ui.field('Uma linha', ui.input('pv-line', line, 'placeholder="Ex.: demorei nas 10 primeiras e o relógio cortou na 28"'))}${ui.btn('Encerrar o bloco de hoje','pv-save',true)}`));
+            motives.forEach(m => { document.getElementById('pv-mo-'+m.id).onclick = () => { motive = m.id; paint(); }; });
+            document.getElementById('pv-save').onclick = () => {
+              line = document.getElementById('pv-line').value.trim();
+              if (!motive || !line) return;
+              items.push({ id: String(Date.now()), minutes, motive, line }); save();
+              step = 'done'; paint();
+            };
+            return;
+          }
+          ui.screen(ui.pad(`<p class="eyebrow">TETO DO DIA</p><h3>Um bloco. O dia encerrou.</h3><ul style="margin:.8rem 0;padding-left:1.1rem" class="copy">${items.map((it)=>`<li>${it.minutes} min. ${(motives.find(m=>m.id===it.motive)||{}).label || it.motive}. ${esc(it.line)}</li>`).join('')}</ul><p class="copy">Amanhã o teto recomeça. Hoje não vira 4 horas com pausa.</p>`));
         };
         paint();
         return;
@@ -1404,6 +1647,7 @@
       headerSearch?.addEventListener('keydown', (event) => { if (event.key === 'Enter' && headerSearch.value.trim()) location.href = `/?q=${encodeURIComponent(headerSearch.value.trim())}#catalogo`; });
       const datalist = document.getElementById('search-suggestions');
       bindOfferTimer();
+      bindDeliveryApps();
       if (datalist) datalist.innerHTML = CATEGORY.products.flatMap((product) => [product.title, product.objective, product.theme, ...product.tags]).map((value) => `<option value="${esc(value)}"></option>`).join('');
     }
     function bindCarousel() {
