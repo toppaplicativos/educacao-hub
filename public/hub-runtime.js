@@ -1,6 +1,7 @@
-    const CATEGORY = {"key":"educacao","short":"EDUCAÇÃO","label":"Estudos, concursos, ENEM e faculdade","host":"edu.toppapps.online","title":"Soluções para estudar com mais direção e menos improviso.","description":"Guias e ferramentas para organizar a semana, começar o estudo e revisar com critérios que cabem na rotina.","accent":"#5b4b8a","accent_soft":"#f2eff4","deep":"#1a1a22","hero_asset":"https://raw.githubusercontent.com/toppaplicativos/educacao-hub/main/public/product/hero-study.webp","hero_alt":"Ilustração editorial de educação com caderno, relógio e cartões de revisão","slides":[{"title":"Um plano possível vence a semana perfeita.","copy":"Escolha uma solução que respeite seu tempo, suas prioridades e os imprevistos.","image":"https://raw.githubusercontent.com/toppaplicativos/educacao-hub/main/public/product/hero-study.webp","alt":"Destaque editorial 1 de EDUCAÇÃO"},{"title":"Começar também é uma habilidade.","copy":"Reduza a fricção do primeiro bloco e transforme intenção em uma sessão real.","image":"https://raw.githubusercontent.com/toppaplicativos/educacao-hub/main/public/product/session-ready.webp","alt":"Destaque editorial 2 de EDUCAÇÃO"},{"title":"Revisar é voltar com critério.","copy":"Organize o retorno ao conteúdo para não depender de releituras aleatórias.","image":"https://raw.githubusercontent.com/toppaplicativos/educacao-hub/main/public/product/pain-desk.webp","alt":"Destaque editorial 3 de EDUCAÇÃO"}],"collections":[["planejamento","Planejar a semana","Para transformar matérias, prazos e tempo em um plano executável."],["inicio","Começar a estudar","Para reduzir a fricção e construir o primeiro bloco de estudo."],["revisao","Revisar melhor","Para voltar ao conteúdo com intervalos e perguntas mais claras."]],"products":[{"slug": "prova-no-tempo-da-banca", "title": "Prova no Tempo da Banca", "subtitle": "Treine a prova com o cronômetro ligado", "description": "A solução: treinar com o cronômetro da prova ligado. No fim, sabe se faltou tempo ou matéria. Guia em PDF + app Relógio da Prova.", "objective": "Treinar o tempo", "theme": "Simulado no relógio", "audience": "Quem trava na prova mesmo sabendo a matéria", "format": "Guia digital + app", "delivery": "Entrega digital", "price": 27.9, "status": "live", "priority": 0, "collection": "inicio", "tags": ["prova", "tempo", "simulado", "concurso", "ENEM"], "featured": true, "cover": "https://cdn.jsdelivr.net/gh/toppaplicativos/educacao-hub@c608d895f680af8b813bec940f3f9dff73998665/public/product/prova/cover.webp", "checkout": "https://pay.kiwify.com.br/ziYRYmK"},{"slug": "aprenda-fazendo-questoes", "title": "Aprenda Fazendo Questões", "subtitle": "Uma questão. O motivo. Outra do mesmo tipo.", "description": "Em 8 minutos você marca por que errou. A próxima questão é desse tipo. Guia em PDF + app Próxima Questão.", "objective": "Fazer questões", "theme": "Questões com método", "audience": "Quem faz muita questão e continua errando a mesma coisa", "format": "Guia digital + app", "delivery": "Entrega digital", "price": 27.9, "status": "live", "priority": 0, "collection": "inicio", "tags": ["questões", "erro", "gabarito", "concurso", "ENEM"], "featured": true, "cover": "https://cdn.jsdelivr.net/gh/toppaplicativos/educacao-hub@c4d8f7599aeec363a22cb71acd987a7e0b396e07/public/product/questoes/cover.webp", "checkout": "https://pay.kiwify.com.br/VZpz5C9"},{"slug":"nunca-mais-esqueca-tudo","title":"Nunca Mais Esqueça Tudo","subtitle":"Fila do que vence hoje","description":"Em 5 minutos, só o que vence hoje está na mesa. O semestre fica fora. Guia em PDF + app Fila de Hoje.","objective":"Revisar melhor","theme":"Fila de revisão","audience":"Quem acumula matéria e não sabe o que revisar","format":"Guia digital + app","delivery":"Entrega digital","price":27.9,"status":"live","priority":0,"collection":"revisao","tags":["esquecer","fila","revisão","cartão","manhã"],"featured":true,"cover":"https://cdn.jsdelivr.net/gh/toppaplicativos/educacao-hub@2862ff7b082e60218f94b15dde795712053537fd/public/product/esqueca/cover.webp","checkout":"https://pay.kiwify.com.br/csMSLPJ"},{"slug":"estude-uma-vez-revise-certo","title":"Estude Uma Vez, Revise Certo","subtitle":"Revisão que cobra, não que relê","description":"Feche o caderno — e a matéria volta sem reler o capítulo. Guia em PDF + app Próxima Revisão.","objective":"Revisar melhor","theme":"Revisão espaçada","audience":"Quem estuda e esquece na semana seguinte","format":"Guia digital + app","delivery":"Entrega digital","price":37.9,"status":"live","priority":0,"collection":"revisao","tags":["revisão","esquecer","pergunta","intervalo","1-3-7"],"featured":true,"cover":"https://cdn.jsdelivr.net/gh/toppaplicativos/educacao-hub@04de7fcc0793cd91af062c0a13ae811ccd818973/public/product/revisao/cover.webp","checkout":"https://pay.kiwify.com.br/jY4maqm"},{"slug":"cronograma-que-funciona","title":"Cronograma que Funciona","subtitle":"Plano de estudos possível","description":"Monte uma semana de estudos que respeita sua rotina, suas prioridades e os imprevistos do caminho.","objective":"Planejamento","theme":"Organização e produtividade","audience":"Estudantes, concurseiros e universitários","format":"Guia digital + aplicação","delivery":"Entrega digital","price":27.9,"status":"live","priority":1,"collection":"planejamento","tags":["cronograma","semana","estudos","planejamento","rotina"],"featured":true,"cover":"https://raw.githubusercontent.com/toppaplicativos/educacao-hub/main/public/assets/covers/cronograma-que-funciona.webp","checkout":"https://pay.kiwify.com.br/aMALUaX"},{"slug":"senta-e-estuda","title":"Senta e Estuda","subtitle":"Primeira sessão em 10 minutos","description":"Em 10 minutos você senta e começa — sem esperar vontade. Guia em PDF + app Primeira Sessão.","objective":"Começar a estudar","theme":"Início e foco","audience":"Quem adia o começo do estudo","format":"Guia digital + app","delivery":"Entrega digital","price":27.9,"status":"live","priority":2,"collection":"inicio","tags":["começar","foco","primeira sessão","estudar"],"featured":true,"cover":"https://raw.githubusercontent.com/toppaplicativos/educacao-hub/main/public/product/cover-navy.webp","checkout":"https://pay.kiwify.com.br/EDp7t2z"}],"faqs":[["A solução substitui uma escola ou professor?","Não. São materiais de organização e aplicação para apoiar sua rotina de estudos."],["O cronograma funciona para qualquer pessoa?","O material oferece critérios para adaptar a semana. A execução depende do tempo, objetivo e contexto de cada pessoa."],["Como uma oferta planejada aparece?","Ela fica no catálogo com estado de preparação e sem preço ou CTA de compra até que publicação, suporte e QA estejam confirmados."]]};
+    const CATEGORY = {"key":"educacao","short":"EDUCAÇÃO","label":"Estudos, concursos, ENEM e faculdade","host":"edu.toppapps.online","title":"Soluções para estudar com mais direção e menos improviso.","description":"Guias e ferramentas para organizar a semana, começar o estudo e revisar com critérios que cabem na rotina.","accent":"#5b4b8a","accent_soft":"#f2eff4","deep":"#1a1a22","hero_asset":"https://raw.githubusercontent.com/toppaplicativos/educacao-hub/main/public/product/hero-study.webp","hero_alt":"Ilustração editorial de educação com caderno, relógio e cartões de revisão","slides":[{"title":"Um plano possível vence a semana perfeita.","copy":"Escolha uma solução que respeite seu tempo, suas prioridades e os imprevistos.","image":"https://raw.githubusercontent.com/toppaplicativos/educacao-hub/main/public/product/hero-study.webp","alt":"Destaque editorial 1 de EDUCAÇÃO"},{"title":"Começar também é uma habilidade.","copy":"Reduza a fricção do primeiro bloco e transforme intenção em uma sessão real.","image":"https://raw.githubusercontent.com/toppaplicativos/educacao-hub/main/public/product/session-ready.webp","alt":"Destaque editorial 2 de EDUCAÇÃO"},{"title":"Revisar é voltar com critério.","copy":"Organize o retorno ao conteúdo para não depender de releituras aleatórias.","image":"https://raw.githubusercontent.com/toppaplicativos/educacao-hub/main/public/product/pain-desk.webp","alt":"Destaque editorial 3 de EDUCAÇÃO"}],"collections":[["planejamento","Planejar a semana","Para transformar matérias, prazos e tempo em um plano executável."],["inicio","Começar a estudar","Para reduzir a fricção e construir o primeiro bloco de estudo."],["revisao","Revisar melhor","Para voltar ao conteúdo com intervalos e perguntas mais claras."]],"products":[{"slug": "nunca-mais-o-mesmo-erro", "title": "Nunca Mais o Mesmo Erro", "subtitle": "Em 5 minutos você treina só o tipo que ainda erra", "description": "A solução: o erro ganha um tipo. O app mostra só o que ainda está aberto. Acerte, sai. Erre, volta amanhã. Guia em PDF + app Erro de Hoje.", "objective": "Tratar o erro", "theme": "Fila do tipo que ainda erra", "audience": "Quem erra em casa e na prova cai o mesmo tipo", "format": "Guia digital + app", "delivery": "Entrega digital", "price": 27.9, "status": "live", "priority": 0, "collection": "inicio", "tags": ["erro", "fila", "tipo", "concurso", "ENEM"], "featured": true, "cover": "https://cdn.jsdelivr.net/gh/toppaplicativos/educacao-hub@94b23ac6f8e583c0d4e28de626a51caaa3fd2382/public/product/erro/cover.webp", "checkout": "https://pay.kiwify.com.br/69Ho9dc"},{"slug": "prova-no-tempo-da-banca", "title": "Prova no Tempo da Banca", "subtitle": "Treine a prova com o cronômetro ligado", "description": "A solução: treinar com o cronômetro da prova ligado. No fim, sabe se faltou tempo ou matéria. Guia em PDF + app Relógio da Prova.", "objective": "Treinar o tempo", "theme": "Simulado no relógio", "audience": "Quem trava na prova mesmo sabendo a matéria", "format": "Guia digital + app", "delivery": "Entrega digital", "price": 27.9, "status": "live", "priority": 0, "collection": "inicio", "tags": ["prova", "tempo", "simulado", "concurso", "ENEM"], "featured": true, "cover": "https://cdn.jsdelivr.net/gh/toppaplicativos/educacao-hub@c608d895f680af8b813bec940f3f9dff73998665/public/product/prova/cover.webp", "checkout": "https://pay.kiwify.com.br/ziYRYmK"},{"slug": "aprenda-fazendo-questoes", "title": "Aprenda Fazendo Questões", "subtitle": "Uma questão. O motivo. Outra do mesmo tipo.", "description": "Em 8 minutos você marca por que errou. A próxima questão é desse tipo. Guia em PDF + app Próxima Questão.", "objective": "Fazer questões", "theme": "Questões com método", "audience": "Quem faz muita questão e continua errando a mesma coisa", "format": "Guia digital + app", "delivery": "Entrega digital", "price": 27.9, "status": "live", "priority": 0, "collection": "inicio", "tags": ["questões", "erro", "gabarito", "concurso", "ENEM"], "featured": true, "cover": "https://cdn.jsdelivr.net/gh/toppaplicativos/educacao-hub@c4d8f7599aeec363a22cb71acd987a7e0b396e07/public/product/questoes/cover.webp", "checkout": "https://pay.kiwify.com.br/VZpz5C9"},{"slug":"nunca-mais-esqueca-tudo","title":"Nunca Mais Esqueça Tudo","subtitle":"Fila do que vence hoje","description":"Em 5 minutos, só o que vence hoje está na mesa. O semestre fica fora. Guia em PDF + app Fila de Hoje.","objective":"Revisar melhor","theme":"Fila de revisão","audience":"Quem acumula matéria e não sabe o que revisar","format":"Guia digital + app","delivery":"Entrega digital","price":27.9,"status":"live","priority":0,"collection":"revisao","tags":["esquecer","fila","revisão","cartão","manhã"],"featured":true,"cover":"https://cdn.jsdelivr.net/gh/toppaplicativos/educacao-hub@2862ff7b082e60218f94b15dde795712053537fd/public/product/esqueca/cover.webp","checkout":"https://pay.kiwify.com.br/csMSLPJ"},{"slug":"estude-uma-vez-revise-certo","title":"Estude Uma Vez, Revise Certo","subtitle":"Revisão que cobra, não que relê","description":"Feche o caderno — e a matéria volta sem reler o capítulo. Guia em PDF + app Próxima Revisão.","objective":"Revisar melhor","theme":"Revisão espaçada","audience":"Quem estuda e esquece na semana seguinte","format":"Guia digital + app","delivery":"Entrega digital","price":37.9,"status":"live","priority":0,"collection":"revisao","tags":["revisão","esquecer","pergunta","intervalo","1-3-7"],"featured":true,"cover":"https://cdn.jsdelivr.net/gh/toppaplicativos/educacao-hub@04de7fcc0793cd91af062c0a13ae811ccd818973/public/product/revisao/cover.webp","checkout":"https://pay.kiwify.com.br/jY4maqm"},{"slug":"cronograma-que-funciona","title":"Cronograma que Funciona","subtitle":"Plano de estudos possível","description":"Monte uma semana de estudos que respeita sua rotina, suas prioridades e os imprevistos do caminho.","objective":"Planejamento","theme":"Organização e produtividade","audience":"Estudantes, concurseiros e universitários","format":"Guia digital + aplicação","delivery":"Entrega digital","price":27.9,"status":"live","priority":1,"collection":"planejamento","tags":["cronograma","semana","estudos","planejamento","rotina"],"featured":true,"cover":"https://raw.githubusercontent.com/toppaplicativos/educacao-hub/main/public/assets/covers/cronograma-que-funciona.webp","checkout":"https://pay.kiwify.com.br/aMALUaX"},{"slug":"senta-e-estuda","title":"Senta e Estuda","subtitle":"Primeira sessão em 10 minutos","description":"Em 10 minutos você senta e começa — sem esperar vontade. Guia em PDF + app Primeira Sessão.","objective":"Começar a estudar","theme":"Início e foco","audience":"Quem adia o começo do estudo","format":"Guia digital + app","delivery":"Entrega digital","price":27.9,"status":"live","priority":2,"collection":"inicio","tags":["começar","foco","primeira sessão","estudar"],"featured":true,"cover":"https://raw.githubusercontent.com/toppaplicativos/educacao-hub/main/public/product/cover-navy.webp","checkout":"https://pay.kiwify.com.br/EDp7t2z"}],"faqs":[["A solução substitui uma escola ou professor?","Não. São materiais de organização e aplicação para apoiar sua rotina de estudos."],["O cronograma funciona para qualquer pessoa?","O material oferece critérios para adaptar a semana. A execução depende do tempo, objetivo e contexto de cada pessoa."],["Como uma oferta planejada aparece?","Ela fica no catálogo com estado de preparação e sem preço ou CTA de compra até que publicação, suporte e QA estejam confirmados."]]};
     const SUPPORT_EMAIL = 'suporte@toppapps.online';
     const QUESTOES_ASSETS = 'https://cdn.jsdelivr.net/gh/toppaplicativos/educacao-hub@c4d8f7599aeec363a22cb71acd987a7e0b396e07/public/product/questoes';
+    const ERRO_ASSETS = 'https://cdn.jsdelivr.net/gh/toppaplicativos/educacao-hub@94b23ac6f8e583c0d4e28de626a51caaa3fd2382/public/product/erro';
     const PROVA_ASSETS = 'https://cdn.jsdelivr.net/gh/toppaplicativos/educacao-hub@c608d895f680af8b813bec940f3f9dff73998665/public/product/prova';
     const HUB_ASSETS = 'https://cdn.jsdelivr.net/gh/toppaplicativos/educacao-hub@2fe1b01479d48d4ebc805822d4c857780aa8d64b/public/product';
     let pathParts = [];
@@ -146,6 +147,11 @@
           title: 'Lembrar pede um começo hoje e uma semana que não recomeça.',
           body: 'A matéria antiga só volta se houver sessão e plano. Em 10 minutos a questão 1 está no papel. Em 15 a semana cabe nas horas reais.',
         },
+        'nunca-mais-o-mesmo-erro': {
+          kicker: 'JUNTO COM ISSO',
+          title: 'Trate a questão da frente. Depois guarde o tipo.',
+          body: 'Antes de o erro entrar na fila, faça uma questão, marque o motivo e treine outra do mesmo tipo.',
+        },
         'prova-no-tempo-da-banca': {
           kicker: 'JUNTO COM O RELÓGIO',
           title: 'O relógio mostrou o que faltou. Agora trate o tipo do erro.',
@@ -167,6 +173,12 @@
         body: 'Começar, fazer a semana caber, revisar com critério. Cada solução entrega um resultado concreto — agora.',
       };
       const card = {
+        'nunca-mais-o-mesmo-erro': {
+          kicker: 'VOCÊ ERRA EM CASA. A PROVA COBRA O MESMO TIPO.',
+          title: 'Em 5 minutos você treina só o tipo que ainda erra.',
+          body: 'O app Erro de Hoje classifica o erro (conta, enunciado, pressa ou matéria) e mostra só a fila de hoje. Acerte, sai. Erre, volta amanhã.',
+          cta: 'Quero parar de levar o mesmo erro para a prova',
+        },
         'prova-no-tempo-da-banca': {
           kicker: 'VOCÊ ESTUDA SEM RELÓGIO. A PROVA COBRA O TEMPO.',
           title: 'Em 50 minutos você faz um bloco da prova. No fim, sabe se faltou tempo ou matéria.',
@@ -1123,6 +1135,190 @@
     }
 
 
+
+    function erroSalesPage(product) {
+      document.title = 'Nunca Mais o Mesmo Erro | Educação Toppapps';
+      const pay = 'https://pay.kiwify.com.br/69Ho9dc';
+      const cta = (label) => `<a class="button senta-cta" href="${pay}" rel="noopener">${label}</a>`;
+      const A = ERRO_ASSETS;
+      return `<style>${salesCss()}</style>
+      <div class="offer-bar" data-offer-timer data-offer-slug="nunca-mais-o-mesmo-erro"><span class="offer-bar-kicker">OFERTA IMPERDÍVEL</span><span>Por tempo limitado</span><span>De R$ 97 por R$ 27,90</span><span>Termina em <span class="offer-bar-clock" data-clock>20:00</span></span>${cta('Quero parar de levar o mesmo erro para a prova')}</div>
+      ${header()}
+      <main id="main-content">
+        <section class="hero"><div class="wrap senta-grid senta-hero">
+          <div class="hero-copy">
+            <p class="eyebrow">VOCÊ ERRA EM CASA. A PROVA COBRA O MESMO TIPO.</p>
+            <h1>Em 5 minutos você treina só o tipo que ainda erra.</h1>
+            <div class="hero-actions">${cta('Quero parar de levar o mesmo erro para a prova')}${cta('Ver o app em 3 funções')}</div>
+            <p class="copy">Acesso na hora. 7 dias para desistir.</p>
+            <p class="senta-effect">A solução: o erro ganha um tipo. O app mostra só o que ainda está aberto. Em 5 minutos você treina o que ainda erra. Não a matéria inteira.</p>
+            <p class="copy">Você erra a questão, olha o gabarito e segue. Na prova cai o mesmo tipo. E você erra de novo. Cada erro ganha um tipo (conta, enunciado, pressa ou matéria). Acerte, sai da fila. Erre, volta amanhã.</p>
+            <blockquote class="senta-quote" style="margin-top:1.2rem"><img src="${A}/faces/helena.webp" alt="Helena V."><p>“Meu caderno de erros tinha 40 questões e eu não abria. Passei a marcar só o tipo. Enunciado voltou três manhãs. Na quarta eu li até o fim.”</p><footer>Helena V. · Concurso · João Pessoa</footer></blockquote>
+          </div>
+          <div>
+            <img src="${A}/hero.webp" alt="Três cartões de tipo de erro na mesa. Livros fechados. Timer de 5 minutos." style="width:100%;border-radius:16px;object-fit:cover;height:min(28rem,70vw)">
+            <img src="${A}/cover.webp" alt="Capa do guia Nunca Mais o Mesmo Erro" style="width:140px;margin-top:-3rem;margin-left:auto;display:block;border-radius:8px;box-shadow:0 12px 30px rgba(15,23,42,.25)">
+          </div>
+        </div></section>
+        <section class="senta-bar"><div class="wrap senta-grid" style="grid-template-columns:repeat(4,1fr)">
+          <div><small>A SOLUÇÃO</small><strong>Só o tipo que ainda erra</strong></div>
+          <div><small>4 TIPOS</small><strong>conta, enunciado, pressa, matéria</strong></div>
+          <div><small>FILA DO DIA</small><strong>5 minutos. No máximo 5</strong></div>
+          <div><small>GARANTIA</small><strong>7 dias</strong></div>
+        </div></section>
+        <section class="section dark"><div class="wrap senta-grid">
+          <img src="${A}/pain.webp" alt="Provas marcadas com X vermelho. Nenhum tipo escrito." width="1600" height="900" style="width:100%;border-radius:16px;object-fit:cover;height:320px">
+          <div>
+            <p class="eyebrow">OLHA SE ISSO É VOCÊ</p>
+            <h2>Você erra em casa. Na prova o mesmo tipo volta. E você erra de novo.</h2>
+            <p class="copy">O gabarito mostra a letra certa. Você anota e segue. Não escreve o tipo do erro. Semana seguinte, a banca cobra a mesma conta, o mesmo enunciado, a mesma pressa. Parece azar. É o erro sem fila.</p>
+            <div class="senta-points">
+              <article><h3>O X some no caderno</h3><p class="copy">Você marca errado e vira a página. O tipo não fica escrito.</p></article>
+              <article><h3>A lista mistura tudo</h3><p class="copy">Conta, enunciado, pressa e matéria no mesmo monte. Você não sabe o que ainda erra.</p></article>
+              <article><h3>A prova cobra o tipo</h3><p class="copy">Ela não pergunta quantas você fez. Ela pergunta o mesmo tipo de sempre.</p></article>
+            </div>
+          </div>
+        </div></section>
+        <section class="section"><div class="wrap">
+          <p class="eyebrow">A SOLUÇÃO</p>
+          <h2>Cada erro ganha um tipo e uma data para voltar.</h2>
+          <p class="copy">A solução: o erro ganha um tipo. O app mostra só o que ainda está aberto. Em 5 minutos você treina o que ainda erra. Não a matéria inteira. Você classifica (conta, enunciado, pressa ou matéria), coloca na fila e treina só o que vence hoje. Acerte, sai. Erre, volta amanhã.</p>
+          <p class="senta-effect">Classifique. Coloque na fila. Treine só o que ainda está aberto.</p>
+          <div class="senta-steps" style="margin-top:1.4rem">
+            <article><small>01</small><h3>Dê um tipo ao erro</h3><p class="copy">Conta, enunciado, pressa ou matéria. Uma marca. Sem isso, o erro some no caderno.</p></article>
+            <article><small>02</small><h3>Ele volta com data</h3><p class="copy">Amanhã, 3 dias ou 7. Não o capítulo inteiro. Só aquele tipo.</p></article>
+            <article><small>03</small><h3>Treine o que vence hoje</h3><p class="copy">Cinco minutos. Acerte, sai da fila. Erre, volta amanhã. O resto fica fora.</p></article>
+          </div>
+        </div></section>
+        <section class="section light"><div class="wrap">
+          <p class="eyebrow">MÉTODO</p>
+          <h2>Três passos. Cinco minutos. Só o tipo que ainda erra.</h2>
+          <p class="copy">O PDF ensina o método. O app Erro de Hoje aplica. Você classifica o erro, vê a fila do dia e fecha o que acertou.</p>
+        </div></section>
+        <section class="section"><div class="wrap senta-grid">
+          <div>
+            <p class="eyebrow">NO APP. PASSO 1</p>
+            <h2>O erro entra com um tipo. Não como um capítulo.</h2>
+            <p class="copy">Você escreve o que errou e marca: conta, enunciado, pressa ou matéria.</p>
+            <p class="senta-effect">O X vira um tipo.</p>
+            <p><b>Situação.</b> Você ia anotar a questão inteira no caderno.</p>
+            <p><b>Faça.</b> Abra o app. Escreva o erro. Marque o tipo.</p>
+            <p><b>Resultado.</b> Um cartão. Uma data de volta. O capítulo fica fora.</p>
+            <div style="margin-top:1rem">${cta('Quero parar de levar o mesmo erro para a prova')}</div>
+          </div>
+          <figure class="senta-mock"><img src="${A}/miniapp/montar.webp" alt="Celular com os quatro tipos de erro para marcar"></figure>
+        </div></section>
+        <section class="section light"><div class="wrap senta-grid">
+          <figure class="senta-mock"><img src="${A}/miniapp/sessao.webp" alt="Celular com a fila curta do dia"></figure>
+          <div>
+            <p class="eyebrow">NO APP. PASSO 2</p>
+            <h2>A fila de hoje mostra só o que ainda está aberto.</h2>
+            <p class="copy">No máximo 5. Cinco minutos. O resto nem aparece.</p>
+            <p class="senta-effect">A lista enorme some.</p>
+            <p><b>Situação.</b> Você ia abrir o caderno de 40 erros.</p>
+            <p><b>Faça.</b> Abra a fila de hoje. Pegue o primeiro.</p>
+            <p><b>Resultado.</b> Só o tipo que vence hoje. O semestre fica fechado.</p>
+            <div style="margin-top:1rem">${cta('Ver o app em 3 funções')}</div>
+          </div>
+        </div></section>
+        <section class="section"><div class="wrap senta-grid">
+          <div>
+            <p class="eyebrow">NO APP. PASSO 3</p>
+            <h2>Acerte, sai. Erre, volta amanhã.</h2>
+            <p class="copy">Dois botões. A fila muda na hora. O mesmo tipo não dorme no caderno.</p>
+            <p class="senta-effect">O erro fecha ou volta com data.</p>
+            <p><b>Situação.</b> Você acertou e ia deixar o cartão no monte.</p>
+            <p><b>Faça.</b> Marque acertou ou errei de novo.</p>
+            <p><b>Resultado.</b> O que saiu não vai para a prova de surpresa.</p>
+            <div style="margin-top:1rem">${cta('Quero parar de levar o mesmo erro para a prova')}</div>
+          </div>
+          <figure class="senta-mock"><img src="${A}/miniapp/retomada.webp" alt="Celular com dois botões: acertou e errei de novo"></figure>
+        </div></section>
+        <section class="section light"><div class="wrap">
+          <p class="eyebrow">POR DENTRO DO PDF</p>
+          <h2>O que tem no guia</h2>
+          <div class="senta-pdfs" style="margin-top:1.3rem">
+            <article class="senta-pdf"><small>1</small><h3>Por que o caderno de erros não fecha</h3><p class="copy">Você anota a questão inteira. A lista cresce. Nada sai.</p></article>
+            <article class="senta-pdf"><small>2</small><h3>Os 4 tipos de erro</h3><p class="copy">Conta. Enunciado. Pressa. Matéria. Uma marca por erro.</p></article>
+            <article class="senta-pdf"><small>3</small><h3>A fila com data</h3><p class="copy">Amanhã, 3 dias, 7 dias. O tipo volta. O capítulo não entra.</p></article>
+            <article class="senta-pdf"><small>4</small><h3>5 minutos. No máximo 5 no dia.</h3><p class="copy">Só o que vence hoje. O resto fica fechado.</p></article>
+          </div>
+        </div></section>
+        <section class="section"><div class="wrap">
+          <p class="eyebrow">O QUE MUDA NA PRÁTICA</p>
+          <h2>Você sai treinando o tipo aberto. Não com um caderno maior.</h2>
+          <div class="senta-bens" style="margin-top:1.3rem">
+            <article class="senta-ben"><h3>O erro ganha um nome</h3><p class="copy">Conta, enunciado, pressa ou matéria. Sem nome, a prova cobra e parece azar.</p></article>
+            <article class="senta-ben"><h3>A fila do dia cabe em 5 minutos</h3><p class="copy">No máximo 5. O capítulo inteiro fica fechado.</p></article>
+            <article class="senta-ben"><h3>O que você acerta sai</h3><p class="copy">Não é arquivo morto. Acerte, sai. Erre, volta amanhã.</p></article>
+            <article class="senta-ben"><h3>A prova não encontra o mesmo tipo de surpresa</h3><p class="copy">Você treinou o tipo em casa, com data, até ele sair.</p></article>
+          </div>
+        </div></section>
+        <section class="section" id="antes"><div class="wrap senta-grid">
+          <article class="senta-ben" style="background:#0F172A;color:#fff;padding:0;overflow:hidden"><img src="${A}/pain.webp" alt="Provas marcadas com X. Nenhum tipo escrito." style="width:100%;height:220px;object-fit:cover;opacity:.88"><div style="padding:1.15rem 1.2rem"><p class="eyebrow" style="color:#E2571C">COMO ESTÁ HOJE</p><h3>Marca o X e vira a página. O caderno de erros só cresce. Na prova cai o mesmo tipo.</h3></div></article>
+          <article class="senta-ben" style="padding:0;overflow:hidden"><img src="${A}/session.webp" alt="Cartão com o tipo do erro na mão." style="width:100%;height:220px;object-fit:cover"><div style="padding:1.15rem 1.2rem"><p class="eyebrow">COMO FICA</p><h3>Cada erro tem um tipo escrito. A fila do dia tem no máximo 5. O que você acerta sai.</h3></div></article>
+        </div></section>
+        <section class="section"><div class="wrap">
+          <p class="eyebrow">PROVA</p>
+          <h2>O que aconteceu com quem parou de levar o mesmo erro</h2>
+          <p class="copy">Três relatos. Sem promessa de aprovação. Sem nota. Sem ranking.</p>
+          <div class="senta-faces" style="margin-top:1.4rem">
+            <blockquote class="senta-quote"><img src="${A}/faces/helena.webp" alt="Helena V."><p>“Meu caderno de erros tinha 40 questões e eu não abria. Passei a marcar só o tipo. Enunciado voltou três manhãs. Na quarta eu li até o fim.”</p><footer>Helena V. · Concurso · João Pessoa</footer></blockquote>
+            <blockquote class="senta-quote"><img src="${A}/faces/mauro.webp" alt="Mauro S."><p>“Depois do trabalho eu refazia o capítulo e o erro de conta continuava. Marquei conta. Treinei só isso três dias. O capítulo ficou fechado.”</p><footer>Mauro S. · Concurso e trabalho · Uberaba</footer></blockquote>
+            <blockquote class="senta-quote"><img src="${A}/faces/bia.webp" alt="Bia C."><p>“Matemática era um monte de X. Eu não sabia se era conta ou matéria. Separei os dois. Em 5 minutos eu vi que era conta. Abri uma página. Não o livro.”</p><footer>Bia C. · ENEM · Maceió</footer></blockquote>
+          </div>
+        </div></section>
+        <section class="section light"><div class="wrap senta-grid">
+          <div><p class="eyebrow">ISSO É PARA VOCÊ SE</p><h2>Você erra em casa e na prova cai o mesmo tipo.</h2><p class="copy">Quem tem caderno de erros e não abre. Quem tem 5 minutos de manhã e precisa de fila, não de arquivo. Quem quer marcar o tipo sem um sistema complicado.</p></div>
+          <div><p class="eyebrow">ISSO NÃO É PARA VOCÊ SE</p><h2>Não promete aprovação, nota, nem banco de questões.</h2><p class="copy">Não é curso de conteúdo. Não substitui aula. O app não inventa a banca. Você traz o erro. O método trata o tipo.</p></div>
+        </div></section>
+        <section class="senta-offer" id="oferta"><div class="wrap senta-grid">
+          <div>
+            <p class="eyebrow" style="color:#E2571C">OFERTA IMPERDÍVEL</p>
+            <h2>Guia em PDF + app Erro de Hoje. De R$ 97 por R$ 27,90. 7 dias para desistir.</h2>
+            <p class="copy">Você abre o app agora. Classifica um erro. Vê a fila de hoje. Treina só o que ainda está aberto. O guia em PDF fica no e-mail. Se não servir, pede o dinheiro de volta em 7 dias.</p>
+            <div class="senta-stack">
+              <div><span>Guia Nunca Mais o Mesmo Erro</span><span>PDF · 14 páginas</span></div>
+              <div><span>App Erro de Hoje</span><span>No celular e no computador</span></div>
+              <div><span>Os 4 tipos + fila</span><span>conta, enunciado, pressa, matéria</span></div>
+            </div>
+            <p class="senta-price"><span class="senta-old">R$ 97</span> R$ 27,90</p>
+            <p class="offer-visit">Por tempo limitado · <span class="offer-bar-clock" data-clock>20:00</span></p>
+            ${cta('Quero parar de levar o mesmo erro para a prova')}
+            <p class="copy" style="margin-top:1rem">7 dias para desistir, nos termos do art. 49 do CDC. Sem promessa de aprovação.</p>
+          </div>
+          <div>
+            <img src="${A}/cover.webp" alt="Capa do guia Nunca Mais o Mesmo Erro" style="width:100%;border-radius:16px">
+          </div>
+        </div></section>
+        <section class="section"><div class="wrap" style="max-width:720px">
+          <p class="eyebrow">GARANTIA</p>
+          <h2>7 dias para desistir. O risco fica com a gente.</h2>
+          <p class="copy">Art. 49 do CDC. Se o material não servir, peça o reembolso pelo e-mail de suporte informando a compra.</p>
+        </div></section>
+        ${upsellSection('nunca-mais-o-mesmo-erro')}
+        <section class="section senta-faq"><div class="wrap">
+          <p class="eyebrow">FAQ</p>
+          <h2>O que você recebe, o app incluso e a garantia de 7 dias.</h2>
+          <div class="faq-list" style="margin-top:1.2rem">
+            <details open><summary>O que eu recebo?</summary><p>O guia em PDF e o app Erro de Hoje. O app classifica o erro (conta, enunciado, pressa ou matéria) e mostra só a fila de hoje. No PDF: por que o caderno não fecha, os 4 tipos, a data de volta e o teto de 5.</p></details>
+            <details><summary>O app já está incluso?</summary><p>Sim. Abre no celular e no computador. Sem loja. Sem instalar. Você classifica o erro, vê a fila e fecha o que acertou.</p></details>
+            <details><summary>Qual é a garantia?</summary><p>Você tem 7 dias para desistir, com base no art. 49 do CDC. Peça o reembolso pelo e-mail de suporte.</p></details>
+            <details><summary>Isso promete aprovação?</summary><p>Não. É material de estudo. Não promete aprovação, nota, classificação nem que o erro some sozinho.</p></details>
+            <details><summary>Isso não é o Aprenda Fazendo Questões?</summary><p>Aquele guia trata a questão da frente. Este guia trata o que já errou: tipo, data, fila de hoje. Um não substitui o outro.</p></details>
+            <details><summary>Como falo com o suporte?</summary><p>E-mail oficial: suporte@toppapps.online. Informe o nome do produto e a URL acessada.</p></details>
+          </div>
+        </div></section>
+        <section class="section" style="text-align:center;padding-bottom:4rem">${cta('Quero parar de levar o mesmo erro para a prova')}</section>
+      </main>${footer()}`;
+    }
+    function erroAppPage() {
+      return appShell({ title:'Erro de Hoje | Nunca Mais o Mesmo Erro', kicker:'ERRO DE HOJE', h1:'Erro de Hoje', lede:'Classifique o erro. Veja só o que ainda está aberto. Acerte, sai. Erre, volta amanhã. Cinco minutos.', id:'erro', pdfHref: 'https://cdn.jsdelivr.net/gh/toppaplicativos/educacao-hub@94b23ac6f8e583c0d4e28de626a51caaa3fd2382/public/guides/nunca-mais-o-mesmo-erro-ebook-v1.0.pdf' });
+    }
+    function erroThanksPage() {
+      return deliveryThanks({ title:'Acesso | Nunca Mais o Mesmo Erro', h1:'Abra o app. Baixe o PDF. Classifique o primeiro erro.', lead:'Você não precisa esperar e-mail para usar. O app Erro de Hoje abre agora. O guia de 14 páginas baixa neste botão.', step3:'Escreva um erro que você já cometeu. Marque o tipo. Veja a fila de hoje. No máximo 5.', appHref:'/app/erro-de-hoje', appLabel:'Abrir o app Erro de Hoje', pdfHref: 'https://cdn.jsdelivr.net/gh/toppaplicativos/educacao-hub@94b23ac6f8e583c0d4e28de626a51caaa3fd2382/public/guides/nunca-mais-o-mesmo-erro-ebook-v1.0.pdf', pdfLabel:'Baixar o PDF (14 páginas)' });
+    }
+
     function provaSalesPage(product) {
       document.title = 'Prova no Tempo da Banca | Educação Toppapps';
       const pay = 'https://pay.kiwify.com.br/ziYRYmK';
@@ -1328,6 +1524,7 @@
       else if (pathParts[0] === 'p' && pathParts[1] === 'estude-uma-vez-revise-certo' && findProduct(pathParts[1])) output = revisaoSalesPage(findProduct(pathParts[1]));
       else if (pathParts[0] === 'p' && pathParts[1] === 'nunca-mais-esqueca-tudo' && findProduct(pathParts[1])) output = esquecaSalesPage(findProduct(pathParts[1]));
       else if (pathParts[0] === 'p' && pathParts[1] === 'aprenda-fazendo-questoes' && findProduct(pathParts[1])) output = questoesSalesPage(findProduct(pathParts[1]));
+      else if (pathParts[0] === 'p' && pathParts[1] === 'nunca-mais-o-mesmo-erro' && findProduct(pathParts[1])) output = erroSalesPage(findProduct(pathParts[1]));
       else if (pathParts[0] === 'p' && pathParts[1] === 'prova-no-tempo-da-banca' && findProduct(pathParts[1])) output = provaSalesPage(findProduct(pathParts[1]));
       else if (pathParts[0] === 'app' && (pathParts[1] === 'plano-possivel' || pathParts[1] === 'cronograma-que-funciona')) output = cronogramaAppPage();
       else if (pathParts[0] === 'obrigado' && pathParts[1] === 'cronograma-que-funciona') output = cronogramaThanksPage();
@@ -1337,6 +1534,8 @@
       else if (pathParts[0] === 'obrigado' && pathParts[1] === 'nunca-mais-esqueca-tudo') output = esquecaThanksPage();
       else if (pathParts[0] === 'app' && (pathParts[1] === 'proxima-questao' || pathParts[1] === 'aprenda-fazendo-questoes')) output = questoesAppPage();
       else if (pathParts[0] === 'obrigado' && pathParts[1] === 'aprenda-fazendo-questoes') output = questoesThanksPage();
+      else if (pathParts[0] === 'app' && (pathParts[1] === 'erro-de-hoje' || pathParts[1] === 'nunca-mais-o-mesmo-erro')) output = erroAppPage();
+      else if (pathParts[0] === 'obrigado' && pathParts[1] === 'nunca-mais-o-mesmo-erro') output = erroThanksPage();
       else if (pathParts[0] === 'app' && (pathParts[1] === 'relogio-da-prova' || pathParts[1] === 'prova-no-tempo-da-banca')) output = provaAppPage();
       else if (pathParts[0] === 'obrigado' && pathParts[1] === 'prova-no-tempo-da-banca') output = provaThanksPage();
       else if (pathParts[0] === 'app' && (pathParts[1] === 'primeira-sessao' || pathParts[1] === 'senta-e-estuda')) output = sentaAppPage();
@@ -1455,6 +1654,68 @@
         return;
       }
 
+
+
+      if (kind === 'erro') {
+        const KEY = 'topp-erro-de-hoje';
+        const CAP = 5;
+        const today = () => { const d = new Date(); return d.getFullYear()+'-'+String(d.getMonth()+1).padStart(2,'0')+'-'+String(d.getDate()).padStart(2,'0'); };
+        const addDays = (n) => { const d = new Date(); d.setDate(d.getDate()+n); return d.getFullYear()+'-'+String(d.getMonth()+1).padStart(2,'0')+'-'+String(d.getDate()).padStart(2,'0'); };
+        const tipos = [
+          { id: 'conta', label: 'Conta', hint: 'Sabia a regra. Errou o número.' },
+          { id: 'enunciado', label: 'Enunciado', hint: 'Pulou uma palavra. Leu pela metade.' },
+          { id: 'pressa', label: 'Pressa', hint: 'Disparou na primeira alternativa.' },
+          { id: 'materia', label: 'Matéria', hint: 'Não sabia a regra, a fórmula ou o conceito.' },
+        ];
+        const seed = [
+          { id: 's1', text: 'Interpretação: “exceto” no enunciado', tipo: 'enunciado', line: 'Não li até o fim', due: today() },
+          { id: 's2', text: 'Porcentagem sobre porcentagem', tipo: 'conta', line: 'Somei em vez de encadear', due: today() },
+          { id: 's3', text: 'Princípio da legalidade', tipo: 'materia', line: 'Confundi com reserva legal', due: today() },
+        ];
+        let items;
+        try { const raw = JSON.parse(localStorage.getItem(KEY) || 'null'); items = (raw && raw.items) ? raw.items : seed.map((x)=>({...x})); } catch (e) { items = seed.map((x)=>({...x})); }
+        const save = () => { try { localStorage.setItem(KEY, JSON.stringify({ items })); } catch (e) {} };
+        let step = 'home', text = '', tipo = null, line = '', doneToday = 0;
+        const fila = () => items.filter((it) => !it.closed && it.due <= today()).slice(0, CAP);
+        const paint = () => {
+          const list = fila();
+          const current = list[0];
+          if (step === 'home') {
+            ui.screen(ui.pad(`<p class="eyebrow" style="color:rgba(255,255,255,.8)">ERRO DE HOJE</p><h2 style="color:#fff;margin:.4rem 0 0">Só o tipo que ainda erra.</h2><p style="color:rgba(255,255,255,.82);margin:.7rem 0 1.2rem">Classifique. Veja a fila. Acerte, sai. Erre, volta amanhã.</p><p style="color:rgba(255,255,255,.75)">${list.length} na fila de hoje · teto ${CAP}</p><div style="margin-top:1.4rem">${ui.btn('Abrir a fila de hoje','er-fila',true)}</div><div style="margin-top:.6rem">${ui.btn('Classificar um erro novo','er-add',false)}</div>`, '#1D4F91'));
+            document.getElementById('er-fila').onclick = () => { step = list.length ? 'fila' : 'empty'; paint(); };
+            document.getElementById('er-add').onclick = () => { text=''; tipo=null; line=''; step='add'; paint(); };
+            return;
+          }
+          if (step === 'add') {
+            ui.screen(ui.pad(`<p class="eyebrow">NOVO ERRO</p><h3>O erro entra com um tipo.</h3><div style="display:grid;gap:.8rem;margin-top:1rem">${ui.field('O que você errou', ui.input('er-text', text, 'placeholder="Ex.: porcentagem sobre porcentagem"'))}<p class="copy">O tipo</p><div style="display:grid;gap:.45rem;grid-template-columns:1fr 1fr">${tipos.map(t=>`<button type="button" class="button ${tipo===t.id?'senta-cta':'secondary'}" id="er-t-${t.id}">${t.label}</button>`).join('')}</div>${ui.field('Uma linha da causa', ui.input('er-line', line, 'placeholder="Ex.: somei em vez de encadear"'))}${ui.btn('Entrar na fila de hoje','er-save',true)}${ui.btn('Voltar','er-back',false)}</div>`));
+            tipos.forEach(t => { document.getElementById('er-t-'+t.id).onclick = () => { tipo = t.id; paint(); }; });
+            document.getElementById('er-save').onclick = () => {
+              text = document.getElementById('er-text').value.trim();
+              line = document.getElementById('er-line').value.trim();
+              if (!tipo || !text || !line) return;
+              items.push({ id: String(Date.now()), text, tipo, line, due: today() }); save(); step='fila'; paint();
+            };
+            document.getElementById('er-back').onclick = () => { step='home'; paint(); };
+            return;
+          }
+          if (step === 'fila' && current) {
+            const label = (tipos.find(t=>t.id===current.tipo)||{}).label || current.tipo;
+            ui.screen(ui.pad(`<p class="eyebrow">${doneToday+1} DE ${Math.min(list.length+doneToday, CAP)} · HOJE</p><p class="senta-effect">${esc(label)}</p><h3>${esc(current.text)}</h3><p class="copy">${esc(current.line)}</p><div style="display:grid;gap:.6rem;margin-top:1.1rem">${ui.btn('Acertei · sai da fila','er-ok',true)}${ui.btn('Errei de novo · amanhã','er-fail',false)}</div>`));
+            document.getElementById('er-ok').onclick = () => { current.due = addDays(7); save(); doneToday += 1; const still = fila(); step = (!still.length || doneToday>=CAP) ? 'done' : 'fila'; paint(); };
+            document.getElementById('er-fail').onclick = () => { current.due = addDays(1); save(); doneToday += 1; const still = fila().filter(it => it.id !== current.id); step = (!still.length || doneToday>=CAP) ? 'done' : 'fila'; paint(); };
+            return;
+          }
+          if (step === 'empty' || (step==='fila' && !current)) {
+            ui.screen(ui.pad(`<p class="eyebrow">FILA ZERADA</p><h3>Não tem tipo aberto hoje.</h3><p class="copy">Classifique um erro novo ou volte amanhã.</p>${ui.btn('Classificar um erro','er-add',true)}`));
+            document.getElementById('er-add').onclick = () => { step='add'; paint(); };
+            return;
+          }
+          ui.screen(ui.pad(`<p class="eyebrow">FILA DO DIA</p><h3>Cinco minutos. A matéria inteira ficou fora.</h3><p class="copy">O que saiu não vai para a prova de surpresa. O que errou volta amanhã.</p>${ui.btn('Voltar ao início','er-home',false)}`));
+          document.getElementById('er-home').onclick = () => { doneToday=0; step='home'; paint(); };
+        };
+        paint();
+        return;
+      }
 
       if (kind === 'prova') {
         const KEY = 'topp-relogio-da-prova';
